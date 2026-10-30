@@ -1,0 +1,381 @@
+{
+  "apk": "/Volumes/Damao/APP/guo/MiniReel-0.4.0-android-tv-armeabi-v7a.apk",
+  "sha256": "54aa2113ea9b26d360ce56924ab14dc522f911c8000693c07909ff1462229c6e",
+  "members": [
+    {
+      "path": "META-INF/com/android/build/gradle/app-metadata.properties",
+      "bytes": 57,
+      "sha256": "446752ab8fda8e1bb6177157234950c7d1f7a2ce59bf5c13f5e9dd4ba5d2d3b4"
+    },
+    {
+      "path": "META-INF/version-control-info.textproto",
+      "bytes": 46,
+      "sha256": "38d377afa76b6364e5bf551cf4ffec1a881a46102a0047f523fbf148e0df6928"
+    },
+    {
+      "path": "assets/dexopt/baseline.prof",
+      "bytes": 171,
+      "sha256": "458fcda0dd7ad6b9424ac2a1a477a70d89a2728959e8c519e55d33330090b527"
+    },
+    {
+      "path": "assets/dexopt/baseline.profm",
+      "bytes": 67,
+      "sha256": "8e4e7dcd44ee6ea58a9b4184204bdf013080110f4c839fccc3e82817419607ee"
+    },
+    {
+      "path": "classes.dex",
+      "bytes": 594568,
+      "sha256": "3db4d4e4ece852cb3b034488d7cdeff8ebfe7ca0b9df8e98df9e82d502b56082"
+    },
+    {
+      "path": "lib/armeabi-v7a/libapp.so",
+      "bytes": 9847368,
+      "sha256": "faff4e918bef236f53716c857121ff923c08b12980a18f520f9cd1f67b64ca04"
+    },
+    {
+      "path": "lib/armeabi-v7a/libdartjni.so",
+      "bytes": 81444,
+      "sha256": "f856c4ae0255ff27383e4305d3d6ced74457abb768e51bde2627722024e84382"
+    },
+    {
+      "path": "lib/armeabi-v7a/libflutter.so",
+      "bytes": 8615900,
+      "sha256": "c408a309f798148edc33993334e5636fc035dba2aac375066f691da8be4480f8"
+    },
+    {
+      "path": "lib/armeabi-v7a/libmediakitandroidhelper.so",
+      "bytes": 286812,
+      "sha256": "506d0bc7775fe9888be6b6e889d8556ca0574dba65813866e2158cbf52a8c8b1"
+    },
+    {
+      "path": "lib/armeabi-v7a/libmpv.so",
+      "bytes": 11746532,
+      "sha256": "8aa2b23d16d941a8d685b8eb995b1cb31677ed3e28c55c776954eb1618ab1a2e"
+    },
+    {
+      "path": "lib/armeabi-v7a/libsqlite3.so",
+      "bytes": 1713736,
+      "sha256": "5f331b44ef2549f1e3fa2153ad22d60d85c5a43766e4690a29cc49a0652db772"
+    },
+    {
+      "path": "assets/flutter_assets/AssetManifest.bin",
+      "bytes": 339,
+      "sha256": "4e6aa5d4bfdfce9629f50b6c261ab07d2bdced9fea350f77eafad4bde054703e"
+    },
+    {
+      "path": "assets/flutter_assets/FontManifest.json",
+      "bytes": 82,
+      "sha256": "28b1eb2b3d2e1ad60b8c8b0f9100b1ccbf492f7fa97f5bebb51ea97e73926e7d"
+    },
+    {
+      "path": "assets/flutter_assets/License",
+      "bytes": 4648,
+      "sha256": "6513bf67a1bc7b1ef6405bea6fe2bdd7a4ec1614b20b43986f792681418bbd55"
+    },
+    {
+      "path": "assets/flutter_assets/NOTICES.Z",
+      "bytes": 106680,
+      "sha256": "0bb0cc03cb232f2ddf781fd584c4929adc734ebf91ea5f79794e382bc69f74b0"
+    },
+    {
+      "path": "assets/flutter_assets/NativeAssetsManifest.json",
+      "bytes": 313,
+      "sha256": "36a1e5452884eef96e1b0252bac1ae56ed284b6e0e863b532e4e5bc47e97d494"
+    },
+    {
+      "path": "assets/flutter_assets/assets/config/sources.json",
+      "bytes": 1214,
+      "sha256": "7bb184692cd616bf7d8b2124f7e56524294f081d53dad3e038121022b70618e2"
+    },
+    {
+      "path": "assets/flutter_assets/assets/logo.png",
+      "bytes": 477291,
+      "sha256": "1d931abc16fbaee91274d12d27f8d619043dabafdfa08ff99a4c5a14d581d6a2"
+    },
+    {
+      "path": "assets/flutter_assets/fonts/MaterialIcons-Regular.otf",
+      "bytes": 17344,
+      "sha256": "8bb7ac94131ece031c9f5722944bf7c63f80984176b39a740b60f00ed2a72b61"
+    },
+    {
+      "path": "assets/flutter_assets/packages/media_kit/assets/web/hls1.4.10.js",
+      "bytes": 374690,
+      "sha256": "30b278794fd3f269a47e6dc7b76ae9a04f08acffdd72f9b8cc26d49d3ba09c38"
+    },
+    {
+      "path": "assets/flutter_assets/packages/wakelock_plus/assets/no_sleep.js",
+      "bytes": 13669,
+      "sha256": "726c644cda17bf271d996fb629806a59409607e9b00e0dfbf75adfd3986bbb7e"
+    },
+    {
+      "path": "assets/flutter_assets/shaders/ink_sparkle.frag",
+      "bytes": 21856,
+      "sha256": "1fe8436a743884cb65078fe8c7b38e18f5365f2a2961270916f426fd13c604af"
+    },
+    {
+      "path": "assets/flutter_assets/shaders/stretch_effect.frag",
+      "bytes": 17616,
+      "sha256": "bc7599dbbbaab310efe41520574138d21fb18a88c8fe4495ed79315309336f6f"
+    },
+    {
+      "path": "DebugProbesKt.bin",
+      "bytes": 1738,
+      "sha256": "ae8a082dd609313835ba93c3ef479a3af9903977d7bdc81df45bbd209ec7d0da"
+    },
+    {
+      "path": "META-INF/androidx.activity_activity.version",
+      "bytes": 6,
+      "sha256": "25cec9739d3218e48acc5d8c3d4333e1d624121c5b7ab3bcddc71d0fa0134b83"
+    },
+    {
+      "path": "META-INF/androidx.annotation_annotation-experimental.version",
+      "bytes": 6,
+      "sha256": "78b591400c56b7b67b8cb3b2b8a8e65e9093897f02ce0878e6b5405c68620fa7"
+    },
+    {
+      "path": "META-INF/androidx.arch.core_core-runtime.version",
+      "bytes": 67,
+      "sha256": "1b7c606370188534dac5561fba2b2988093829697fce9e6e8832e9291d24ed00"
+    },
+    {
+      "path": "META-INF/androidx.core_core-ktx.version",
+      "bytes": 7,
+      "sha256": "ca0bc79c4cde0ad64e1ec9df2882425197b5ba85704a4ac6bd67f8f99936eb25"
+    },
+    {
+      "path": "META-INF/androidx.core_core.version",
+      "bytes": 7,
+      "sha256": "ca0bc79c4cde0ad64e1ec9df2882425197b5ba85704a4ac6bd67f8f99936eb25"
+    },
+    {
+      "path": "META-INF/androidx.customview_customview.version",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "META-INF/androidx.exifinterface_exifinterface.version",
+      "bytes": 6,
+      "sha256": "7d072b48526b023950e4c48db01e8c273554a6401119f5691e7589ba9bc65d9d"
+    },
+    {
+      "path": "META-INF/androidx.fragment_fragment.version",
+      "bytes": 6,
+      "sha256": "249182a01164b81a5f7af87e5c5cdbd3344a80a7a66dfca624cecfb1501b2420"
+    },
+    {
+      "path": "META-INF/androidx.interpolator_interpolator.version",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version",
+      "bytes": 6,
+      "sha256": "362148d7721ad4a1bb64981ff8d604ef7f4d22267ea8845042f54f90940f24fd"
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata-core.version",
+      "bytes": 6,
+      "sha256": "362148d7721ad4a1bb64981ff8d604ef7f4d22267ea8845042f54f90940f24fd"
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-livedata.version",
+      "bytes": 6,
+      "sha256": "362148d7721ad4a1bb64981ff8d604ef7f4d22267ea8845042f54f90940f24fd"
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-process.version",
+      "bytes": 6,
+      "sha256": "362148d7721ad4a1bb64981ff8d604ef7f4d22267ea8845042f54f90940f24fd"
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+      "bytes": 6,
+      "sha256": "362148d7721ad4a1bb64981ff8d604ef7f4d22267ea8845042f54f90940f24fd"
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version",
+      "bytes": 6,
+      "sha256": "362148d7721ad4a1bb64981ff8d604ef7f4d22267ea8845042f54f90940f24fd"
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-viewmodel.version",
+      "bytes": 6,
+      "sha256": "362148d7721ad4a1bb64981ff8d604ef7f4d22267ea8845042f54f90940f24fd"
+    },
+    {
+      "path": "META-INF/androidx.loader_loader.version",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "META-INF/androidx.profileinstaller_profileinstaller.version",
+      "bytes": 6,
+      "sha256": "10e2e117b01523891ca271a615ae36e9d5e52348fd7d642f66727602c1b8dcbe"
+    },
+    {
+      "path": "META-INF/androidx.savedstate_savedstate.version",
+      "bytes": 6,
+      "sha256": "6cf4e084b47f33c9b02ef79279d157833868f8f70514169a768be353ee328fea"
+    },
+    {
+      "path": "META-INF/androidx.startup_startup-runtime.version",
+      "bytes": 6,
+      "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+    },
+    {
+      "path": "META-INF/androidx.tracing_tracing.version",
+      "bytes": 6,
+      "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d"
+    },
+    {
+      "path": "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+      "bytes": 6,
+      "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+    },
+    {
+      "path": "META-INF/androidx.viewpager_viewpager.version",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "META-INF/androidx.window.extensions.core_core.version",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "META-INF/androidx.window_window-java.version",
+      "bytes": 6,
+      "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d"
+    },
+    {
+      "path": "META-INF/androidx.window_window.version",
+      "bytes": 6,
+      "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d"
+    },
+    {
+      "path": "META-INF/kotlinx_coroutines_android.version",
+      "bytes": 5,
+      "sha256": "18ba3cd396b304c3bf6ebd743e5adbd9b9b5b2a42f553e7f74e0bcfb5495a21f"
+    },
+    {
+      "path": "META-INF/kotlinx_coroutines_core.version",
+      "bytes": 5,
+      "sha256": "18ba3cd396b304c3bf6ebd743e5adbd9b9b5b2a42f553e7f74e0bcfb5495a21f"
+    },
+    {
+      "path": "META-INF/services/y0.a",
+      "bytes": 5,
+      "sha256": "5b95cea9c250efba828cbbc7e14d886f52d9badc60b451bfa0f12decb56aa0b7"
+    },
+    {
+      "path": "META-INF/services/y0.b",
+      "bytes": 5,
+      "sha256": "d1d841a368423969f3b8cc1b94e6d4927293a31029321db493ae482ce309d2a7"
+    },
+    {
+      "path": "META-INF/versions/9/OSGI-INF/MANIFEST.MF",
+      "bytes": 145,
+      "sha256": "a844d62b02a9eefd9d112e74fd660843d91cd8b81dce6ce60a9eaba605fa939c"
+    },
+    {
+      "path": "kotlin-tooling-metadata.json",
+      "bytes": 625,
+      "sha256": "98ae4dc4bd50cc2621560b8972b30bf1848cdce98b1f74f13a9019627f6b0067"
+    },
+    {
+      "path": "kotlin/annotation/annotation.kotlin_builtins",
+      "bytes": 1006,
+      "sha256": "5f75d4352e432664b2a235c472b991cf88365c73f5fcb5e1f9cc2cbe4b410abe"
+    },
+    {
+      "path": "kotlin/collections/collections.kotlin_builtins",
+      "bytes": 8308,
+      "sha256": "0e654e03a38e119de0f4d11633711bd57e1e8b1a876eda74a90100a2a6e7daa4"
+    },
+    {
+      "path": "kotlin/concurrent/atomics/atomics.kotlin_builtins",
+      "bytes": 2674,
+      "sha256": "955035527393d165a22da4cb9d992f42b4a30b6f070918f3e2b1f2678f83cc9d"
+    },
+    {
+      "path": "kotlin/coroutines/coroutines.kotlin_builtins",
+      "bytes": 137,
+      "sha256": "98ab3a3c18fcb237528dd63fa489815c583e1d6c13debd2a27ac6d74ccf8717b"
+    },
+    {
+      "path": "kotlin/internal/internal.kotlin_builtins",
+      "bytes": 590,
+      "sha256": "64712f94840e6b3f8123f522f32d08c46f083d87c312a74901f7c00224de775e"
+    },
+    {
+      "path": "kotlin/kotlin.kotlin_builtins",
+      "bytes": 29399,
+      "sha256": "c4240215bc20e71b01cc62b43edebd02749b3249d7daa8e7f1dc1514f064c274"
+    },
+    {
+      "path": "kotlin/ranges/ranges.kotlin_builtins",
+      "bytes": 4184,
+      "sha256": "f9d35b836ccb5380803aab5e6c76d708b1536fc6c82f27185e8cff5913824e1c"
+    },
+    {
+      "path": "kotlin/reflect/reflect.kotlin_builtins",
+      "bytes": 4827,
+      "sha256": "23ecbc7cbb354f31ba37a1be1793d3bb53c00c92cdcf3867759d09d938a1d7c3"
+    },
+    {
+      "path": "AndroidManifest.xml",
+      "bytes": 7680,
+      "sha256": "97a6d84ba34cb2d360292918cb43a1bf199dacc4f2939711861f05339fb57e2b"
+    },
+    {
+      "path": "res/9w.png",
+      "bytes": 1745,
+      "sha256": "1fbd98070d82f3d133f47004a16862bb4edc854a2da390b0b935b289d0b2e1d7"
+    },
+    {
+      "path": "res/BW.xml",
+      "bytes": 448,
+      "sha256": "2113dce4c2bf944bc6dfa8cfef20107dcd3e0a3e7aa701728644164b6b3db2ec"
+    },
+    {
+      "path": "res/EN.png",
+      "bytes": 7321,
+      "sha256": "44d180ea488fc5239d99896ae3066fa5c8336765d8e3dce2c728041c88e67a73"
+    },
+    {
+      "path": "res/FS.png",
+      "bytes": 4351,
+      "sha256": "685b716094ffe536c83597720e205697350641dd160a33b5ce0b4c05b1c42df4"
+    },
+    {
+      "path": "res/RJ.png",
+      "bytes": 8609,
+      "sha256": "c3c003fdc5bd2bd673e30c3bb6f239832e1ce063656133c9327d831f6eb1f6b5"
+    },
+    {
+      "path": "res/Wn.png",
+      "bytes": 41205,
+      "sha256": "0da4ca541c8d6afd9ef8759c9eca764e206c34034b0653a87dbd4a4b0efef71b"
+    },
+    {
+      "path": "res/Zn.xml",
+      "bytes": 344,
+      "sha256": "f304373d5527d5f0f61ed48f330a42c629ad4ac62806a8c871cd2d8884430a03"
+    },
+    {
+      "path": "res/o-.png",
+      "bytes": 11369,
+      "sha256": "7b8bc69203e2e978f5a75decb5e30343867da3b053b6504ef322474a3763cbea"
+    },
+    {
+      "path": "res/yn.png",
+      "bytes": 3483,
+      "sha256": "2b3d997b18ee485d93cb81cf205cae871327059b930ffdf518bcd6827918da4b"
+    },
+    {
+      "path": "resources.arsc",
+      "bytes": 47200,
+      "sha256": "59f3b331347e691d34f257d998237951f07849ffcdc1ef12e94a91773e337db4"
+    }
+  ]
+}

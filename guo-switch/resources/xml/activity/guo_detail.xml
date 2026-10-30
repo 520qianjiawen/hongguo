@@ -1,0 +1,11 @@
+<brls:AppletFrame id="guo/frame" title="剧集详情" footerHidden="false">
+    <brls:Box axis="column" paddingLeft="30" paddingRight="30" paddingTop="12">
+        <brls:Label id="guo/intro" text="" fontSize="18" height="72" singleLine="false"/>
+        <brls:Box axis="row" height="52" marginTop="12" marginBottom="14">
+            <brls:Button id="guo/resume" text="立即播放" width="240" marginRight="16"/>
+            <brls:Button id="guo/retry" text="重新加载" width="160"/>
+        </brls:Box>
+        <brls:Label id="guo/status" text="正在加载分集…" fontSize="18" marginBottom="14"/>
+        <RecyclingGrid id="guo/grid" grow="1" itemHeight="84" itemSpace="12" spanCount="6" preFetchLine="1"/>
+    </brls:Box>
+</brls:AppletFrame>

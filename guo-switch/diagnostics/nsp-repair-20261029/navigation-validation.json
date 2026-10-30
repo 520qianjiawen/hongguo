@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "name": "home",
+      "items": 24
+    },
+    {
+      "name": "detail",
+      "episodes": 96,
+      "id": "7701334722449787928"
+    }
+  ],
+  "traces": [
+    {
+      "path": "/service/2/device_register/",
+      "status": 200,
+      "bytes": 355,
+      "curl_exit": 0
+    },
+    {
+      "path": "/reading/distribution/category/landpage/v/",
+      "status": 200,
+      "bytes": 0,
+      "curl_exit": 0
+    },
+    {
+      "path": "/reading/distribution/category/landpage/v/",
+      "status": 200,
+      "bytes": 0,
+      "curl_exit": 0
+    },
+    {
+      "path": "media_range",
+      "status": 200,
+      "bytes": 262779,
+      "curl_exit": 0
+    },
+    {
+      "path": "/novel/player/video_detail/v1/",
+      "status": 200,
+      "bytes": 0,
+      "curl_exit": 0
+    },
+    {
+      "path": "/novel/player/video_detail/v1/",
+      "status": 200,
+      "bytes": 0,
+      "curl_exit": 0
+    },
+    {
+      "path": "media_range",
+      "status": 200,
+      "bytes": 518688,
+      "curl_exit": 0
+    }
+  ]
+}

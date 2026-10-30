@@ -1,0 +1,1028 @@
+{
+  "series_id": "7701334722449787928",
+  "episode_id": "7701336720221932568",
+  "page": {
+    "loaderData": {
+      "player_page": {
+        "protectedPlayback": true,
+        "req": {
+          "webID": "2026103009361202169D29DEF66D486E55",
+          "userAgent": "Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36",
+          "hostname": "100.96.5.42",
+          "isSSRPage": true,
+          "isEnableCache": false,
+          "domain": "REDACTED_URL",
+          "reqName": "www.hongguoduanju.com",
+          "isInside": false,
+          "uuid": "7702268533667219006",
+          "cpaConfig": {
+            "enabled": true,
+            "channelSources": [],
+            "pageStartedAt": 1793324172581
+          },
+          "footerLinks": {
+            "companyName": "北京笔墨留香科技有限公司",
+            "addressLabel": "地址 : ",
+            "address": "北京市门头沟区石龙经济开发区永安路20号3号楼1层128室",
+            "reportNotice": "违法和不良信息举报：957124",
+            "icpRecord": {
+              "text": "京ICP备2021028909号-43",
+              "link": "REDACTED_URL",
+              "legacyText": "京ICP备2021028909号-4"
+            },
+            "icpLicense": {
+              "text": "增值电信业务经营许可证：京B2-20220790",
+              "link": "REDACTED_URL"
+            },
+            "webCultureLicense": {
+              "text": "网络文化经营许可证：京网文〔2025〕0222-071号",
+              "link": "REDACTED_URL"
+            },
+            "publicSecurityRecord": {
+              "text": "京公网安备 11010802040767",
+              "link": "REDACTED_URL"
+            },
+            "businessLicense": {
+              "text": "电子营业执照",
+              "link": "REDACTED_URL"
+            },
+            "publicationLicense": {
+              "text": "出版物经营许可证：新出发京零字第门210016号",
+              "link": "REDACTED_URL"
+            },
+            "broadcastLicense": {
+              "text": "广播电视节目制作经营许可证：（京）字第24003号",
+              "link": "REDACTED_URL"
+            },
+            "reportEmail": {
+              "text": "hongguojubao@bytedance.com",
+              "link": "mailto:hongguojubao@bytedance.com"
+            }
+          },
+          "encryptedBrowserAllowed": true,
+          "semDeliveryConfig": {
+            "version": 2,
+            "items": [
+              {
+                "configKey": "hg_sem_baidu_conf",
+                "enterFrom": "baidu_sem",
+                "version": 2,
+                "default": {
+                  "name": "百度兜底",
+                  "ios": {
+                    "link": "REDACTED_URL",
+                    "fallback": "REDACTED_URL",
+                    "scheme_params": {
+                      "gd_label": "click_schema_lhft_73619091a",
+                      "needlaunchlog": 1,
+                      "ug_attr_lxft": "73619090a"
+                    }
+                  },
+                  "android": {
+                    "link": "REDACTED_URL",
+                    "fallback": "REDACTED_URL",
+                    "scheme_params": {
+                      "gd_label": "click_schema_lhft_71853859a",
+                      "needlaunchlog": 1,
+                      "ug_attr_lxft": "71853858a"
+                    }
+                  },
+                  "page_overrides": {
+                    "player": {
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      },
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73621177a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73621179a"
+                        }
+                      }
+                    }
+                  }
+                },
+                "rules": [
+                  {
+                    "id": "baidu_sem_new1",
+                    "name": "百度搜索新官网投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_75576243a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "75576243a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "baidu_sem_new2",
+                    "name": "百度搜索新官网投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_75578468a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "75578468a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "baidu_sem_new3",
+                    "name": "百度搜索新官网投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_75577073a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "75577073a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "baidu_sem_2345_new",
+                    "name": "2345导流拉新",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76185835a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76185834a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76185831a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76185833a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "baidu_sem_cl_1",
+                    "name": "百度扣量账户1",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76982269a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76982268a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "baidu_sem_cl_2",
+                    "name": "百度扣量账户2",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76982468a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76982469a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "baidu_sem_cl_3",
+                    "name": "百度扣量账户3",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76982749a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76982750a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "uc",
+                    "name": "uc投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77228509a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77228510a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77228512a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77228511a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "uc_new",
+                    "name": "uc其他账户投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77228650a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77228649a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77228651a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77228652a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "shenma_1",
+                    "name": "神马搜索投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77327205a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77327206a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77329934a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77329935a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "shenma_2",
+                    "name": "神马搜索投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77329325a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77329327a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77330361a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77330362a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gdt1",
+                    "name": "广点通搜索QQ浏览器投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77639988a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77639987a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gdt2",
+                    "name": "广点通搜索优量汇",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_77641618a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "77641617a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gdt_qq",
+                    "name": "广点通QQ浏览器投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_78104023a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "78105987a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gdt_ylh",
+                    "name": "广点通优量汇投放",
+                    "targets": {
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_78106303a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "78104218a"
+                        }
+                      },
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_73619091a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "73619090a"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "configKey": "hg_sem_google_conf",
+                "enterFrom": "google_sem",
+                "version": 2,
+                "default": {
+                  "name": "Google兜底",
+                  "ios": {
+                    "link": "REDACTED_URL",
+                    "fallback": "REDACTED_URL",
+                    "scheme_params": {
+                      "gd_label": "click_schema_lhft_73514056a",
+                      "needlaunchlog": 1,
+                      "ug_attr_lxft": "73514061a"
+                    }
+                  },
+                  "android": {
+                    "link": "REDACTED_URL",
+                    "fallback": "REDACTED_URL",
+                    "scheme_params": {
+                      "gd_label": "click_schema_lhft_73514060a",
+                      "needlaunchlog": 1,
+                      "ug_attr_lxft": "73514057a"
+                    }
+                  }
+                },
+                "rules": []
+              },
+              {
+                "configKey": "hg_sem_bing_conf",
+                "enterFrom": "bing_sem",
+                "version": 2,
+                "default": {
+                  "name": "Bing兜底",
+                  "ios": {
+                    "link": "REDACTED_URL",
+                    "fallback": "REDACTED_URL",
+                    "scheme_params": {
+                      "gd_label": "click_schema_lhft_74639668a",
+                      "needlaunchlog": 1,
+                      "ug_attr_lxft": "74639667a"
+                    }
+                  },
+                  "android": {
+                    "link": "REDACTED_URL",
+                    "fallback": "REDACTED_URL",
+                    "scheme_params": {
+                      "gd_label": "click_schema_lhft_74639644a",
+                      "needlaunchlog": 1,
+                      "ug_attr_lxft": "74639645a"
+                    }
+                  },
+                  "pc_ios": {
+                    "link": "REDACTED_URL",
+                    "fallback": "REDACTED_URL",
+                    "scheme_params": {
+                      "gd_label": "click_schema_lhft_76218853a",
+                      "needlaunchlog": 1,
+                      "ug_attr_lxft": "76218852a"
+                    }
+                  },
+                  "pc_and": {
+                    "link": "REDACTED_URL",
+                    "fallback": "REDACTED_URL",
+                    "scheme_params": {
+                      "gd_label": "click_schema_lhft_76218855a",
+                      "needlaunchlog": 1,
+                      "ug_attr_lxft": "76218854a"
+                    }
+                  }
+                },
+                "rules": [
+                  {
+                    "id": "bing_generic",
+                    "name": "通用词",
+                    "targets": {
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_74639668a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "75191466a"
+                        }
+                      },
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_74639644a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "75193696a"
+                        }
+                      },
+                      "pc_ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76221292a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76221293a"
+                        }
+                      },
+                      "pc_and": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76221294a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76221295a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "bing_competitor",
+                    "name": "竞品词",
+                    "targets": {
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_74639668a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "75194521a"
+                        }
+                      },
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_74639644a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "75197586a"
+                        }
+                      },
+                      "pc_ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76220019a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76220018a"
+                        }
+                      },
+                      "pc_and": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76220020a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76220021a"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "bing_short_drama",
+                    "name": "短剧词",
+                    "targets": {
+                      "ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_74639668a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "75198209a"
+                        }
+                      },
+                      "android": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_74639644a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "75198724a"
+                        }
+                      },
+                      "pc_ios": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76221147a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76221146a"
+                        }
+                      },
+                      "pc_and": {
+                        "link": "REDACTED_URL",
+                        "fallback": "REDACTED_URL",
+                        "scheme_params": {
+                          "gd_label": "click_schema_lhft_76221149a",
+                          "needlaunchlog": 1,
+                          "ug_attr_lxft": "76221148a"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "libraConfig": {
+            "drama_card_destination": {},
+            "m_dialog_type": {
+              "val": "normal"
+            },
+            "m_dialog_showtime": {
+              "val": "after"
+            },
+            "is_need_report_fuzzy_guanwang": {
+              "val": true
+            }
+          },
+          "pcAuthenticatedPlayback": false,
+          "pcLoginRequired": false,
+          "isSuccess": true
+        },
+        "isSuccess": true,
+        "series_id": "7701334722449787928",
+        "vid": "7701336720221932568",
+        "seriesSocialInfo": {
+          "series_favorite_count": "325469"
+        },
+        "episodeSocialInfo": {
+          "episode_like_count": "24725",
+          "reviews": {
+            "total_count": "1518",
+            "reviews": [
+              {
+                "create_time": "1793204701",
+                "digg_count": "212",
+                "user_name": "静水庭菀",
+                "user_avatar": "REDACTED_URL",
+                "content": "两人的吻像是两颗行星在引力中碰撞，火花四溅后，却温柔地融入了彼此的轨道，旋转出最甜蜜的漩涡。[爱慕][爱慕][爱慕]"
+              },
+              {
+                "create_time": "1793203735",
+                "digg_count": "80",
+                "user_name": "এ᭄仙女不讲李꧔ꦿ᭄",
+                "user_avatar": "REDACTED_URL",
+                "content": "是哪个导演这么有才，把我心尖尖上的俩个人组合在一起，此剧一定会大爆爆爆[爱慕][爱慕][送花][送花][送花]"
+              },
+              {
+                "create_time": "1793205987",
+                "digg_count": "101",
+                "user_name": "栗子🌰",
+                "user_avatar": "REDACTED_URL",
+                "content": "哈哈哈好疯狂的词啊啊啊[笑哭]\n大半夜的，刷到喜欢的剧，我太幸福了吧！[爱慕][爱慕][爱慕] 所有偶然都是蓄谋已久，心动早就生根。[爱慕][爱慕][爱慕]"
+              },
+              {
+                "create_time": "1793205809",
+                "digg_count": "64",
+                "user_name": "爽剧收藏夹……小呆呆",
+                "user_avatar": "REDACTED_URL",
+                "content": "两人的吻像是两颗行星在引力中碰撞，火花四溅后，却温柔地融入了彼此的轨道，旋转出最甜蜜的漩涡。[爱慕][爱慕][爱慕]\n这才是我该看的啊啊啊\n好会呀 霍总[爱慕][爽]"
+              },
+              {
+                "create_time": "1793235910",
+                "digg_count": "60",
+                "user_name": "🍬糖果🍭椰🍰",
+                "user_avatar": "REDACTED_URL",
+                "content": "嘛耶！刺…刺激啊[爽][爽]他俩亲了一整集啊啊啊啊啊[爱慕][爱慕][爱慕][爱慕][爱慕]这个鼻尖吻太魅惑了[舔屏][舔屏]"
+              },
+              {
+                "create_time": "1793204167",
+                "digg_count": "51",
+                "user_name": "一只暖心船船🫧🚢",
+                "user_avatar": "REDACTED_URL",
+                "content": "是哪个导演这么有才，把我心尖尖上的俩个人组合在一起，此剧一定会大爆爆爆[爱慕][爱慕][送花][送花][送花]"
+              },
+              {
+                "create_time": "1793231643",
+                "digg_count": "35",
+                "user_name": "💞因为🍂遇见💞",
+                "user_avatar": "REDACTED_URL",
+                "content": "卡子哥太帅了，好喜欢啊啊啊[爱慕][爱慕][爱慕][送花][送花]两人的吻像是两颗行星在引力中碰撞，火花四溅后，却温柔地融入了彼此的轨道，旋转出最甜蜜的漩涡。[爱慕][爱慕][爱慕][送花][送花][送花]"
+              },
+              {
+                "create_time": "1793217336",
+                "digg_count": "24",
+                "user_name": "🍅假期",
+                "user_avatar": "REDACTED_URL",
+                "content": "两人的吻像是两颗行星在引力中碰撞，火花四溅后，却温柔地融入了彼此的轨道，旋转出最甜蜜的漩涡。[爱慕][爱慕][爱慕]\n这才是我该看的啊啊啊\n好会呀 霍总[爱慕][爽]"
+              },
+              {
+                "create_time": "1793233557",
+                "digg_count": "7",
+                "user_name": "🎀浪漫至死不渝的爱",
+                "user_avatar": "REDACTED_URL",
+                "content": "🌸 卡子哥牛🐮 卡戎最近高产量 高跨度啊[爱慕][爱慕][爱慕]爱看 以后对来点 百看不厌[鼓掌][鼓掌][鼓掌]"
+              },
+              {
+                "create_time": "1793229227",
+                "digg_count": "28",
+                "user_name": "冰淇淋女孩👧",
+                "user_avatar": "REDACTED_URL",
+                "content": "两人的吻像是两颗行星在引力中碰撞，火花四溅后，却温柔地融入了彼此的轨道，旋转出最甜蜜的漩涡。[爱慕][爱慕]"
+              },
+              {
+                "create_time": "1793226985",
+                "digg_count": "5",
+                "user_name": "💋媛520",
+                "user_avatar": "REDACTED_URL",
+                "content": "谁懂卡戎出场的杀伤力 冷峻矜贵气场全开 与霍衍高度适配 一出场就拉高整部剧质感 颜值 气质 演技全方位在线 太让人惊艳[爱慕][爱慕][爱慕]"
+              },
+              {
+                "create_time": "1793269915",
+                "digg_count": "5",
+                "user_name": "许周文",
+                "user_avatar": "REDACTED_URL",
+                "content": "来了 来了，真的太好看啦\n[爱慕][爱慕]，刷到即命中[重拳出击]\n此时有一位某市未来的首富赞了我[赞][送花]"
+              },
+              {
+                "create_time": "1793228268",
+                "digg_count": "5",
+                "user_name": "温暖如初•*🌷",
+                "user_avatar": "REDACTED_URL",
+                "content": "世间所有的不期而遇，实则都是久藏的心意，那初次泛起的心动，早已在无人知晓的岁月里悄悄扎下了根"
+              },
+              {
+                "create_time": "1793236159",
+                "digg_count": "4",
+                "user_name": "山药泥S",
+                "user_avatar": "REDACTED_URL",
+                "content": "卡戎的吻戏经验比20年的老戏骨都多[捂脸]！俩人都好会亲。这一吻我爱看，这一吻大馋丫头说又到了我喜欢😍的环节啦！吻住局面，如果吻一次不够，那就吻两次，继续吻😘！"
+              },
+              {
+                "create_time": "1793241028",
+                "digg_count": "10",
+                "user_name": "ZZM海纳百川",
+                "user_avatar": "REDACTED_URL",
+                "content": "哇塞这剧情好有冲击力啊，画面感十足超对我胃口，越看越喜欢[爱慕][爱慕][爱慕]~哇呀呀呀呀呀呀[笑哭][笑哭][笑哭][笑哭]"
+              }
+            ]
+          }
+        },
+        "seriesDetail": {
+          "episode_cnt": 96,
+          "accessible_episode_cnt": 3,
+          "pay_type": 0,
+          "series_id": "7701334722449787928",
+          "series_name": "一念沉沦，霍总心动了",
+          "series_cover": "REDACTED_URL",
+          "series_intro": "姜晚是个老实本分的实习生，总裁老板霍衍是顶级魅魔。和其他同事一样，姜晚也觊觎霍衍这幅好皮囊。但她也只是觊觎，品行很是端正，努力上班，只想顺利转正。某天深夜，姜晚才知道霍衍对她也有心思。一夜风光后，姜晚心满意足。提起裙子后，以为这件事会永远烂在两人心里。可霍衍，似乎并不像她想象的那般风流。他们频频相遇，姜晚慌然逃避。在这场狼兔角逐中，只有那头狼，自始至终地知道，这是一场蓄谋已久的破冰游戏",
+          "tags": [
+            "爱情",
+            "都市爱情",
+            "暧昧拉扯",
+            "总裁",
+            "职场",
+            "现代"
+          ],
+          "episode_right_text": "全96集",
+          "celebrities": [
+            {
+              "is_label": false,
+              "nickname": "王燕飞",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 姜晚",
+              "celebrity_id": "7429225838953911577"
+            },
+            {
+              "is_label": false,
+              "nickname": "卡戎",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 霍衍",
+              "celebrity_id": "7410337577665844504"
+            },
+            {
+              "is_label": false,
+              "nickname": "黄子芯",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 唐宁",
+              "celebrity_id": "7548342613963724094"
+            },
+            {
+              "is_label": false,
+              "nickname": "张丽婷",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 林筱然",
+              "celebrity_id": "7506339195590300990"
+            },
+            {
+              "is_label": false,
+              "nickname": "刘颖茹",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 潘佳佳",
+              "celebrity_id": "7532089905686517054"
+            },
+            {
+              "is_label": false,
+              "nickname": "张美惠",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 裴楠",
+              "celebrity_id": "7482685449668924734"
+            },
+            {
+              "is_label": false,
+              "nickname": "严格",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 kenny",
+              "celebrity_id": "7593937747501389118"
+            },
+            {
+              "is_label": false,
+              "nickname": "闫丁翔宇",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 顾凛",
+              "celebrity_id": "7411402353552659737"
+            },
+            {
+              "is_label": false,
+              "nickname": "韩一思",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 雷兆海",
+              "celebrity_id": "7416244552035489049"
+            },
+            {
+              "is_label": false,
+              "nickname": "周若绮",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 凌舒",
+              "celebrity_id": "7558068157861074238"
+            },
+            {
+              "is_label": false,
+              "nickname": "徐靖林",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 周影",
+              "celebrity_id": "7600681439960503614"
+            },
+            {
+              "is_label": false,
+              "nickname": "戴悦萌",
+              "avatar": "REDACTED_URL",
+              "sub_title": "饰 姜晚（幼年）",
+              "celebrity_id": "7546108324408726846"
+            }
+          ],
+          "series_episode_info": {
+            "episode_cnt": 96,
+            "episode_total_cnt": 96,
+            "series_status": 1
+          },
+          "vid_list": [
+            "7701336636495252504",
+            "7701336720221932568",
+            "7701336729264868376",
+            "7701336604610153496",
+            "7701336682322201624",
+            "7701336560603499544",
+            "7701336563271093272",
+            "7701336731122945048",
+            "7701336716119919640",
+            "7701336565884128280",
+            "7701336694104017944",
+            "7701336669173074968",
+            "7701336600592010264",
+            "7701336638231694360",
+            "7701336702895279128",
+            "7701336688320056344",
+            "7701336575610719256",
+            "7701336611908242456",
+            "7701336671106649112",
+            "7701336617327266840",
+            "7701336697027431448",
+            "7701336552625949720",
+            "7701336698906479640",
+            "7701336663594650648",
+            "7701336678098537496",
+            "7701336598801042456",
+            "7701336608804441112",
+            "7701336550675581976",
+            "7701336733039741976",
+            "7701336606883449880",
+            "7701336628203113496",
+            "7701336666316753944",
+            "7701336602567511064",
+            "7701336661501692952",
+            "7701336700928150552",
+            "7701336725129268248",
+            "7701336684700371992",
+            "7701336557713624088",
+            "7701336654849510424",
+            "7701336713787870232",
+            "7701336646481890328",
+            "7701336736512625688",
+            "7701336542303751192",
+            "7701336659660393496",
+            "7701336586020998168",
+            "7701336590265633816",
+            "7701336675397422104",
+            "7701336690190715928",
+            "7701336614038932504",
+            "7701336624465972248",
+            "7701336529121053720",
+            "7701336583932234776",
+            "7701336644548299800",
+            "7701336580195093528",
+            "7701336650453896216",
+            "7701336540135312408",
+            "7701336535953591320",
+            "7701336738156792856",
+            "7701336548377119768",
+            "7701336727494855704",
+            "7701336533793524760",
+            "7701336648348355608",
+            "7701336680250215448",
+            "7701336656812461080",
+            "7701336546653244440",
+            "7701336571877805080",
+            "7701336578420902936",
+            "7701336538147195928",
+            "7701336723124407320",
+            "7701336582124473368",
+            "7701336632498080792",
+            "7701336594522835992",
+            "7701336567972891672",
+            "7701336626332437528",
+            "7701336640270126104",
+            "7701336544262507544",
+            "7701336634662325272",
+            "7701336569688378392",
+            "7701336592274689048",
+            "7701336652408441880",
+            "7701336630417706008",
+            "7701336573819751448",
+            "7701336692032031768",
+            "7701336642878983192",
+            "7701336708675013656",
+            "7701336622020709400",
+            "7701336704996625432",
+            "7701336554983132184",
+            "7701336531524406296",
+            "7701336711741049880",
+            "7701336588021681176",
+            "7701336619676093464",
+            "7701336596427066392",
+            "7701336673178618904",
+            "7701336707005680664",
+            "7701336718187711512"
+          ],
+          "first_visible_time": "1793203561",
+          "season_info": {
+            "series_group_id": "7702034495507008536"
+          }
+        },
+        "videoList": {},
+        "recommendationsFromSearch": true
+      }
+    }
+  }
+}

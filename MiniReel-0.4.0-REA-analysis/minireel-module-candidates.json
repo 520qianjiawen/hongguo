@@ -1,0 +1,562 @@
+[
+  {
+    "offset": 2248404,
+    "value": "package:minireel/domain/models/watch_record.dart"
+  },
+  {
+    "offset": 2273596,
+    "value": "package:minireel/data/sources/hongguo/hongguo_web_fallback.dart"
+  },
+  {
+    "offset": 2275012,
+    "value": "package:minireel/features/rankings/ranking_widgets.dart"
+  },
+  {
+    "offset": 2285340,
+    "value": "package:minireel/features/shared/playback_seek_bar.dart"
+  },
+  {
+    "offset": 2285924,
+    "value": "package:minireel/domain/models/catalog_sync.dart"
+  },
+  {
+    "offset": 2289516,
+    "value": "package:minireel/features/tv/tv_player_screen.dart"
+  },
+  {
+    "offset": 2290452,
+    "value": "package:minireel/features/shared/landscape_video_shortcut.dart"
+  },
+  {
+    "offset": 2291836,
+    "value": "package:minireel/data/sources/hongguo/hongguo_ranking_service.dart"
+  },
+  {
+    "offset": 2299516,
+    "value": "package:minireel/features/shared/paging_scroll_behavior.dart"
+  },
+  {
+    "offset": 2312468,
+    "value": "package:minireel/features/settings/webdav_settings_screen.dart"
+  },
+  {
+    "offset": 2312636,
+    "value": "package:minireel/features/shared/favorite_feedback.dart"
+  },
+  {
+    "offset": 2320356,
+    "value": "package:minireel/domain/models/catalog_query.dart"
+  },
+  {
+    "offset": 2341172,
+    "value": "package:minireel/features/tv/tv_catalog.dart"
+  },
+  {
+    "offset": 2348604,
+    "value": "package:minireel/core/network/catalog_request_gate.dart"
+  },
+  {
+    "offset": 2349884,
+    "value": "package:minireel/features/library/catalog_category_bar.dart"
+  },
+  {
+    "offset": 2354300,
+    "value": "package:minireel/core/config/source_config.dart"
+  },
+  {
+    "offset": 2365980,
+    "value": "package:minireel/domain/models/ranking_membership.dart"
+  },
+  {
+    "offset": 2377684,
+    "value": "package:minireel/features/tv/tv_detail_screen.dart"
+  },
+  {
+    "offset": 2378108,
+    "value": "package:minireel/features/settings/log_viewer_screen.dart"
+  },
+  {
+    "offset": 2380588,
+    "value": "package:minireel/app/app_controller.dart"
+  },
+  {
+    "offset": 2381332,
+    "value": "package:minireel/data/local/sqlite_catalog_index.dart"
+  },
+  {
+    "offset": 2396380,
+    "value": "package:minireel/domain/models/catalog_filter.dart"
+  },
+  {
+    "offset": 2417092,
+    "value": "package:minireel/data/local/app_store.dart"
+  },
+  {
+    "offset": 2423484,
+    "value": "package:minireel/features/shared/video_top_scrim.dart"
+  },
+  {
+    "offset": 2436172,
+    "value": "package:minireel/features/shared/temporary_boost_controller.dart"
+  },
+  {
+    "offset": 2437548,
+    "value": "package:minireel/desktop/window_chrome.dart"
+  },
+  {
+    "offset": 2439292,
+    "value": "package:minireel/features/player/gesture_controller.dart"
+  },
+  {
+    "offset": 2441684,
+    "value": "package:minireel/features/search/search_results.dart"
+  },
+  {
+    "offset": 2447116,
+    "value": "package:minireel/features/player/episode_pager.dart"
+  },
+  {
+    "offset": 2468644,
+    "value": "package:minireel/data/sources/hongguo/hongguo_signer.dart"
+  },
+  {
+    "offset": 2470756,
+    "value": "package:minireel/features/search/search_controller.dart"
+  },
+  {
+    "offset": 2506844,
+    "value": "package:minireel/core/diagnostics/runtime_log.dart"
+  },
+  {
+    "offset": 2508324,
+    "value": "package:minireel/features/shared/drama_list_tile.dart"
+  },
+  {
+    "offset": 2532420,
+    "value": "package:minireel/data/sources/hongguo/hongguo_search_seasons.dart"
+  },
+  {
+    "offset": 2538116,
+    "value": "package:minireel/features/library/catalog_sessions.dart"
+  },
+  {
+    "offset": 2550676,
+    "value": "package:minireel/playback/playback_visibility.dart"
+  },
+  {
+    "offset": 2552444,
+    "value": "package:minireel/data/sources/source_adapter.dart"
+  },
+  {
+    "offset": 2553892,
+    "value": "package:minireel/playback/buffered_playback_engine.dart"
+  },
+  {
+    "offset": 2554364,
+    "value": "package:minireel/data/sources/hongguo/hongguo_device.dart"
+  },
+  {
+    "offset": 2561924,
+    "value": "package:minireel/playback/playback_session.dart"
+  },
+  {
+    "offset": 2564580,
+    "value": "package:minireel/data/repositories/drama_repository.dart"
+  },
+  {
+    "offset": 2565180,
+    "value": "package:minireel/features/feed/feed_ranking_badge.dart"
+  },
+  {
+    "offset": 2567028,
+    "value": "package:minireel/features/shared/drama_badges.dart"
+  },
+  {
+    "offset": 2570948,
+    "value": "package:minireel/data/sources/hongguo/hongguo_playback_codec.dart"
+  },
+  {
+    "offset": 2578532,
+    "value": "package:minireel/data/sources/hongguo/hongguo_catalog_service.dart"
+  },
+  {
+    "offset": 2579988,
+    "value": "package:minireel/features/player/player_screen.dart"
+  },
+  {
+    "offset": 2584252,
+    "value": "package:minireel/data/sources/hongguo/hongguo_search_text.dart"
+  },
+  {
+    "offset": 2603300,
+    "value": "package:minireel/domain/models/playback_source.dart"
+  },
+  {
+    "offset": 2611308,
+    "value": "package:minireel/domain/models/remote_key_map.dart"
+  },
+  {
+    "offset": 2643988,
+    "value": "package:minireel/features/feed/recommendation_policy.dart"
+  },
+  {
+    "offset": 2648604,
+    "value": "package:minireel/features/feed/feed_gesture_surface.dart"
+  },
+  {
+    "offset": 2653060,
+    "value": "package:minireel/features/settings/catalog_directory_list.dart"
+  },
+  {
+    "offset": 2654380,
+    "value": "package:minireel/features/mine/mine_screen.dart"
+  },
+  {
+    "offset": 2659428,
+    "value": "package:minireel/playback/playback_diagnostics.dart"
+  },
+  {
+    "offset": 2665540,
+    "value": "package:minireel/features/shared/history_builder.dart"
+  },
+  {
+    "offset": 2667940,
+    "value": "package:minireel/features/detail/episode_grid.dart"
+  },
+  {
+    "offset": 2675180,
+    "value": "package:minireel/playback/playback_engine.dart"
+  },
+  {
+    "offset": 2679572,
+    "value": "package:minireel/features/shared/portrait_video_layout.dart"
+  },
+  {
+    "offset": 2683492,
+    "value": "package:minireel/features/shared/now_playing_indicator.dart"
+  },
+  {
+    "offset": 2685356,
+    "value": "package:minireel/data/repositories/source_search.dart"
+  },
+  {
+    "offset": 2687756,
+    "value": "package:minireel/features/tv/tv_library_screen.dart"
+  },
+  {
+    "offset": 2688828,
+    "value": "package:minireel/data/sources/hongguo/hongguo_taxonomy_service.dart"
+  },
+  {
+    "offset": 2694764,
+    "value": "package:minireel/playback/device_controls.dart"
+  },
+  {
+    "offset": 2697692,
+    "value": "package:minireel/core/errors/app_exception.dart"
+  },
+  {
+    "offset": 2697812,
+    "value": "package:minireel/features/settings/catalog_sync_screen.dart"
+  },
+  {
+    "offset": 2709372,
+    "value": "package:minireel/domain/models/catalog_page.dart"
+  },
+  {
+    "offset": 2722156,
+    "value": "package:minireel/app/app.dart"
+  },
+  {
+    "offset": 2730076,
+    "value": "package:minireel/features/shared/playback_glyph.dart"
+  },
+  {
+    "offset": 2731916,
+    "value": "package:minireel/main.dart"
+  },
+  {
+    "offset": 2737716,
+    "value": "package:minireel/features/library/catalog_browser.dart"
+  },
+  {
+    "offset": 2738252,
+    "value": "package:minireel/features/detail/detail_sheet.dart"
+  },
+  {
+    "offset": 2739308,
+    "value": "package:minireel/features/library/catalog_filters.dart"
+  },
+  {
+    "offset": 2741636,
+    "value": "package:minireel/features/library/catalog_data_window.dart"
+  },
+  {
+    "offset": 2748284,
+    "value": "package:minireel/data/sources/hongguo/hongguo_parser.dart"
+  },
+  {
+    "offset": 2758932,
+    "value": "package:minireel/playback/playback_audio.dart"
+  },
+  {
+    "offset": 2759924,
+    "value": "package:minireel/features/library/catalog_window_card.dart"
+  },
+  {
+    "offset": 2762556,
+    "value": "package:minireel/features/settings/catalog_storage_section.dart"
+  },
+  {
+    "offset": 2778948,
+    "value": "package:minireel/app/platform.dart"
+  },
+  {
+    "offset": 2779620,
+    "value": "package:minireel/data/sources/hongguo/hongguo_metadata.dart"
+  },
+  {
+    "offset": 2795556,
+    "value": "package:minireel/domain/models/catalog_order.dart"
+  },
+  {
+    "offset": 2798020,
+    "value": "package:minireel/domain/models/preferences.dart"
+  },
+  {
+    "offset": 2807468,
+    "value": "package:minireel/features/settings/coalesced_snapshot.dart"
+  },
+  {
+    "offset": 2814156,
+    "value": "package:minireel/data/sources/hongguo/hongguo_adapter.dart"
+  },
+  {
+    "offset": 2814388,
+    "value": "package:minireel/playback/media_kit_engine.dart"
+  },
+  {
+    "offset": 2816940,
+    "value": "package:minireel/desktop/desktop_window.dart"
+  },
+  {
+    "offset": 2822004,
+    "value": "package:minireel/features/player/player_controls.dart"
+  },
+  {
+    "offset": 2830748,
+    "value": "package:minireel/features/player/playback_episode_grid.dart"
+  },
+  {
+    "offset": 2833508,
+    "value": "package:minireel/app/android_exit_guard.dart"
+  },
+  {
+    "offset": 2833964,
+    "value": "package:minireel/data/sources/hongguo/hongguo_media_service.dart"
+  },
+  {
+    "offset": 2846588,
+    "value": "package:minireel/features/tv/tv_shell.dart"
+  },
+  {
+    "offset": 2849716,
+    "value": "package:minireel/domain/models/source_category.dart"
+  },
+  {
+    "offset": 2871148,
+    "value": "package:minireel/features/feed/feed_screen.dart"
+  },
+  {
+    "offset": 2872172,
+    "value": "package:minireel/features/shared/widgets.dart"
+  },
+  {
+    "offset": 2874268,
+    "value": "package:minireel/features/tv/tv_discover_screen.dart"
+  },
+  {
+    "offset": 2884148,
+    "value": "package:minireel/data/sources/hongguo/hongguo_suggestions.dart"
+  },
+  {
+    "offset": 2903092,
+    "value": "package:minireel/data/sources/hls_quality_resolver.dart"
+  },
+  {
+    "offset": 2913892,
+    "value": "package:minireel/features/shared/boost_status_bar.dart"
+  },
+  {
+    "offset": 2919444,
+    "value": "package:minireel/app/theme.dart"
+  },
+  {
+    "offset": 2923676,
+    "value": "package:minireel/data/local/sqlite_app_store.dart"
+  },
+  {
+    "offset": 2927076,
+    "value": "package:minireel/core/network/request_cache.dart"
+  },
+  {
+    "offset": 2934588,
+    "value": "package:minireel/features/tv/tv_settings_screen.dart"
+  },
+  {
+    "offset": 2940684,
+    "value": "package:minireel/features/tv/tv_rankings_screen.dart"
+  },
+  {
+    "offset": 2944612,
+    "value": "package:minireel/features/search/search_screen.dart"
+  },
+  {
+    "offset": 2946380,
+    "value": "package:minireel/domain/models/webdav_sync.dart"
+  },
+  {
+    "offset": 2952508,
+    "value": "package:minireel/playback/screen_awake.dart"
+  },
+  {
+    "offset": 2954804,
+    "value": "package:minireel/features/tv/tv_mine_screen.dart"
+  },
+  {
+    "offset": 2957492,
+    "value": "package:minireel/features/shared/cover_image.dart"
+  },
+  {
+    "offset": 2962228,
+    "value": "package:minireel/domain/models/drama.dart"
+  },
+  {
+    "offset": 2971676,
+    "value": "package:minireel/features/rankings/rankings_screen.dart"
+  },
+  {
+    "offset": 2983452,
+    "value": "package:minireel/features/tv/tv_search_screen.dart"
+  },
+  {
+    "offset": 2999948,
+    "value": "package:minireel/features/tv/tv_remote_key_settings.dart"
+  },
+  {
+    "offset": 3009676,
+    "value": "package:minireel/core/network/app_http_client.dart"
+  },
+  {
+    "offset": 3012284,
+    "value": "package:minireel/playback/playback_seek_controller.dart"
+  },
+  {
+    "offset": 3013468,
+    "value": "package:minireel/features/feed/feed_recommendation_pool.dart"
+  },
+  {
+    "offset": 3027684,
+    "value": "package:minireel/features/player/player_gesture_surface.dart"
+  },
+  {
+    "offset": 3034260,
+    "value": "package:minireel/features/feed/feed_section_pager.dart"
+  },
+  {
+    "offset": 3036588,
+    "value": "package:minireel/features/library/category_browser.dart"
+  },
+  {
+    "offset": 3045972,
+    "value": "package:minireel/features/detail/drama_detail_header.dart"
+  },
+  {
+    "offset": 3051092,
+    "value": "package:minireel/data/sources/hongguo/hongguo_detail_service.dart"
+  },
+  {
+    "offset": 3069012,
+    "value": "package:minireel/features/shared/discovery_page_route.dart"
+  },
+  {
+    "offset": 3070260,
+    "value": "package:minireel/playback/next_episode_prefetch.dart"
+  },
+  {
+    "offset": 3075196,
+    "value": "package:minireel/features/feed/recommendation_queue.dart"
+  },
+  {
+    "offset": 3075652,
+    "value": "package:minireel/features/shared/drama_metadata.dart"
+  },
+  {
+    "offset": 3078724,
+    "value": "package:minireel/core/crypto/digest.dart"
+  },
+  {
+    "offset": 3080412,
+    "value": "package:minireel/features/tv/tv_widgets.dart"
+  },
+  {
+    "offset": 3082652,
+    "value": "package:minireel/features/feed/feed_playback_controller.dart"
+  },
+  {
+    "offset": 3089564,
+    "value": "package:minireel/data/local/source_state_store.dart"
+  },
+  {
+    "offset": 3089740,
+    "value": "package:minireel/data/sync/webdav_client.dart"
+  },
+  {
+    "offset": 3097188,
+    "value": "package:minireel/data/repositories/cover_resolver.dart"
+  },
+  {
+    "offset": 3106036,
+    "value": "package:minireel/data/sync/webdav_sync_service.dart"
+  },
+  {
+    "offset": 3133172,
+    "value": "package:minireel/data/sources/hongguo/hongguo_app_client.dart"
+  },
+  {
+    "offset": 3137532,
+    "value": "package:minireel/features/tv/tv_theme.dart"
+  },
+  {
+    "offset": 3148156,
+    "value": "package:minireel/features/tv/tv_debug_pad.dart"
+  },
+  {
+    "offset": 3149204,
+    "value": "package:minireel/features/settings/settings_screen.dart"
+  },
+  {
+    "offset": 3154828,
+    "value": "package:minireel/domain/models/discovery.dart"
+  },
+  {
+    "offset": 3162308,
+    "value": "package:minireel/features/library/library_screen.dart"
+  },
+  {
+    "offset": 3163372,
+    "value": "package:minireel/data/sources/hongguo/hongguo_search_service.dart"
+  },
+  {
+    "offset": 3180820,
+    "value": "package:minireel/features/tv/tv_focus.dart"
+  },
+  {
+    "offset": 3183588,
+    "value": "package:minireel/playback/native_error_guard.dart"
+  },
+  {
+    "offset": 3185276,
+    "value": "package:minireel/core/diagnostics/error_capture.dart"
+  }
+]

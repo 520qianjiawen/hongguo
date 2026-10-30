@@ -1,0 +1,46 @@
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts & CMake directories
+guo-switch/cmake-build-*/
+guo-switch/build-*/
+guo-switch/build-core/
+guo-switch/.checks/
+guo-switch/.validation/
+guo-switch/dist/
+
+# Diagnostics staging & intermediate unpack directories
+guo-switch/diagnostics/**/release-candidate*/
+guo-switch/diagnostics/**/smoke-*/
+guo-switch/diagnostics/**/tools/
+guo-switch/diagnostics/**/temp/
+guo-switch/diagnostics/**/backup/
+guo-switch/diagnostics/**/exefs/
+guo-switch/diagnostics/**/romfs/
+guo-switch/diagnostics/**/control/
+guo-switch/diagnostics/**/nca/
+guo-switch/diagnostics/**/roundtrip/
+guo-switch/diagnostics/**/nsp/
+guo-switch/diagnostics/**/__pycache__/
+
+# Compiled binary objects
+*.o
+*.obj
+*.a
+*.dylib
+*.so
+
+# Build logs
+*.log
+tool-build.log

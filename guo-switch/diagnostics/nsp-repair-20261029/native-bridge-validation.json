@@ -1,0 +1,38 @@
+{
+  "startup_selftest_unchanged": true,
+  "startup_crypto_vectors_passed": true,
+  "original_buffer_shim": true,
+  "opened": {
+    "total": 4303144,
+    "quality": "480P",
+    "codec": "bytevc1",
+    "source": "phone"
+  },
+  "unaligned_read_bytes": 301,
+  "requests": [
+    {
+      "path": "/service/2/device_register/",
+      "status": 200,
+      "bytes": 384,
+      "curl_exit": 0
+    },
+    {
+      "path": "/novel/player/multi_video_model/v1/",
+      "status": 200,
+      "bytes": 24189,
+      "curl_exit": 0
+    },
+    {
+      "path": "media_range",
+      "status": 206,
+      "bytes": 262144,
+      "curl_exit": 0
+    },
+    {
+      "path": "media_range",
+      "status": 206,
+      "bytes": 301,
+      "curl_exit": 0
+    }
+  ]
+}

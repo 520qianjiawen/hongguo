@@ -1,0 +1,38 @@
+{
+  "initial0": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"error\":{\"code\":\"capability_unavailable\",\"category\":\"unsupported_provider\",\"message\":\"Set REA_JADX_MCP_JAR to the absolute path of a caller-supplied jadx-headless-mcp 0.7.1 JAR. REA does not download or install it.\",\"retryable\":false,\"remediation\":{\"action\":\"Set REA_JADX_MCP_JAR to the absolute path of a caller-supplied jadx-headless-mcp 0.7.1 JAR. REA does not download or install it.\"},\"details\":{\"provider_id\":\"jadx\",\"operation\":\"inspect_android_package\",\"reason\":\"Set REA_JADX_MCP_JAR to the absolute path of a caller-supplied jadx-headless-mcp 0.7.1 JAR. REA does not download or install it.\",\"diagnostics\":{\"jar_configured\":false,\"failure_kind\":\"jar\",\"failure_code\":\"not_configured\"}}}}"
+        }
+      ],
+      "isError": true
+    }
+  },
+  "phase21": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"error\":{\"code\":\"capability_unavailable\",\"category\":\"unsupported_provider\",\"message\":\"The selected apktool launcher was not found: apktool. Set REA_APKTOOL_COMMAND to an absolute apktool launcher (the upstream wrapper or a java -jar script).\",\"retryable\":false,\"remediation\":{\"action\":\"The selected apktool launcher was not found: apktool. Set REA_APKTOOL_COMMAND to an absolute apktool launcher (the upstream wrapper or a java -jar script).\"},\"details\":{\"provider_id\":\"apktool\",\"operation\":\"decode_android_resources\",\"reason\":\"The selected apktool launcher was not found: apktool. Set REA_APKTOOL_COMMAND to an absolute apktool launcher (the upstream wrapper or a java -jar script).\",\"diagnostics\":{\"filesystem_error\":\"ENOENT\",\"selected_command\":\"apktool\",\"command_source\":\"path\",\"remediation\":\"Set REA_APKTOOL_COMMAND to an absolute apktool launcher (the upstream wrapper or a java -jar script)\"}}}}"
+        }
+      ],
+      "isError": true
+    }
+  },
+  "phase31": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"error\":{\"code\":\"unsupported_target\",\"category\":\"unsupported_target\",\"message\":\"Unsupported target for inspect_dart_aot at /Volumes/Damao/APP/guo/MiniReel-0.4.0-android-tv-armeabi-v7a.apk: Observed unified Dart snapshot exports; this reader supports the legacy split VM/isolate profile (Dart 2.14 FullAOT kind 3). The unified profile is unsupported, not missing legacy data\",\"retryable\":false,\"remediation\":{\"action\":\"Select a target supported by this operation or choose an operation supporting the reported target format.\"},\"details\":{\"operation\":\"inspect_dart_aot\",\"path\":\"/Volumes/Damao/APP/guo/MiniReel-0.4.0-android-tv-armeabi-v7a.apk\",\"reason\":\"Observed unified Dart snapshot exports; this reader supports the legacy split VM/isolate profile (Dart 2.14 FullAOT kind 3). The unified profile is unsupported, not missing legacy data\",\"diagnostics\":{\"supported_profile\":\"dart-2.14-split-full-aot\",\"observed_exports\":[{\"name\":\"_kDartSnapshotText\",\"offset\":3883008,\"size\":5955632},{\"name\":\"_kDartSnapshotData\",\"offset\":512,\"size\":3875144}],\"abi\":\"armeabi-v7a\",\"libapp_sha256\":\"faff4e918bef236f53716c857121ff923c08b12980a18f520f9cd1f67b64ca04\",\"libapp_bytes\":9847368}}}}"
+        }
+      ],
+      "isError": true
+    }
+  }
+}

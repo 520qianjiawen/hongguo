@@ -1,0 +1,51 @@
+{
+  "package": "app.minireel.minireel.tv",
+  "version_name": "0.4.0",
+  "version_code": "1016",
+  "sdk": {
+    "minSdkVersion": "24",
+    "targetSdkVersion": "36"
+  },
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "app.minireel.minireel.tv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "application": {
+    "label": "MiniReel TV",
+    "icon": "@mipmap/ic_launcher",
+    "name": "android.app.Application",
+    "banner": "@drawable/tv_banner",
+    "extractNativeLibs": "false",
+    "usesCleartextTraffic": "true",
+    "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "enableOnBackInvokedCallback": "true"
+  },
+  "components": [
+    {
+      "type": "activity",
+      "theme": "@style/LaunchTheme",
+      "name": "app.minireel.minireel.MainActivity",
+      "exported": "true",
+      "taskAffinity": "",
+      "launchMode": "singleTop",
+      "screenOrientation": "landscape",
+      "configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale",
+      "hardwareAccelerated": "true"
+    },
+    {
+      "type": "provider",
+      "name": "androidx.startup.InitializationProvider",
+      "exported": "false",
+      "authorities": "app.minireel.minireel.tv.androidx-startup"
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "permission": "android.permission.DUMP",
+      "enabled": "true",
+      "exported": "true",
+      "directBootAware": "false"
+    }
+  ]
+}

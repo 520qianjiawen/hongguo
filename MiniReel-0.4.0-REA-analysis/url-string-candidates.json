@@ -1,0 +1,42 @@
+[
+  {
+    "offset": 2362449,
+    "value": "https://docs.flutter.dev/release/breaking-changes/network-policy-ios-android."
+  },
+  {
+    "offset": 2394476,
+    "value": "https://log.snssdk.com/service/2/device_register/"
+  },
+  {
+    "offset": 2437413,
+    "value": "https://github.com/flutter/flutter/issues/30701."
+  },
+  {
+    "offset": 2503820,
+    "value": "https://github.com/media-kit/media-kit#installation"
+  },
+  {
+    "offset": 2503882,
+    "value": "https://pub.dev/packages/media_kit#installation"
+  },
+  {
+    "offset": 2569579,
+    "value": "https://api.flutter.dev/flutter/dart-ui/ChannelBuffers-class.html"
+  },
+  {
+    "offset": 2583028,
+    "value": "https://dav.example.com/remote.php/dav"
+  },
+  {
+    "offset": 2587140,
+    "value": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
+  },
+  {
+    "offset": 2938308,
+    "value": "https://api.flutter.dev/flutter/material/Scaffold/of.html"
+  },
+  {
+    "offset": 3055067,
+    "value": "https://pub.dev/"
+  }
+]

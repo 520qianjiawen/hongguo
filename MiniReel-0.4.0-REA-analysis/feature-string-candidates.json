@@ -1,0 +1,6006 @@
+[
+  {
+    "offset": 2243340,
+    "value": "episodeCount"
+  },
+  {
+    "offset": 2243892,
+    "value": "package:media_kit_video/src/utils/wakelock.dart"
+  },
+  {
+    "offset": 2245604,
+    "value": "package:collection/src/canonicalized_map.dart"
+  },
+  {
+    "offset": 2245668,
+    "value": "_updateClip@40160605"
+  },
+  {
+    "offset": 2246068,
+    "value": "updateFloatingCursor"
+  },
+  {
+    "offset": 2246420,
+    "value": "package:flutter/src/widgets/app_lifecycle_listener.dart"
+  },
+  {
+    "offset": 2248404,
+    "value": "package:minireel/domain/models/watch_record.dart"
+  },
+  {
+    "offset": 2248828,
+    "value": "clearSearches"
+  },
+  {
+    "offset": 2249436,
+    "value": "_stopSelectionEndEdgeUpdate@191379720"
+  },
+  {
+    "offset": 2249620,
+    "value": "package:source_span/src/span_exception.dart"
+  },
+  {
+    "offset": 2249756,
+    "value": "package:ffi/src/utf8.dart"
+  },
+  {
+    "offset": 2250068,
+    "value": "package:flutter/src/widgets/widget_span.dart"
+  },
+  {
+    "offset": 2250324,
+    "value": "package:flutter/src/widgets/tween_animation_builder.dart"
+  },
+  {
+    "offset": 2252044,
+    "value": "DragUpdateDetails"
+  },
+  {
+    "offset": 2253508,
+    "value": "package:package_info_plus_platform_interface/method_channel_package_info.dart"
+  },
+  {
+    "offset": 2253604,
+    "value": "package:flutter/src/animation/animation_controller.dart"
+  },
+  {
+    "offset": 2254940,
+    "value": "package:flutter/src/widgets/restoration_properties.dart"
+  },
+  {
+    "offset": 2255564,
+    "value": "FavoriteClear3"
+  },
+  {
+    "offset": 2256500,
+    "value": "package:dio/src/dio_mixin.dart"
+  },
+  {
+    "offset": 2257420,
+    "value": "didUpdateScrollMetrics"
+  },
+  {
+    "offset": 2257964,
+    "value": "searchRemote"
+  },
+  {
+    "offset": 2257988,
+    "value": "package:flutter/src/widgets/sliver_prototype_extent_list.dart"
+  },
+  {
+    "offset": 2258324,
+    "value": "FavoriteStore2"
+  },
+  {
+    "offset": 2259604,
+    "value": "onHorizontalDragUpdate"
+  },
+  {
+    "offset": 2259820,
+    "value": "minireel/device"
+  },
+  {
+    "offset": 2260396,
+    "value": "package:intl/src/intl/string_stack.dart"
+  },
+  {
+    "offset": 2261028,
+    "value": "package:flutter/src/widgets/icon.dart"
+  },
+  {
+    "offset": 2261244,
+    "value": "package:flutter/src/material/switch.dart"
+  },
+  {
+    "offset": 2262892,
+    "value": "_MixinApplication395&PointerEvent&_PointerEventDescription&_CopyPointerPanZoomUpdateEvent@18353248"
+  },
+  {
+    "offset": 2263036,
+    "value": "package:flutter/src/material/segmented_button_theme.dart"
+  },
+  {
+    "offset": 2264180,
+    "value": "package:flutter/src/material/theme.dart"
+  },
+  {
+    "offset": 2264260,
+    "value": "_performAnimationUpdate@289011697"
+  },
+  {
+    "offset": 2265324,
+    "value": "updateCompositedLayer"
+  },
+  {
+    "offset": 2265476,
+    "value": "package:flutter/src/material/bottom_sheet.dart"
+  },
+  {
+    "offset": 2266372,
+    "value": "forceUpdateEnd"
+  },
+  {
+    "offset": 2267836,
+    "value": "package:flutter/src/widgets/gesture_detector.dart"
+  },
+  {
+    "offset": 2269996,
+    "value": "package:flutter/src/foundation/diagnostics.dart"
+  },
+  {
+    "offset": 2270468,
+    "value": "package:sqflite_platform_interface/src/sqflite_method_channel.dart"
+  },
+  {
+    "offset": 2270588,
+    "value": "package:source_span/src/span_with_context.dart"
+  },
+  {
+    "offset": 2271020,
+    "value": "_updateComposingRectIfNeeded@176183791"
+  },
+  {
+    "offset": 2271324,
+    "value": "package:flutter/src/foundation/change_notifier.dart"
+  },
+  {
+    "offset": 2271404,
+    "value": "_updateMaterialBanner@82420462"
+  },
+  {
+    "offset": 2271524,
+    "value": "_HistoryBuilderState@802487281"
+  },
+  {
+    "offset": 2272404,
+    "value": "totalUpdatedAt"
+  },
+  {
+    "offset": 2273596,
+    "value": "package:minireel/data/sources/hongguo/hongguo_web_fallback.dart"
+  },
+  {
+    "offset": 2274804,
+    "value": "package:vector_math/src/vector_math_64/matrix4.dart"
+  },
+  {
+    "offset": 2275012,
+    "value": "package:minireel/features/rankings/ranking_widgets.dart"
+  },
+  {
+    "offset": 2275284,
+    "value": "package:flutter/src/foundation/binding.dart"
+  },
+  {
+    "offset": 2276420,
+    "value": "package:flutter/src/foundation/synchronous_future.dart"
+  },
+  {
+    "offset": 2278164,
+    "value": "updateUserScrollDirection"
+  },
+  {
+    "offset": 2278236,
+    "value": "_updateProperty@74384654"
+  },
+  {
+    "offset": 2278340,
+    "value": "searchSources"
+  },
+  {
+    "offset": 2278540,
+    "value": "package:flutter/src/services/raw_keyboard.dart"
+  },
+  {
+    "offset": 2278868,
+    "value": "updateEditingValue"
+  },
+  {
+    "offset": 2280140,
+    "value": "package:sqflite_platform_interface/src/platform_exception.dart"
+  },
+  {
+    "offset": 2280316,
+    "value": "package:flutter/src/painting/box_border.dart"
+  },
+  {
+    "offset": 2280372,
+    "value": "showDramaDetail"
+  },
+  {
+    "offset": 2280676,
+    "value": "package:pointycastle/src/impl/md4_family_digest.dart"
+  },
+  {
+    "offset": 2281364,
+    "value": "canUpdate"
+  },
+  {
+    "offset": 2281652,
+    "value": "package:flutter/src/foundation/consolidate_response.dart"
+  },
+  {
+    "offset": 2282148,
+    "value": "package:wakelock_plus_platform_interface/messages.g.dart"
+  },
+  {
+    "offset": 2284212,
+    "value": "package:package_info_plus_platform_interface/package_info_data.dart"
+  },
+  {
+    "offset": 2284980,
+    "value": "_handleHistoryChanged@44124995"
+  },
+  {
+    "offset": 2285340,
+    "value": "package:minireel/features/shared/playback_seek_bar.dart"
+  },
+  {
+    "offset": 2285924,
+    "value": "package:minireel/domain/models/catalog_sync.dart"
+  },
+  {
+    "offset": 2286964,
+    "value": "didUpdateValue"
+  },
+  {
+    "offset": 2287108,
+    "value": "package:flutter/src/painting/_network_image_io.dart"
+  },
+  {
+    "offset": 2288172,
+    "value": "_updateTickerModeNotifier@29311458"
+  },
+  {
+    "offset": 2288620,
+    "value": "HongguoAdapter."
+  },
+  {
+    "offset": 2289516,
+    "value": "package:minireel/features/tv/tv_player_screen.dart"
+  },
+  {
+    "offset": 2290324,
+    "value": "UndoHistoryState"
+  },
+  {
+    "offset": 2290452,
+    "value": "package:minireel/features/shared/landscape_video_shortcut.dart"
+  },
+  {
+    "offset": 2291836,
+    "value": "package:minireel/data/sources/hongguo/hongguo_ranking_service.dart"
+  },
+  {
+    "offset": 2292724,
+    "value": "_updateTransitionForEntry@135347078"
+  },
+  {
+    "offset": 2293276,
+    "value": "package:flutter/src/rendering/rotated_box.dart"
+  },
+  {
+    "offset": 2295740,
+    "value": "package:pointycastle/src/api/cipher_parameters.dart"
+  },
+  {
+    "offset": 2295876,
+    "value": "package:flutter/src/material/progress_indicator_theme.dart"
+  },
+  {
+    "offset": 2296180,
+    "value": "RemoteSearchSource"
+  },
+  {
+    "offset": 2296324,
+    "value": "detail-favorite"
+  },
+  {
+    "offset": 2296356,
+    "value": "package:flutter/src/material/button_bar_theme.dart"
+  },
+  {
+    "offset": 2296860,
+    "value": "_verticalSelectionUpdateAction@176183791"
+  },
+  {
+    "offset": 2297740,
+    "value": "package:flutter/src/material/icon_button.dart"
+  },
+  {
+    "offset": 2297996,
+    "value": "package:flutter/src/material/menu_button_theme.dart"
+  },
+  {
+    "offset": 2298756,
+    "value": "package:stack_trace"
+  },
+  {
+    "offset": 2298892,
+    "value": "package:flutter/src/rendering/object.dart"
+  },
+  {
+    "offset": 2298980,
+    "value": "episode-pager"
+  },
+  {
+    "offset": 2299396,
+    "value": "package:flutter/src/gestures/tap.dart"
+  },
+  {
+    "offset": 2299516,
+    "value": "package:minireel/features/shared/paging_scroll_behavior.dart"
+  },
+  {
+    "offset": 2299996,
+    "value": "package:flutter/src/widgets/annotated_region.dart"
+  },
+  {
+    "offset": 2300428,
+    "value": "package:flutter/src/material/page.dart"
+  },
+  {
+    "offset": 2301876,
+    "value": "package:intl/src/intl/constants.dart"
+  },
+  {
+    "offset": 2301980,
+    "value": "updateChildCallback"
+  },
+  {
+    "offset": 2302236,
+    "value": "feed-favorite"
+  },
+  {
+    "offset": 2302892,
+    "value": "_episodes@841236926"
+  },
+  {
+    "offset": 2303484,
+    "value": "package:material_color_utilities/hct/hct.dart"
+  },
+  {
+    "offset": 2304068,
+    "value": "DramaDetail"
+  },
+  {
+    "offset": 2305348,
+    "value": "search_text TEXT NOT NULL DEFAULT ''"
+  },
+  {
+    "offset": 2305652,
+    "value": "package:flutter/src/material/text_selection_toolbar_text_button.dart"
+  },
+  {
+    "offset": 2307676,
+    "value": "package:flutter/src/painting/border_radius.dart"
+  },
+  {
+    "offset": 2307788,
+    "value": "_DetailFavoriteAction@799230389"
+  },
+  {
+    "offset": 2308228,
+    "value": "formatEditUpdate"
+  },
+  {
+    "offset": 2308804,
+    "value": "_updateDragLocationsFromGeometries@180019050"
+  },
+  {
+    "offset": 2309196,
+    "value": "handleFocusUpdate"
+  },
+  {
+    "offset": 2309300,
+    "value": "_updateMatricesAndCreateNewRootLayer@165268214"
+  },
+  {
+    "offset": 2310836,
+    "value": "DeviceGestureSettings"
+  },
+  {
+    "offset": 2310932,
+    "value": "HongguoWebFallback"
+  },
+  {
+    "offset": 2310996,
+    "value": "package:flutter/src/material/snack_bar.dart"
+  },
+  {
+    "offset": 2311228,
+    "value": "package:flutter/src/material/data_table_theme.dart"
+  },
+  {
+    "offset": 2311700,
+    "value": "_CopyPointerPanZoomUpdateEvent@34050165"
+  },
+  {
+    "offset": 2312468,
+    "value": "package:minireel/features/settings/webdav_settings_screen.dart"
+  },
+  {
+    "offset": 2312636,
+    "value": "package:minireel/features/shared/favorite_feedback.dart"
+  },
+  {
+    "offset": 2313580,
+    "value": "dramaSpeeds"
+  },
+  {
+    "offset": 2313988,
+    "value": "package:flutter/src/widgets/scroll_delegate.dart"
+  },
+  {
+    "offset": 2314564,
+    "value": "updateFocusHighlights"
+  },
+  {
+    "offset": 2315492,
+    "value": "SearchSeries."
+  },
+  {
+    "offset": 2315804,
+    "value": "package:sqflite_common/src/open_options.dart"
+  },
+  {
+    "offset": 2316164,
+    "value": "IOSSystemContextMenuItemDataSearchWeb"
+  },
+  {
+    "offset": 2317308,
+    "value": "package:flutter/src/widgets/modal_barrier.dart"
+  },
+  {
+    "offset": 2317564,
+    "value": "package:media_kit_video/media_kit_video_controls/src/controls/material.dart"
+  },
+  {
+    "offset": 2317772,
+    "value": "_updateTicker@29311458"
+  },
+  {
+    "offset": 2317812,
+    "value": "TextInputAction.search"
+  },
+  {
+    "offset": 2318508,
+    "value": "package:flutter/src/widgets/dialog.dart"
+  },
+  {
+    "offset": 2320356,
+    "value": "package:minireel/domain/models/catalog_query.dart"
+  },
+  {
+    "offset": 2320876,
+    "value": "Drama.fromJson"
+  },
+  {
+    "offset": 2321380,
+    "value": "get:gestureSettings"
+  },
+  {
+    "offset": 2323188,
+    "value": "package:flutter/src/material/list_tile_theme.dart"
+  },
+  {
+    "offset": 2324204,
+    "value": "updateCustomAction"
+  },
+  {
+    "offset": 2324860,
+    "value": "package:flutter/src/material/floating_action_button_theme.dart"
+  },
+  {
+    "offset": 2325788,
+    "value": "package:flutter/src/material/search_bar_theme.dart"
+  },
+  {
+    "offset": 2326660,
+    "value": "package:flutter/src/rendering/view.dart"
+  },
+  {
+    "offset": 2327868,
+    "value": "package:flutter/src/foundation/persistent_hash_map.dart"
+  },
+  {
+    "offset": 2329124,
+    "value": "package:media_kit/src/models/player_state.dart"
+  },
+  {
+    "offset": 2330116,
+    "value": "package:intl/date_symbols.dart"
+  },
+  {
+    "offset": 2331684,
+    "value": "package:sqflite_common/src/database.dart"
+  },
+  {
+    "offset": 2331884,
+    "value": "package:http_parser/src/utils.dart"
+  },
+  {
+    "offset": 2332516,
+    "value": "package:flutter/src/services/undo_manager.dart"
+  },
+  {
+    "offset": 2332780,
+    "value": "_updateSelectionEdgeByMultiSelectableTextBoundary@201149678"
+  },
+  {
+    "offset": 2332892,
+    "value": "package:jni/src/third_party/global_env_extensions.dart"
+  },
+  {
+    "offset": 2333132,
+    "value": "package:flutter/src/foundation/platform.dart"
+  },
+  {
+    "offset": 2333628,
+    "value": "package:flutter/src/widgets/binding.dart"
+  },
+  {
+    "offset": 2333684,
+    "value": "SuggestingSearchSource"
+  },
+  {
+    "offset": 2334700,
+    "value": "Update"
+  },
+  {
+    "offset": 2336468,
+    "value": "package:pointycastle/src/impl/base_digest.dart"
+  },
+  {
+    "offset": 2336692,
+    "value": "episode-range-"
+  },
+  {
+    "offset": 2338692,
+    "value": "_updateCatalogTotal@722348959"
+  },
+  {
+    "offset": 2339036,
+    "value": "package:media_kit_video/src/video_controller/platform_video_controller.dart"
+  },
+  {
+    "offset": 2339124,
+    "value": "package:path/src/utils.dart"
+  },
+  {
+    "offset": 2339364,
+    "value": "package:material_color_utilities/dynamiccolor/variant.dart"
+  },
+  {
+    "offset": 2341172,
+    "value": "package:minireel/features/tv/tv_catalog.dart"
+  },
+  {
+    "offset": 2341684,
+    "value": "package:flutter/src/material/scrollbar_theme.dart"
+  },
+  {
+    "offset": 2342028,
+    "value": "package:media_kit/src/models/player_log.dart"
+  },
+  {
+    "offset": 2342084,
+    "value": "HongguoParser"
+  },
+  {
+    "offset": 2342116,
+    "value": "package:path/src/style/windows.dart"
+  },
+  {
+    "offset": 2342412,
+    "value": "package:flutter/src/material/banner.dart"
+  },
+  {
+    "offset": 2342756,
+    "value": "package:dio/src/headers.dart"
+  },
+  {
+    "offset": 2342892,
+    "value": "package:vector_math/src/vector_math_64/vector4.dart"
+  },
+  {
+    "offset": 2344828,
+    "value": "package:flutter/src/foundation/_error_dumper_io.dart"
+  },
+  {
+    "offset": 2345532,
+    "value": "package:sqflite_common/src/database_mixin.dart"
+  },
+  {
+    "offset": 2346124,
+    "value": "package:flutter/src/foundation/licenses.dart"
+  },
+  {
+    "offset": 2347052,
+    "value": "package:dio/src/utils.dart"
+  },
+  {
+    "offset": 2347308,
+    "value": "package:flutter/src/widgets/sliver_fill.dart"
+  },
+  {
+    "offset": 2347492,
+    "value": "_updateForegroundPainter@78245603"
+  },
+  {
+    "offset": 2348396,
+    "value": "package:flutter/src/animation/animation_style.dart"
+  },
+  {
+    "offset": 2348604,
+    "value": "package:minireel/core/network/catalog_request_gate.dart"
+  },
+  {
+    "offset": 2349140,
+    "value": "package:flutter/src/services/raw_keyboard_linux.dart"
+  },
+  {
+    "offset": 2349884,
+    "value": "package:minireel/features/library/catalog_category_bar.dart"
+  },
+  {
+    "offset": 2350524,
+    "value": "package:flutter/src/painting/text_style.dart"
+  },
+  {
+    "offset": 2350580,
+    "value": "package:flutter/src/material/navigation_rail.dart"
+  },
+  {
+    "offset": 2351140,
+    "value": "_updateLastSelectionEdgeLocationsFromGeometries@191379720"
+  },
+  {
+    "offset": 2351692,
+    "value": "package:uuid/v4.dart"
+  },
+  {
+    "offset": 2352476,
+    "value": "package:intl/src/global_state.dart"
+  },
+  {
+    "offset": 2352948,
+    "value": "DramaSourceAdapter"
+  },
+  {
+    "offset": 2353028,
+    "value": "package:flutter/src/rendering/shifted_box.dart"
+  },
+  {
+    "offset": 2353340,
+    "value": "_updateLocalizations@136236006"
+  },
+  {
+    "offset": 2353580,
+    "value": "package:source_span/src/utils.dart"
+  },
+  {
+    "offset": 2354300,
+    "value": "package:minireel/core/config/source_config.dart"
+  },
+  {
+    "offset": 2355500,
+    "value": "LocalHistoryEntry"
+  },
+  {
+    "offset": 2356300,
+    "value": "LocalSettingsStore"
+  },
+  {
+    "offset": 2356804,
+    "value": "package:sqflite_common/src/mixin/factory.dart"
+  },
+  {
+    "offset": 2356956,
+    "value": "package:sqflite_common/src/path_utils.dart"
+  },
+  {
+    "offset": 2357164,
+    "value": "_updateSelectionGeometry@201149678"
+  },
+  {
+    "offset": 2357364,
+    "value": "package:flutter/src/painting/circle_border.dart"
+  },
+  {
+    "offset": 2358012,
+    "value": "package:jni_flutter/src/generated_plugin.dart"
+  },
+  {
+    "offset": 2358604,
+    "value": "hongguoduanju.com"
+  },
+  {
+    "offset": 2359356,
+    "value": "package:flutter/src/widgets/page_transitions_builder.dart"
+  },
+  {
+    "offset": 2359556,
+    "value": "episode"
+  },
+  {
+    "offset": 2362404,
+    "value": "\" is not supported by the platform. Refer to https://docs.flutter.dev/release/breaking-changes/network-policy-ios-android."
+  },
+  {
+    "offset": 2363260,
+    "value": "_handleDismissUpdateValueChanged@174238936"
+  },
+  {
+    "offset": 2363356,
+    "value": "update_version_code"
+  },
+  {
+    "offset": 2363388,
+    "value": "package:flutter/src/material/input_border.dart"
+  },
+  {
+    "offset": 2363644,
+    "value": "_updateSemanticActions@178085019"
+  },
+  {
+    "offset": 2364076,
+    "value": "handleThumbPressUpdate"
+  },
+  {
+    "offset": 2364348,
+    "value": "searchText"
+  },
+  {
+    "offset": 2365980,
+    "value": "package:minireel/domain/models/ranking_membership.dart"
+  },
+  {
+    "offset": 2366116,
+    "value": "package:material_color_utilities/hct/cam16.dart"
+  },
+  {
+    "offset": 2367724,
+    "value": "package:synchronized/src/reentrant_lock.dart"
+  },
+  {
+    "offset": 2368012,
+    "value": "package:uri_parser/uri_parser.dart"
+  },
+  {
+    "offset": 2368660,
+    "value": "package:flutter/src/painting/stadium_border.dart"
+  },
+  {
+    "offset": 2369204,
+    "value": "_updateConfig@79206165"
+  },
+  {
+    "offset": 2369244,
+    "value": "package:flutter/src/physics/utils.dart"
+  },
+  {
+    "offset": 2369300,
+    "value": "package:flutter/src/rendering/image.dart"
+  },
+  {
+    "offset": 2371580,
+    "value": "package:flutter/src/widgets/notification_listener.dart"
+  },
+  {
+    "offset": 2371956,
+    "value": "dramaId"
+  },
+  {
+    "offset": 2372708,
+    "value": "searchSeason"
+  },
+  {
+    "offset": 2372804,
+    "value": "requestVisualUpdate"
+  },
+  {
+    "offset": 2372980,
+    "value": "package:flutter/src/widgets/sliver_layout_builder.dart"
+  },
+  {
+    "offset": 2373052,
+    "value": "package:dio/src/transformers/fused_transformer.dart"
+  },
+  {
+    "offset": 2374396,
+    "value": "favoritesAdded"
+  },
+  {
+    "offset": 2375012,
+    "value": "package:flutter/src/services/text_input.dart"
+  },
+  {
+    "offset": 2376556,
+    "value": "package:flutter/src/services/text_editing.dart"
+  },
+  {
+    "offset": 2376972,
+    "value": "package:flutter/src/painting/text_span.dart"
+  },
+  {
+    "offset": 2377084,
+    "value": "preloadNextEpisode"
+  },
+  {
+    "offset": 2377268,
+    "value": "hongguoChannel"
+  },
+  {
+    "offset": 2377684,
+    "value": "package:minireel/features/tv/tv_detail_screen.dart"
+  },
+  {
+    "offset": 2378108,
+    "value": "package:minireel/features/settings/log_viewer_screen.dart"
+  },
+  {
+    "offset": 2378356,
+    "value": "init:_verticalSelectionUpdateAction@176183791"
+  },
+  {
+    "offset": 2379740,
+    "value": "package:pointycastle/src/api/block_cipher.dart"
+  },
+  {
+    "offset": 2380588,
+    "value": "package:minireel/app/app_controller.dart"
+  },
+  {
+    "offset": 2380828,
+    "value": "_updateAnimations@286338117"
+  },
+  {
+    "offset": 2380900,
+    "value": "_binarySearch@573017070"
+  },
+  {
+    "offset": 2381156,
+    "value": "package:flutter/src/material/material_localizations.dart"
+  },
+  {
+    "offset": 2381332,
+    "value": "package:minireel/data/local/sqlite_catalog_index.dart"
+  },
+  {
+    "offset": 2381996,
+    "value": "package:flutter/src/cupertino/localizations.dart"
+  },
+  {
+    "offset": 2383628,
+    "value": "package:collection/src/iterable_extensions.dart"
+  },
+  {
+    "offset": 2383732,
+    "value": "package:flutter/src/material/bottom_app_bar_theme.dart"
+  },
+  {
+    "offset": 2384452,
+    "value": "package:flutter/src/foundation/_isolates_io.dart"
+  },
+  {
+    "offset": 2384700,
+    "value": "minireel-hls-"
+  },
+  {
+    "offset": 2384788,
+    "value": "package:pointycastle/src/api/algorithm.dart"
+  },
+  {
+    "offset": 2385356,
+    "value": "package:flutter/src/services/system_sound.dart"
+  },
+  {
+    "offset": 2386060,
+    "value": "prefetchNextEpisode"
+  },
+  {
+    "offset": 2387100,
+    "value": "updateScrollbarPainter"
+  },
+  {
+    "offset": 2387268,
+    "value": "package:flutter/src/widgets/dual_transition_builder.dart"
+  },
+  {
+    "offset": 2388244,
+    "value": "package:flutter_staggered_grid_view/src/widgets/masonry_grid_view.dart"
+  },
+  {
+    "offset": 2388476,
+    "value": "_handleTouchLongPressMoveUpdate@191379720"
+  },
+  {
+    "offset": 2388868,
+    "value": "_unfavoriteScale@205463832"
+  },
+  {
+    "offset": 2389820,
+    "value": "_updateSelectionEndEdgeByMultiSelectableTextBoundary@201149678"
+  },
+  {
+    "offset": 2390556,
+    "value": "package:flutter/src/gestures/velocity_tracker.dart"
+  },
+  {
+    "offset": 2391108,
+    "value": "package:flutter/src/painting/inline_span.dart"
+  },
+  {
+    "offset": 2391652,
+    "value": "episodeVids"
+  },
+  {
+    "offset": 2393484,
+    "value": "updated_at DESC"
+  },
+  {
+    "offset": 2394476,
+    "value": "https://log.snssdk.com/service/2/device_register/"
+  },
+  {
+    "offset": 2395012,
+    "value": "DROP INDEX IF EXISTS catalog_episode_count"
+  },
+  {
+    "offset": 2395356,
+    "value": "package:async/src/cancelable_operation.dart"
+  },
+  {
+    "offset": 2395652,
+    "value": "_WebPageHistory@763480987"
+  },
+  {
+    "offset": 2395964,
+    "value": "hot-ai-drama"
+  },
+  {
+    "offset": 2396076,
+    "value": "package:flutter/src/material/button_style.dart"
+  },
+  {
+    "offset": 2396380,
+    "value": "package:minireel/domain/models/catalog_filter.dart"
+  },
+  {
+    "offset": 2396948,
+    "value": "package:material_color_utilities/utils/color_utils.dart"
+  },
+  {
+    "offset": 2397364,
+    "value": "get:favorites"
+  },
+  {
+    "offset": 2399316,
+    "value": "HongguoDeviceIdentity"
+  },
+  {
+    "offset": 2399532,
+    "value": "package:material_color_utilities/palettes/tonal_palette.dart"
+  },
+  {
+    "offset": 2400540,
+    "value": "_UpdateTextSelectionAction@176183791"
+  },
+  {
+    "offset": 2403388,
+    "value": "_updateTextSelectionOverlayVisibilities@77111801"
+  },
+  {
+    "offset": 2403852,
+    "value": "package:flutter/src/widgets/heroes.dart"
+  },
+  {
+    "offset": 2404772,
+    "value": "_updateUserSettingsData@23065589"
+  },
+  {
+    "offset": 2405356,
+    "value": "package:flutter/src/material/text_selection_toolbar.dart"
+  },
+  {
+    "offset": 2405532,
+    "value": "TextInputClient.updateEditingStateWithTag"
+  },
+  {
+    "offset": 2408092,
+    "value": "updated"
+  },
+  {
+    "offset": 2408148,
+    "value": "_parseAndHandleRestorationUpdateFromEngine@75347053"
+  },
+  {
+    "offset": 2408916,
+    "value": "package:flutter/src/services/system_chrome.dart"
+  },
+  {
+    "offset": 2409100,
+    "value": "_updateSystemChrome@165268214"
+  },
+  {
+    "offset": 2410756,
+    "value": "package:pointycastle/src/ufixnum.dart"
+  },
+  {
+    "offset": 2411124,
+    "value": "ScrollUpdateNotification."
+  },
+  {
+    "offset": 2411268,
+    "value": "package:media_kit_video/src/subtitle/subtitle_view.dart"
+  },
+  {
+    "offset": 2411604,
+    "value": "search"
+  },
+  {
+    "offset": 2412428,
+    "value": "FavoriteClear2"
+  },
+  {
+    "offset": 2413036,
+    "value": "drama_id"
+  },
+  {
+    "offset": 2413108,
+    "value": "updatedText"
+  },
+  {
+    "offset": 2414196,
+    "value": "_updateDepth@20042623"
+  },
+  {
+    "offset": 2414396,
+    "value": "_updateSemanticsEnabled@23065589"
+  },
+  {
+    "offset": 2414444,
+    "value": "_updateWindowMetrics@23065589"
+  },
+  {
+    "offset": 2415548,
+    "value": "package:flutter/src/widgets/default_selection_style.dart"
+  },
+  {
+    "offset": 2417092,
+    "value": "package:minireel/data/local/app_store.dart"
+  },
+  {
+    "offset": 2419044,
+    "value": "package:flutter/src/material/ink_highlight.dart"
+  },
+  {
+    "offset": 2419404,
+    "value": "package:term_glyph/term_glyph.dart"
+  },
+  {
+    "offset": 2420540,
+    "value": "package:flutter/src/services/text_layout_metrics.dart"
+  },
+  {
+    "offset": 2421620,
+    "value": "package:flutter/src/rendering/custom_paint.dart"
+  },
+  {
+    "offset": 2422276,
+    "value": "set:gestureSettings"
+  },
+  {
+    "offset": 2423108,
+    "value": "package:media_kit/ffi/src/utf8.dart"
+  },
+  {
+    "offset": 2423252,
+    "value": "handleRestorationUpdateFromEngine"
+  },
+  {
+    "offset": 2423484,
+    "value": "package:minireel/features/shared/video_top_scrim.dart"
+  },
+  {
+    "offset": 2423932,
+    "value": "SearchResult."
+  },
+  {
+    "offset": 2424292,
+    "value": "asScrollUpdate"
+  },
+  {
+    "offset": 2424324,
+    "value": "_updateHold@807014056"
+  },
+  {
+    "offset": 2424788,
+    "value": "package:flutter/src/widgets/feedback.dart"
+  },
+  {
+    "offset": 2425580,
+    "value": "package:flutter/src/widgets/text_selection_toolbar_layout_delegate.dart"
+  },
+  {
+    "offset": 2426188,
+    "value": "package:flutter/src/services/binary_messenger.dart"
+  },
+  {
+    "offset": 2426612,
+    "value": "package:source_span/src/span_mixin.dart"
+  },
+  {
+    "offset": 2427164,
+    "value": "episode-ranges"
+  },
+  {
+    "offset": 2427468,
+    "value": "hot-drama"
+  },
+  {
+    "offset": 2427844,
+    "value": "_updateHostHeader@17463476"
+  },
+  {
+    "offset": 2427972,
+    "value": "package:flutter/src/rendering/custom_layout.dart"
+  },
+  {
+    "offset": 2428252,
+    "value": "_updateRenderObject@236408280"
+  },
+  {
+    "offset": 2429356,
+    "value": "package:intl/src/plural_rules.dart"
+  },
+  {
+    "offset": 2429684,
+    "value": "package:flutter/src/widgets/selection_container.dart"
+  },
+  {
+    "offset": 2429836,
+    "value": "package:flutter/src/semantics/binding.dart"
+  },
+  {
+    "offset": 2430012,
+    "value": "episodeId"
+  },
+  {
+    "offset": 2431076,
+    "value": "sourceEpisodeId"
+  },
+  {
+    "offset": 2434236,
+    "value": "updateShouldNotify"
+  },
+  {
+    "offset": 2434420,
+    "value": "_favoriteFromGesture@128218941"
+  },
+  {
+    "offset": 2434980,
+    "value": "Settings"
+  },
+  {
+    "offset": 2435004,
+    "value": "package:material_color_utilities/dynamiccolor/dynamic_scheme.dart"
+  },
+  {
+    "offset": 2436172,
+    "value": "package:minireel/features/shared/temporary_boost_controller.dart"
+  },
+  {
+    "offset": 2437408,
+    "value": "See: https://github.com/flutter/flutter/issues/30701."
+  },
+  {
+    "offset": 2437548,
+    "value": "package:minireel/desktop/window_chrome.dart"
+  },
+  {
+    "offset": 2438716,
+    "value": "aiDrama"
+  },
+  {
+    "offset": 2438780,
+    "value": "package:flutter/src/material/tabs.dart"
+  },
+  {
+    "offset": 2439292,
+    "value": "package:minireel/features/player/gesture_controller.dart"
+  },
+  {
+    "offset": 2439556,
+    "value": "package:media_kit_video/src/utils/query_decoders.dart"
+  },
+  {
+    "offset": 2440084,
+    "value": "package:flutter/src/painting/alignment.dart"
+  },
+  {
+    "offset": 2441380,
+    "value": "_MixinApplication396&_TransformedPointerEvent&_CopyPointerPanZoomUpdateEvent@18353248"
+  },
+  {
+    "offset": 2441684,
+    "value": "package:minireel/features/search/search_results.dart"
+  },
+  {
+    "offset": 2442076,
+    "value": "package:flutter/src/gestures/pointer_signal_resolver.dart"
+  },
+  {
+    "offset": 2442476,
+    "value": "_updateData@183282825"
+  },
+  {
+    "offset": 2442884,
+    "value": "updateLayerProperties"
+  },
+  {
+    "offset": 2443596,
+    "value": "package:characters/src/extensions.dart"
+  },
+  {
+    "offset": 2444028,
+    "value": "dispatchScrollUpdateNotification"
+  },
+  {
+    "offset": 2444092,
+    "value": "_updatePages@44124995"
+  },
+  {
+    "offset": 2445644,
+    "value": "package:flutter/src/cupertino/button.dart"
+  },
+  {
+    "offset": 2445940,
+    "value": "_checkDragUpdate@243288344"
+  },
+  {
+    "offset": 2446508,
+    "value": "__updateCustomAction$Method$FfiNative@23065589"
+  },
+  {
+    "offset": 2446700,
+    "value": "package:flutter/src/gestures/pointer_router.dart"
+  },
+  {
+    "offset": 2447092,
+    "value": "get:history"
+  },
+  {
+    "offset": 2447116,
+    "value": "package:minireel/features/player/episode_pager.dart"
+  },
+  {
+    "offset": 2447236,
+    "value": "webSearch"
+  },
+  {
+    "offset": 2448884,
+    "value": "_updateEffectiveObservers@44124995"
+  },
+  {
+    "offset": 2449164,
+    "value": "_markNeedsUpdate@67042876"
+  },
+  {
+    "offset": 2449236,
+    "value": "package:sqflite_common/src/sql_builder.dart"
+  },
+  {
+    "offset": 2450188,
+    "value": "package:flutter/src/services/raw_keyboard_web.dart"
+  },
+  {
+    "offset": 2450308,
+    "value": "_handleMouseDragUpdate@191379720"
+  },
+  {
+    "offset": 2450996,
+    "value": "searchViewTheme"
+  },
+  {
+    "offset": 2451100,
+    "value": "package:flutter/src/material/tooltip_theme.dart"
+  },
+  {
+    "offset": 2451916,
+    "value": "updateLastSelectionEdgeLocation"
+  },
+  {
+    "offset": 2452220,
+    "value": "package:media_kit_video/media_kit_video_controls/src/controls/methods/fullscreen.dart"
+  },
+  {
+    "offset": 2453484,
+    "value": "_updateBackToTop@126063609"
+  },
+  {
+    "offset": 2454508,
+    "value": "package:flutter/src/rendering/sliver_multi_box_adaptor.dart"
+  },
+  {
+    "offset": 2454580,
+    "value": "package:flutter/src/cupertino/text_selection_toolbar.dart"
+  },
+  {
+    "offset": 2454868,
+    "value": "hot-comic-drama"
+  },
+  {
+    "offset": 2455100,
+    "value": "package:flutter/src/material/theme_data.dart"
+  },
+  {
+    "offset": 2455188,
+    "value": "package:flutter/src/widgets/scrollbar.dart"
+  },
+  {
+    "offset": 2455436,
+    "value": "_updateMoveAnimation@174238936"
+  },
+  {
+    "offset": 2455956,
+    "value": "_updateSelectionRegistrarSubscription@192380248"
+  },
+  {
+    "offset": 2456076,
+    "value": "package:flutter/src/widgets/primary_scroll_controller.dart"
+  },
+  {
+    "offset": 2458036,
+    "value": "package:flutter/src/material/choice_chip.dart"
+  },
+  {
+    "offset": 2458140,
+    "value": "_scheduleMouseTrackerUpdate@141452173"
+  },
+  {
+    "offset": 2460812,
+    "value": "CREATE INDEX catalog_channel_episode_count ON catalog(channel, episode_count <= 0, episode_count)"
+  },
+  {
+    "offset": 2462404,
+    "value": "package:flutter/src/material/navigation_rail_theme.dart"
+  },
+  {
+    "offset": 2462844,
+    "value": "package:flutter/src/rendering/sliver_persistent_header.dart"
+  },
+  {
+    "offset": 2463172,
+    "value": "FavoriteRecall2"
+  },
+  {
+    "offset": 2463988,
+    "value": "_updateFrameData@23065589"
+  },
+  {
+    "offset": 2464868,
+    "value": "_WebDavSettingsScreenState@838201677"
+  },
+  {
+    "offset": 2465236,
+    "value": "_updatePaintData@40160605"
+  },
+  {
+    "offset": 2465716,
+    "value": "package:flutter/src/material/text_button.dart"
+  },
+  {
+    "offset": 2465780,
+    "value": "package:flutter/src/material/flexible_space_bar.dart"
+  },
+  {
+    "offset": 2466380,
+    "value": "package:jni/src/jprimitives.dart"
+  },
+  {
+    "offset": 2467316,
+    "value": "package:flutter/src/painting/basic_types.dart"
+  },
+  {
+    "offset": 2468076,
+    "value": "sendChannelUpdate"
+  },
+  {
+    "offset": 2468468,
+    "value": "package:flutter/src/widgets/scroll_notification_observer.dart"
+  },
+  {
+    "offset": 2468644,
+    "value": "package:minireel/data/sources/hongguo/hongguo_signer.dart"
+  },
+  {
+    "offset": 2468716,
+    "value": "updateAll"
+  },
+  {
+    "offset": 2469020,
+    "value": "package:flutter/src/widgets/localizations.dart"
+  },
+  {
+    "offset": 2470756,
+    "value": "package:minireel/features/search/search_controller.dart"
+  },
+  {
+    "offset": 2471316,
+    "value": "LongPressMoveUpdateDetails"
+  },
+  {
+    "offset": 2471900,
+    "value": "init:_favoriteScale@205463832"
+  },
+  {
+    "offset": 2472236,
+    "value": "_handleEndHandleDragUpdate@77111801"
+  },
+  {
+    "offset": 2472740,
+    "value": "package:flutter/src/widgets/autofill.dart"
+  },
+  {
+    "offset": 2474380,
+    "value": "package:jni/src/lang/jstring.dart"
+  },
+  {
+    "offset": 2474780,
+    "value": "_handleUpdate@296313948"
+  },
+  {
+    "offset": 2475204,
+    "value": "package:dio/src/dio/dio_for_native.dart"
+  },
+  {
+    "offset": 2475524,
+    "value": "tv-search"
+  },
+  {
+    "offset": 2477612,
+    "value": "package:flutter/src/material/about.dart"
+  },
+  {
+    "offset": 2478428,
+    "value": "_updateCurvedAnimations@105428833"
+  },
+  {
+    "offset": 2478540,
+    "value": "CREATE INDEX catalog_episode_count ON catalog(episode_count <= 0, episode_count)"
+  },
+  {
+    "offset": 2490948,
+    "value": "_updateRemoteEditingValueIfNeeded@176183791"
+  },
+  {
+    "offset": 2491084,
+    "value": "package:flutter/src/semantics/semantics.dart"
+  },
+  {
+    "offset": 2493108,
+    "value": "package:source_span/src/file.dart"
+  },
+  {
+    "offset": 2493404,
+    "value": "package:flutter/src/material/checkbox.dart"
+  },
+  {
+    "offset": 2493644,
+    "value": "IOSSystemContextMenuItemSearchWeb"
+  },
+  {
+    "offset": 2494300,
+    "value": "package:flutter/src/widgets/tap_region.dart"
+  },
+  {
+    "offset": 2494964,
+    "value": "_EpisodeGridState@803159823"
+  },
+  {
+    "offset": 2495836,
+    "value": "searchService"
+  },
+  {
+    "offset": 2496380,
+    "value": "searchNow"
+  },
+  {
+    "offset": 2496988,
+    "value": "package:media_kit/src/player/native/core/initializer_isolate.dart"
+  },
+  {
+    "offset": 2497316,
+    "value": "hot-real-drama"
+  },
+  {
+    "offset": 2497348,
+    "value": "package:dio/src/transformer.dart"
+  },
+  {
+    "offset": 2498540,
+    "value": "package:sqflite_common/src/exception.dart"
+  },
+  {
+    "offset": 2498684,
+    "value": "updateMagnifier"
+  },
+  {
+    "offset": 2499252,
+    "value": "package:flutter/src/widgets/stretch_effect.dart"
+  },
+  {
+    "offset": 2502724,
+    "value": "package:flutter/src/material/scrollbar.dart"
+  },
+  {
+    "offset": 2503116,
+    "value": "package:media_kit_video/src/video/video_texture.dart"
+  },
+  {
+    "offset": 2503810,
+    "value": "GitHub  : https://github.com/media-kit/media-kit#installation"
+  },
+  {
+    "offset": 2503872,
+    "value": "pub.dev : https://pub.dev/packages/media_kit#installation"
+  },
+  {
+    "offset": 2505628,
+    "value": "package:flutter/src/animation/animations.dart"
+  },
+  {
+    "offset": 2506452,
+    "value": "_checkLongPressMoveUpdate@379232524"
+  },
+  {
+    "offset": 2506588,
+    "value": "package:flutter/src/material/refresh_indicator.dart"
+  },
+  {
+    "offset": 2506676,
+    "value": "package:flutter/src/material/selection_area.dart"
+  },
+  {
+    "offset": 2506844,
+    "value": "package:minireel/core/diagnostics/runtime_log.dart"
+  },
+  {
+    "offset": 2507324,
+    "value": "package:flutter/src/widgets/focus_traversal.dart"
+  },
+  {
+    "offset": 2508204,
+    "value": "set:onVerticalDragUpdate"
+  },
+  {
+    "offset": 2508324,
+    "value": "package:minireel/features/shared/drama_list_tile.dart"
+  },
+  {
+    "offset": 2508868,
+    "value": "_shouldUpdatePainter@112211710"
+  },
+  {
+    "offset": 2510652,
+    "value": "_updateSelectionStartEdgeAtPlaceholderByMultiSelectableTextBoundary@201149678"
+  },
+  {
+    "offset": 2511844,
+    "value": "panZoomUpdate"
+  },
+  {
+    "offset": 2514276,
+    "value": "_updateHandleLayersAndOwners@191379720"
+  },
+  {
+    "offset": 2514684,
+    "value": "_updateRouting@136236006"
+  },
+  {
+    "offset": 2527164,
+    "value": "startEdgeUpdate"
+  },
+  {
+    "offset": 2527796,
+    "value": "package:flutter/src/rendering/paragraph.dart"
+  },
+  {
+    "offset": 2528204,
+    "value": "_updateHighlightMode@65441002"
+  },
+  {
+    "offset": 2529300,
+    "value": "package:vector_math/src/vector_math_64/vector.dart"
+  },
+  {
+    "offset": 2529476,
+    "value": "package:flutter/src/painting/image_provider.dart"
+  },
+  {
+    "offset": 2529724,
+    "value": "SearchResult"
+  },
+  {
+    "offset": 2530116,
+    "value": "package:media_kit/src/player/player.dart"
+  },
+  {
+    "offset": 2530812,
+    "value": "get:episodeLabel"
+  },
+  {
+    "offset": 2531556,
+    "value": "package:flutter/src/rendering/proxy_sliver.dart"
+  },
+  {
+    "offset": 2531780,
+    "value": "ensureVisualUpdate"
+  },
+  {
+    "offset": 2532420,
+    "value": "package:minireel/data/sources/hongguo/hongguo_search_seasons.dart"
+  },
+  {
+    "offset": 2532500,
+    "value": "package:flutter/src/widgets/image.dart"
+  },
+  {
+    "offset": 2532692,
+    "value": "updateAllDevices"
+  },
+  {
+    "offset": 2533620,
+    "value": "metadataUpdatedAt"
+  },
+  {
+    "offset": 2533652,
+    "value": "package:path/src/style/url.dart"
+  },
+  {
+    "offset": 2533820,
+    "value": "_updateCustomAction@23065589"
+  },
+  {
+    "offset": 2533940,
+    "value": "dramaFrom"
+  },
+  {
+    "offset": 2534020,
+    "value": "package:flutter/src/widgets/scrollable.dart"
+  },
+  {
+    "offset": 2537900,
+    "value": "package:flutter/src/material/ink_decoration.dart"
+  },
+  {
+    "offset": 2538116,
+    "value": "package:minireel/features/library/catalog_sessions.dart"
+  },
+  {
+    "offset": 2538852,
+    "value": "package:flutter/src/services/restoration.dart"
+  },
+  {
+    "offset": 2539052,
+    "value": "_NativeSemanticsUpdateBuilder@23065589."
+  },
+  {
+    "offset": 2539228,
+    "value": "package:flutter/src/widgets/animated_switcher.dart"
+  },
+  {
+    "offset": 2539532,
+    "value": "DramaRepository."
+  },
+  {
+    "offset": 2540492,
+    "value": "package:flutter/src/cupertino/desktop_text_selection_toolbar_button.dart"
+  },
+  {
+    "offset": 2540636,
+    "value": "package:flutter/src/widgets/scroll_position.dart"
+  },
+  {
+    "offset": 2541500,
+    "value": "package:flutter/src/rendering/flex.dart"
+  },
+  {
+    "offset": 2541732,
+    "value": "package:flutter/src/material/input_decorator.dart"
+  },
+  {
+    "offset": 2542316,
+    "value": "package:flutter/src/material/adaptive_text_selection_toolbar.dart"
+  },
+  {
+    "offset": 2542948,
+    "value": "_updateState@199437083"
+  },
+  {
+    "offset": 2545492,
+    "value": "_EpisodeGridState@803159823."
+  },
+  {
+    "offset": 2545860,
+    "value": "_sendChannelUpdate@23065589"
+  },
+  {
+    "offset": 2546308,
+    "value": "SearchResults"
+  },
+  {
+    "offset": 2547220,
+    "value": "HongguoMediaService"
+  },
+  {
+    "offset": 2547876,
+    "value": "GestureSettings"
+  },
+  {
+    "offset": 2548196,
+    "value": "markNeedsCompositedLayerUpdate"
+  },
+  {
+    "offset": 2550676,
+    "value": "package:minireel/playback/playback_visibility.dart"
+  },
+  {
+    "offset": 2550796,
+    "value": "package:media_kit/src/player/native/core/initializer_native_callable.dart"
+  },
+  {
+    "offset": 2551204,
+    "value": "CREATE TABLE settings (key TEXT PRIMARY KEY, value TEXT NOT NULL)"
+  },
+  {
+    "offset": 2551804,
+    "value": "TVSearchScreen"
+  },
+  {
+    "offset": 2551868,
+    "value": "package:jni/src/types.dart"
+  },
+  {
+    "offset": 2552044,
+    "value": "updateRenderObject"
+  },
+  {
+    "offset": 2552100,
+    "value": "package:flutter/src/widgets/magnifier.dart"
+  },
+  {
+    "offset": 2552444,
+    "value": "package:minireel/data/sources/source_adapter.dart"
+  },
+  {
+    "offset": 2552788,
+    "value": "package:flutter/src/gestures/gesture_settings.dart"
+  },
+  {
+    "offset": 2553676,
+    "value": "hongguo:web-search"
+  },
+  {
+    "offset": 2553892,
+    "value": "package:minireel/playback/buffered_playback_engine.dart"
+  },
+  {
+    "offset": 2554364,
+    "value": "package:minireel/data/sources/hongguo/hongguo_device.dart"
+  },
+  {
+    "offset": 2555364,
+    "value": "package:dio/src/response.dart"
+  },
+  {
+    "offset": 2556140,
+    "value": "updateChildren"
+  },
+  {
+    "offset": 2557124,
+    "value": "package:flutter/src/widgets/media_query.dart"
+  },
+  {
+    "offset": 2559028,
+    "value": "package:flutter/src/foundation/collections.dart"
+  },
+  {
+    "offset": 2559460,
+    "value": "searchWebForSelection"
+  },
+  {
+    "offset": 2559684,
+    "value": "get:episode"
+  },
+  {
+    "offset": 2560284,
+    "value": "FavoriteRecall1"
+  },
+  {
+    "offset": 2560668,
+    "value": "package:flutter/src/services/message_codecs.dart"
+  },
+  {
+    "offset": 2561924,
+    "value": "package:minireel/playback/playback_session.dart"
+  },
+  {
+    "offset": 2562084,
+    "value": "package:vector_math/src/vector_math_64/vector3.dart"
+  },
+  {
+    "offset": 2562148,
+    "value": "package:flutter/src/cupertino/slider.dart"
+  },
+  {
+    "offset": 2562876,
+    "value": "package:flutter/src/material/text_selection.dart"
+  },
+  {
+    "offset": 2564084,
+    "value": "_stopSelectionStartEdgeUpdate@191379720"
+  },
+  {
+    "offset": 2564580,
+    "value": "package:minireel/data/repositories/drama_repository.dart"
+  },
+  {
+    "offset": 2564724,
+    "value": "package:flutter/src/painting/box_fit.dart"
+  },
+  {
+    "offset": 2564948,
+    "value": "package:sqflite_common/src/batch.dart"
+  },
+  {
+    "offset": 2565180,
+    "value": "package:minireel/features/feed/feed_ranking_badge.dart"
+  },
+  {
+    "offset": 2566340,
+    "value": "package:flutter/src/services/raw_keyboard_fuchsia.dart"
+  },
+  {
+    "offset": 2566748,
+    "value": "package:flutter/src/services/platform_channel.dart"
+  },
+  {
+    "offset": 2566916,
+    "value": "package:media_kit/src/models/playable.dart"
+  },
+  {
+    "offset": 2567028,
+    "value": "package:minireel/features/shared/drama_badges.dart"
+  },
+  {
+    "offset": 2567220,
+    "value": "_episodes@131068983"
+  },
+  {
+    "offset": 2567772,
+    "value": "package:flutter/src/widgets/text_selection_toolbar_anchors.dart"
+  },
+  {
+    "offset": 2567852,
+    "value": "package:flutter_staggered_grid_view/src/widgets/sliver_masonry_grid.dart"
+  },
+  {
+    "offset": 2567940,
+    "value": "package:flutter/src/widgets/async.dart"
+  },
+  {
+    "offset": 2568564,
+    "value": "package:screen_brightness_platform_interface/screen_brightness_platform_interface.dart"
+  },
+  {
+    "offset": 2569577,
+    "value": "  https://api.flutter.dev/flutter/dart-ui/ChannelBuffers-class.html"
+  },
+  {
+    "offset": 2570948,
+    "value": "package:minireel/data/sources/hongguo/hongguo_playback_codec.dart"
+  },
+  {
+    "offset": 2571828,
+    "value": "SearchSeries"
+  },
+  {
+    "offset": 2572948,
+    "value": "package:flutter/src/material/divider.dart"
+  },
+  {
+    "offset": 2574380,
+    "value": "SqlBuilder.update"
+  },
+  {
+    "offset": 2574492,
+    "value": "_updateOpacity@40160605"
+  },
+  {
+    "offset": 2574996,
+    "value": "dramaColumns"
+  },
+  {
+    "offset": 2575404,
+    "value": "didUpdateTweens"
+  },
+  {
+    "offset": 2576260,
+    "value": "_updateSnackBar@82420462"
+  },
+  {
+    "offset": 2577428,
+    "value": "package:flutter/src/cupertino/activity_indicator.dart"
+  },
+  {
+    "offset": 2577948,
+    "value": "_updateIdleRelease@808188893"
+  },
+  {
+    "offset": 2578036,
+    "value": "updateDependencies"
+  },
+  {
+    "offset": 2578532,
+    "value": "package:minireel/data/sources/hongguo/hongguo_catalog_service.dart"
+  },
+  {
+    "offset": 2579076,
+    "value": "package:dio/src/response/response_stream_handler.dart"
+  },
+  {
+    "offset": 2579988,
+    "value": "package:minireel/features/player/player_screen.dart"
+  },
+  {
+    "offset": 2580356,
+    "value": "package:flutter/src/services/raw_keyboard_ios.dart"
+  },
+  {
+    "offset": 2580508,
+    "value": "UndoHistory"
+  },
+  {
+    "offset": 2580924,
+    "value": "search_(keyword)/page"
+  },
+  {
+    "offset": 2581380,
+    "value": "c.episode_count, c.rowid"
+  },
+  {
+    "offset": 2583028,
+    "value": "https://dav.example.com/remote.php/dav"
+  },
+  {
+    "offset": 2584044,
+    "value": "package:flutter/src/foundation/assertions.dart"
+  },
+  {
+    "offset": 2584252,
+    "value": "package:minireel/data/sources/hongguo/hongguo_search_text.dart"
+  },
+  {
+    "offset": 2584932,
+    "value": "package:flutter/src/material/button_style_button.dart"
+  },
+  {
+    "offset": 2585404,
+    "value": "_getHorizontalDragUpdateHandler@71132872"
+  },
+  {
+    "offset": 2586564,
+    "value": "endEdgeUpdate"
+  },
+  {
+    "offset": 2586596,
+    "value": "package:flutter/src/services/_background_isolate_binary_messenger_io.dart"
+  },
+  {
+    "offset": 2586996,
+    "value": "package:media_kit/src/player/native/utils/temp_file.dart"
+  },
+  {
+    "offset": 2587108,
+    "value": "Read more about status codes at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
+  },
+  {
+    "offset": 2588140,
+    "value": "package:flutter/src/widgets/scrollable_helpers.dart"
+  },
+  {
+    "offset": 2589004,
+    "value": "feed-search"
+  },
+  {
+    "offset": 2589332,
+    "value": "FavoriteClear1"
+  },
+  {
+    "offset": 2590316,
+    "value": "updateConfig"
+  },
+  {
+    "offset": 2590380,
+    "value": "_updateAttributedFields@33266271"
+  },
+  {
+    "offset": 2590884,
+    "value": "_MiniReelBootstrapState@861361011"
+  },
+  {
+    "offset": 2591244,
+    "value": "shouldUpdateMatrix"
+  },
+  {
+    "offset": 2593092,
+    "value": "package:package_info_plus/package_info_plus.dart"
+  },
+  {
+    "offset": 2595436,
+    "value": "package:flutter/src/material/banner_theme.dart"
+  },
+  {
+    "offset": 2596004,
+    "value": "TextInputClient.updateEditingStateWithDeltas"
+  },
+  {
+    "offset": 2596204,
+    "value": "_updateSemantics@23065589"
+  },
+  {
+    "offset": 2596428,
+    "value": "_updateSemanticsNodeGeometry@33266271"
+  },
+  {
+    "offset": 2597452,
+    "value": "_flushHistoryUpdates@44124995"
+  },
+  {
+    "offset": 2598468,
+    "value": "package:flutter/src/foundation/observer_list.dart"
+  },
+  {
+    "offset": 2598884,
+    "value": "_updateAnimations@82420462"
+  },
+  {
+    "offset": 2598948,
+    "value": "package:uuid/data.dart"
+  },
+  {
+    "offset": 2599444,
+    "value": "_handleDragUpdate@234348729"
+  },
+  {
+    "offset": 2599516,
+    "value": "package:flutter/src/widgets/navigation_toolbar.dart"
+  },
+  {
+    "offset": 2600868,
+    "value": "_updateSubtreeCompositionObserverCount@239518307"
+  },
+  {
+    "offset": 2601396,
+    "value": "_recursivelyUpdateManager@75347053"
+  },
+  {
+    "offset": 2601828,
+    "value": "package:media_kit/src/models/audio_params.dart"
+  },
+  {
+    "offset": 2601892,
+    "value": "series_episode_info"
+  },
+  {
+    "offset": 2601924,
+    "value": "_updateEffectiveMode@29311458"
+  },
+  {
+    "offset": 2601996,
+    "value": "package:flutter/src/widgets/inherited_theme.dart"
+  },
+  {
+    "offset": 2602452,
+    "value": "package:flutter_staggered_grid_view/src/foundation/extensions.dart"
+  },
+  {
+    "offset": 2603300,
+    "value": "package:minireel/domain/models/playback_source.dart"
+  },
+  {
+    "offset": 2605100,
+    "value": "package:flutter/src/material/desktop_text_selection_toolbar.dart"
+  },
+  {
+    "offset": 2605844,
+    "value": "DramaDetail.fromJson"
+  },
+  {
+    "offset": 2606404,
+    "value": "package:flutter/src/cupertino/colors.dart"
+  },
+  {
+    "offset": 2606604,
+    "value": "package:intl/number_symbols_data.dart"
+  },
+  {
+    "offset": 2607260,
+    "value": "didUpdateScrollPositionBy"
+  },
+  {
+    "offset": 2607964,
+    "value": "package:flutter/src/material/tooltip.dart"
+  },
+  {
+    "offset": 2608180,
+    "value": "_updateSelectionOverlay@77111801"
+  },
+  {
+    "offset": 2610988,
+    "value": "_UpdateTextSelectionVerticallyAction@176183791"
+  },
+  {
+    "offset": 2611308,
+    "value": "package:minireel/domain/models/remote_key_map.dart"
+  },
+  {
+    "offset": 2611868,
+    "value": "package:http_parser/src/scan.dart"
+  },
+  {
+    "offset": 2612524,
+    "value": "package:flutter/src/widgets/view.dart"
+  },
+  {
+    "offset": 2613004,
+    "value": "get:canSearchRemote"
+  },
+  {
+    "offset": 2613684,
+    "value": "markNeedsUpdate"
+  },
+  {
+    "offset": 2614084,
+    "value": "package:flutter/src/widgets/size_changed_layout_notifier.dart"
+  },
+  {
+    "offset": 2614164,
+    "value": "Drama"
+  },
+  {
+    "offset": 2614292,
+    "value": "accessibleEpisodeCount"
+  },
+  {
+    "offset": 2614332,
+    "value": "init:_unfavoriteScale@205463832"
+  },
+  {
+    "offset": 2614676,
+    "value": "package:flutter/src/material/selectable_text.dart"
+  },
+  {
+    "offset": 2615044,
+    "value": "package:media_kit/src/models/video_params.dart"
+  },
+  {
+    "offset": 2615628,
+    "value": "package:flutter/src/gestures/drag.dart"
+  },
+  {
+    "offset": 2615876,
+    "value": "local-search-results"
+  },
+  {
+    "offset": 2616748,
+    "value": "package:flutter/src/services/asset_manifest.dart"
+  },
+  {
+    "offset": 2617196,
+    "value": "package:dio/src/interceptors/imply_content_type.dart"
+  },
+  {
+    "offset": 2617812,
+    "value": "_search@713500250"
+  },
+  {
+    "offset": 2618116,
+    "value": "package:dio/src/transformers/util/transform_empty_to_null.dart"
+  },
+  {
+    "offset": 2618572,
+    "value": "package:flutter/src/gestures/gesture_details.dart"
+  },
+  {
+    "offset": 2618740,
+    "value": "package:flutter/src/material/card.dart"
+  },
+  {
+    "offset": 2620372,
+    "value": "package:flutter/src/painting/image_stream.dart"
+  },
+  {
+    "offset": 2622972,
+    "value": "updateSubtreeNeedsAddToScene"
+  },
+  {
+    "offset": 2623244,
+    "value": "episode_count"
+  },
+  {
+    "offset": 2624340,
+    "value": "remote-search-results"
+  },
+  {
+    "offset": 2624820,
+    "value": "_updateBucketIfNecessary@74384654"
+  },
+  {
+    "offset": 2625324,
+    "value": "package:flutter/src/widgets/disposable_build_context.dart"
+  },
+  {
+    "offset": 2625652,
+    "value": "_triggerSelectionEndEdgeUpdate@191379720"
+  },
+  {
+    "offset": 2626460,
+    "value": "package:window_manager/src/window_listener.dart"
+  },
+  {
+    "offset": 2627228,
+    "value": "titleSearchRank"
+  },
+  {
+    "offset": 2627372,
+    "value": "package:flutter/src/animation/curves.dart"
+  },
+  {
+    "offset": 2628124,
+    "value": "package:flutter/src/material/action_chip.dart"
+  },
+  {
+    "offset": 2629156,
+    "value": "HongguoSearchService."
+  },
+  {
+    "offset": 2629300,
+    "value": "updated_at"
+  },
+  {
+    "offset": 2631188,
+    "value": "package:flutter/src/scheduler/binding.dart"
+  },
+  {
+    "offset": 2631316,
+    "value": "normalizeSearchKeyword"
+  },
+  {
+    "offset": 2632372,
+    "value": "updateScrub"
+  },
+  {
+    "offset": 2632884,
+    "value": "HongguoAdapter"
+  },
+  {
+    "offset": 2632956,
+    "value": "FavoriteClear0"
+  },
+  {
+    "offset": 2633516,
+    "value": "package:flutter/src/material/elevated_button_theme.dart"
+  },
+  {
+    "offset": 2633876,
+    "value": "package:flutter/src/gestures/tap_and_drag.dart"
+  },
+  {
+    "offset": 2633972,
+    "value": "ai-drama"
+  },
+  {
+    "offset": 2633996,
+    "value": "hongguo:identity"
+  },
+  {
+    "offset": 2634836,
+    "value": "package:flutter/src/animation/listener_helpers.dart"
+  },
+  {
+    "offset": 2635164,
+    "value": "_updateLabelPainter@113231897"
+  },
+  {
+    "offset": 2635252,
+    "value": "package:flutter/src/material/date_picker_theme.dart"
+  },
+  {
+    "offset": 2635620,
+    "value": "package:flutter/src/widgets/icon_theme_data.dart"
+  },
+  {
+    "offset": 2636116,
+    "value": "package:flutter/src/gestures/team.dart"
+  },
+  {
+    "offset": 2636956,
+    "value": "package:vector_math/src/vector_math_64/matrix3.dart"
+  },
+  {
+    "offset": 2637980,
+    "value": "engineForEpisode"
+  },
+  {
+    "offset": 2639020,
+    "value": "package:flutter/src/foundation/isolates.dart"
+  },
+  {
+    "offset": 2639172,
+    "value": "_EpisodeRangeLabel@803159823"
+  },
+  {
+    "offset": 2639660,
+    "value": "package:flutter/src/material/app_bar_theme.dart"
+  },
+  {
+    "offset": 2640236,
+    "value": "onPanUpdate"
+  },
+  {
+    "offset": 2640612,
+    "value": "package:flutter/src/rendering/sliver_fixed_extent_list.dart"
+  },
+  {
+    "offset": 2641204,
+    "value": "package:flutter/src/rendering/stack.dart"
+  },
+  {
+    "offset": 2641564,
+    "value": "HongguoTaxonomyService"
+  },
+  {
+    "offset": 2642276,
+    "value": "handleUpdateBackGestureProgress"
+  },
+  {
+    "offset": 2643452,
+    "value": "dramaBadges"
+  },
+  {
+    "offset": 2643964,
+    "value": " episode="
+  },
+  {
+    "offset": 2643988,
+    "value": "package:minireel/features/feed/recommendation_policy.dart"
+  },
+  {
+    "offset": 2644668,
+    "value": "package:media_kit/src/models/player_stream.dart"
+  },
+  {
+    "offset": 2646524,
+    "value": "_handleAnimationUpdate@289011697"
+  },
+  {
+    "offset": 2646596,
+    "value": "package:flutter/src/physics/spring_simulation.dart"
+  },
+  {
+    "offset": 2647620,
+    "value": "package:flutter/src/widgets/text.dart"
+  },
+  {
+    "offset": 2648236,
+    "value": "package:flutter/src/material/scaffold.dart"
+  },
+  {
+    "offset": 2648604,
+    "value": "package:minireel/features/feed/feed_gesture_surface.dart"
+  },
+  {
+    "offset": 2650668,
+    "value": "_updateParentData@20042623"
+  },
+  {
+    "offset": 2651172,
+    "value": "package:synchronized/synchronized.dart"
+  },
+  {
+    "offset": 2651916,
+    "value": "_didUpdatePainter@69012902"
+  },
+  {
+    "offset": 2653060,
+    "value": "package:minireel/features/settings/catalog_directory_list.dart"
+  },
+  {
+    "offset": 2654380,
+    "value": "package:minireel/features/mine/mine_screen.dart"
+  },
+  {
+    "offset": 2654828,
+    "value": "HongguoDetailService."
+  },
+  {
+    "offset": 2655412,
+    "value": "package:sqflite/src/factory_impl.dart"
+  },
+  {
+    "offset": 2657476,
+    "value": "_updateWith@82420462"
+  },
+  {
+    "offset": 2657900,
+    "value": "DramaCard"
+  },
+  {
+    "offset": 2658100,
+    "value": "SemanticsUpdateBuilder::updateCustomAction"
+  },
+  {
+    "offset": 2658404,
+    "value": "episode_count INTEGER NOT NULL DEFAULT 0"
+  },
+  {
+    "offset": 2659212,
+    "value": "hongguo:app:category:"
+  },
+  {
+    "offset": 2659428,
+    "value": "package:minireel/playback/playback_diagnostics.dart"
+  },
+  {
+    "offset": 2660116,
+    "value": "WebDavSettingsScreen"
+  },
+  {
+    "offset": 2660404,
+    "value": "updateForScroll"
+  },
+  {
+    "offset": 2661148,
+    "value": "MiniReelBootstrap"
+  },
+  {
+    "offset": 2661404,
+    "value": "package:flutter/src/widgets/scroll_notification.dart"
+  },
+  {
+    "offset": 2661796,
+    "value": "package:flutter/src/widgets/desktop_text_selection_toolbar_layout_delegate.dart"
+  },
+  {
+    "offset": 2662116,
+    "value": "_scheduleSelectableUpdate@191379720"
+  },
+  {
+    "offset": 2662732,
+    "value": "UndoHistoryValue"
+  },
+  {
+    "offset": 2662804,
+    "value": "package:media_kit_video/src/utils/dispose_safe_notifer.dart"
+  },
+  {
+    "offset": 2663060,
+    "value": "package:media_kit_video/media_kit_video_controls/src/controls/widgets/fullscreen_inherited_widget.dart"
+  },
+  {
+    "offset": 2663684,
+    "value": "_updateWT@631013397"
+  },
+  {
+    "offset": 2663756,
+    "value": "package:flutter/src/material/bottom_sheet_theme.dart"
+  },
+  {
+    "offset": 2664540,
+    "value": "updateSlotForChild"
+  },
+  {
+    "offset": 2665540,
+    "value": "package:minireel/features/shared/history_builder.dart"
+  },
+  {
+    "offset": 2665684,
+    "value": "package:sqflite_common/src/collection_utils.dart"
+  },
+  {
+    "offset": 2665948,
+    "value": "package:sqflite_platform_interface/src/factory_platform.dart"
+  },
+  {
+    "offset": 2666460,
+    "value": "updateSize"
+  },
+  {
+    "offset": 2667060,
+    "value": "realDrama"
+  },
+  {
+    "offset": 2667908,
+    "value": "mine-favorites"
+  },
+  {
+    "offset": 2667940,
+    "value": "package:minireel/features/detail/episode_grid.dart"
+  },
+  {
+    "offset": 2668164,
+    "value": "_updateSelectionStatus@191379720"
+  },
+  {
+    "offset": 2668260,
+    "value": "package:flutter_localizations/src/l10n/generated_material_localizations.dart"
+  },
+  {
+    "offset": 2668628,
+    "value": "_SearchKeyword@815310586"
+  },
+  {
+    "offset": 2668916,
+    "value": "package:ffi/src/utf16.dart"
+  },
+  {
+    "offset": 2669724,
+    "value": "addSearch"
+  },
+  {
+    "offset": 2670948,
+    "value": "package:flutter/src/widgets/lookup_boundary.dart"
+  },
+  {
+    "offset": 2671236,
+    "value": "package:term_glyph/src/generated/top_level.dart"
+  },
+  {
+    "offset": 2672868,
+    "value": "searches"
+  },
+  {
+    "offset": 2673372,
+    "value": "_HistoryProperty@44124995"
+  },
+  {
+    "offset": 2674700,
+    "value": "package:flutter/src/rendering/animated_size.dart"
+  },
+  {
+    "offset": 2674788,
+    "value": "updateMode"
+  },
+  {
+    "offset": 2675028,
+    "value": "package:flutter/src/services/raw_keyboard_windows.dart"
+  },
+  {
+    "offset": 2675180,
+    "value": "package:minireel/playback/playback_engine.dart"
+  },
+  {
+    "offset": 2675564,
+    "value": "package:flutter_localizations/src/utils/date_localizations.dart"
+  },
+  {
+    "offset": 2676204,
+    "value": "set:searchService"
+  },
+  {
+    "offset": 2676948,
+    "value": "saveSearches"
+  },
+  {
+    "offset": 2678340,
+    "value": "package:flutter/src/rendering/proxy_box.dart"
+  },
+  {
+    "offset": 2679132,
+    "value": "package:media_kit/src/player/native/utils/native_reference_holder.dart"
+  },
+  {
+    "offset": 2679572,
+    "value": "package:minireel/features/shared/portrait_video_layout.dart"
+  },
+  {
+    "offset": 2680092,
+    "value": "package:flutter/src/widgets/icon_data.dart"
+  },
+  {
+    "offset": 2680268,
+    "value": "package:flutter/src/material/filled_button.dart"
+  },
+  {
+    "offset": 2680444,
+    "value": "package:flutter/src/widgets/page_storage.dart"
+  },
+  {
+    "offset": 2681388,
+    "value": "package:sqflite_common/sqlite_api.dart"
+  },
+  {
+    "offset": 2681868,
+    "value": "package:pointycastle/src/api/key_parameter.dart"
+  },
+  {
+    "offset": 2681988,
+    "value": "_changeEpisode@128218941"
+  },
+  {
+    "offset": 2682172,
+    "value": "package:flutter/src/semantics/semantics_service.dart"
+  },
+  {
+    "offset": 2682580,
+    "value": "HistoryBuilder"
+  },
+  {
+    "offset": 2683492,
+    "value": "package:minireel/features/shared/now_playing_indicator.dart"
+  },
+  {
+    "offset": 2683620,
+    "value": "package:dio/src/redirect_record.dart"
+  },
+  {
+    "offset": 2683708,
+    "value": "package:flutter/src/material/checkbox_theme.dart"
+  },
+  {
+    "offset": 2683804,
+    "value": "HongguoAppClient"
+  },
+  {
+    "offset": 2684420,
+    "value": "package:flutter/src/widgets/inherited_model.dart"
+  },
+  {
+    "offset": 2685356,
+    "value": "package:minireel/data/repositories/source_search.dart"
+  },
+  {
+    "offset": 2685492,
+    "value": "SelectionEdgeUpdateEvent"
+  },
+  {
+    "offset": 2687708,
+    "value": "SemanticsUpdateBuilder::build"
+  },
+  {
+    "offset": 2687756,
+    "value": "package:minireel/features/tv/tv_library_screen.dart"
+  },
+  {
+    "offset": 2687836,
+    "value": "_updateCurveDirection@62411118"
+  },
+  {
+    "offset": 2687956,
+    "value": "DROP INDEX IF EXISTS catalog_channel_episode_count"
+  },
+  {
+    "offset": 2688348,
+    "value": "package:pointycastle/digests/sha256.dart"
+  },
+  {
+    "offset": 2688828,
+    "value": "package:minireel/data/sources/hongguo/hongguo_taxonomy_service.dart"
+  },
+  {
+    "offset": 2689828,
+    "value": "package:flutter/src/widgets/sliver.dart"
+  },
+  {
+    "offset": 2692260,
+    "value": "package:flutter/src/widgets/page_view.dart"
+  },
+  {
+    "offset": 2693788,
+    "value": "package:screen_brightness_platform_interface/extension/num_extension.dart"
+  },
+  {
+    "offset": 2693948,
+    "value": "tv-search-input"
+  },
+  {
+    "offset": 2694148,
+    "value": "package:flutter/src/services/text_boundary.dart"
+  },
+  {
+    "offset": 2694764,
+    "value": "package:minireel/playback/device_controls.dart"
+  },
+  {
+    "offset": 2695396,
+    "value": "set:onHorizontalDragUpdate"
+  },
+  {
+    "offset": 2695436,
+    "value": "CoverMetadataSource"
+  },
+  {
+    "offset": 2695500,
+    "value": "package:flutter/src/gestures/converter.dart"
+  },
+  {
+    "offset": 2696100,
+    "value": "package:jni/src/errors.dart"
+  },
+  {
+    "offset": 2696364,
+    "value": "_TransformedPointerPanZoomUpdateEvent@34050165"
+  },
+  {
+    "offset": 2696692,
+    "value": "package:string_scanner/src/utils.dart"
+  },
+  {
+    "offset": 2696924,
+    "value": "delayedPerformAnimationUpdate"
+  },
+  {
+    "offset": 2697692,
+    "value": "package:minireel/core/errors/app_exception.dart"
+  },
+  {
+    "offset": 2697812,
+    "value": "package:minireel/features/settings/catalog_sync_screen.dart"
+  },
+  {
+    "offset": 2698204,
+    "value": "ScrollUpdateNotification"
+  },
+  {
+    "offset": 2699140,
+    "value": "_updateDisplays@23065589"
+  },
+  {
+    "offset": 2699844,
+    "value": "package:flutter/src/material/desktop_text_selection_toolbar_button.dart"
+  },
+  {
+    "offset": 2701268,
+    "value": "_updateColorFilter@355402377"
+  },
+  {
+    "offset": 2702020,
+    "value": "package:sqflite_common/src/factory_mixin.dart"
+  },
+  {
+    "offset": 2702172,
+    "value": "package:material_color_utilities/hct/viewing_conditions.dart"
+  },
+  {
+    "offset": 2702628,
+    "value": "_updateSelectedContentIfNeeded@191379720"
+  },
+  {
+    "offset": 2703140,
+    "value": "package:characters/src/characters_impl.dart"
+  },
+  {
+    "offset": 2703804,
+    "value": "package:flutter/src/material/action_icons_theme.dart"
+  },
+  {
+    "offset": 2704564,
+    "value": "package:flutter/src/material/page_transitions_theme.dart"
+  },
+  {
+    "offset": 2704844,
+    "value": "favorites"
+  },
+  {
+    "offset": 2705220,
+    "value": "removeFavorites"
+  },
+  {
+    "offset": 2705532,
+    "value": "handleSelectionEdgeUpdate"
+  },
+  {
+    "offset": 2706164,
+    "value": "playEpisode"
+  },
+  {
+    "offset": 2706388,
+    "value": "package:flutter/src/widgets/scroll_configuration.dart"
+  },
+  {
+    "offset": 2708004,
+    "value": "package:"
+  },
+  {
+    "offset": 2709180,
+    "value": "TVEpisodePicker"
+  },
+  {
+    "offset": 2709372,
+    "value": "package:minireel/domain/models/catalog_page.dart"
+  },
+  {
+    "offset": 2711868,
+    "value": "package:flutter/src/rendering/sliver_grid.dart"
+  },
+  {
+    "offset": 2713588,
+    "value": "package:flutter/src/widgets/automatic_keep_alive.dart"
+  },
+  {
+    "offset": 2713972,
+    "value": "package:flutter/src/widgets/display_feature_sub_screen.dart"
+  },
+  {
+    "offset": 2715180,
+    "value": "HongguoSuggestionService"
+  },
+  {
+    "offset": 2717124,
+    "value": "package:flutter/src/material/elevation_overlay.dart"
+  },
+  {
+    "offset": 2717764,
+    "value": "package:flutter/src/painting/image_resolution.dart"
+  },
+  {
+    "offset": 2718204,
+    "value": "searchList"
+  },
+  {
+    "offset": 2718228,
+    "value": "(c.episode_count <= 0) = 0"
+  },
+  {
+    "offset": 2718316,
+    "value": "maybeGestureSettingsOf"
+  },
+  {
+    "offset": 2718356,
+    "value": "package:flutter/src/foundation/stack_frame.dart"
+  },
+  {
+    "offset": 2720092,
+    "value": "_updateAnimations@105428833"
+  },
+  {
+    "offset": 2720132,
+    "value": "package:intl/src/intl/date_format.dart"
+  },
+  {
+    "offset": 2720220,
+    "value": "package:flutter_localizations/src/l10n/generated_cupertino_localizations.dart"
+  },
+  {
+    "offset": 2720604,
+    "value": "_updateCallingAction@65441002"
+  },
+  {
+    "offset": 2721972,
+    "value": "package:flutter/src/material/dialog_theme.dart"
+  },
+  {
+    "offset": 2722156,
+    "value": "package:minireel/app/app.dart"
+  },
+  {
+    "offset": 2722468,
+    "value": "_repositoryChanged@127370909"
+  },
+  {
+    "offset": 2725212,
+    "value": "package:pointycastle/digests/sha512.dart"
+  },
+  {
+    "offset": 2725356,
+    "value": "DeviceGestureSettings.fromView"
+  },
+  {
+    "offset": 2726180,
+    "value": "DramaChannel."
+  },
+  {
+    "offset": 2726212,
+    "value": "hongguo:web:category:"
+  },
+  {
+    "offset": 2726916,
+    "value": "package:wakelock_plus/wakelock_plus.dart"
+  },
+  {
+    "offset": 2727332,
+    "value": "package:flutter_localizations/src/widgets_localizations.dart"
+  },
+  {
+    "offset": 2727804,
+    "value": "DragUpdateDetails."
+  },
+  {
+    "offset": 2728348,
+    "value": "package:flutter/src/physics/tolerance.dart"
+  },
+  {
+    "offset": 2728404,
+    "value": "package:term_glyph/src/generated/unicode_glyph_set.dart"
+  },
+  {
+    "offset": 2728788,
+    "value": "package:flutter/src/widgets/icon_theme.dart"
+  },
+  {
+    "offset": 2729660,
+    "value": "Search Web"
+  },
+  {
+    "offset": 2729756,
+    "value": "package:flutter/src/material/expansion_tile_theme.dart"
+  },
+  {
+    "offset": 2730076,
+    "value": "package:minireel/features/shared/playback_glyph.dart"
+  },
+  {
+    "offset": 2730412,
+    "value": "PointerPanZoomUpdateEvent"
+  },
+  {
+    "offset": 2730500,
+    "value": "DramaBadgeKind"
+  },
+  {
+    "offset": 2731436,
+    "value": "package:flutter/src/material/menu_bar_theme.dart"
+  },
+  {
+    "offset": 2731916,
+    "value": "package:minireel/main.dart"
+  },
+  {
+    "offset": 2731988,
+    "value": "package:characters/src/grapheme_clusters/breaks.dart"
+  },
+  {
+    "offset": 2732828,
+    "value": "_handleDragUpdate@77111801"
+  },
+  {
+    "offset": 2734180,
+    "value": "package:material_color_utilities/contrast/contrast.dart"
+  },
+  {
+    "offset": 2734300,
+    "value": "package:flutter/src/widgets/focus_scope.dart"
+  },
+  {
+    "offset": 2734524,
+    "value": "_MiniReelAppState@21229250."
+  },
+  {
+    "offset": 2734596,
+    "value": "package:flutter/src/widgets/scroll_position_with_single_context.dart"
+  },
+  {
+    "offset": 2735196,
+    "value": "TVDramaCard"
+  },
+  {
+    "offset": 2735372,
+    "value": "package:vector_math/vector_math_64.dart"
+  },
+  {
+    "offset": 2735564,
+    "value": "package:flutter/src/widgets/single_child_scroll_view.dart"
+  },
+  {
+    "offset": 2735636,
+    "value": "package:flutter/src/material/tab_bar_theme.dart"
+  },
+  {
+    "offset": 2735740,
+    "value": "package:flutter/src/widgets/text_editing_intents.dart"
+  },
+  {
+    "offset": 2737316,
+    "value": "package:uuid/parsing.dart"
+  },
+  {
+    "offset": 2737716,
+    "value": "package:minireel/features/library/catalog_browser.dart"
+  },
+  {
+    "offset": 2738252,
+    "value": "package:minireel/features/detail/detail_sheet.dart"
+  },
+  {
+    "offset": 2738596,
+    "value": "isFavorite"
+  },
+  {
+    "offset": 2738692,
+    "value": "hongguo:web:search:"
+  },
+  {
+    "offset": 2739308,
+    "value": "package:minireel/features/library/catalog_filters.dart"
+  },
+  {
+    "offset": 2739956,
+    "value": "TextInput.updateConfig"
+  },
+  {
+    "offset": 2740476,
+    "value": "package:flutter/src/widgets/widget_state.dart"
+  },
+  {
+    "offset": 2741260,
+    "value": "hongguoNumber"
+  },
+  {
+    "offset": 2741636,
+    "value": "package:minireel/features/library/catalog_data_window.dart"
+  },
+  {
+    "offset": 2742372,
+    "value": "package:flutter/src/painting/image_cache.dart"
+  },
+  {
+    "offset": 2742532,
+    "value": "episode-group-"
+  },
+  {
+    "offset": 2742596,
+    "value": "package:flutter/src/gestures/recognizer.dart"
+  },
+  {
+    "offset": 2742996,
+    "value": "_MiniReelAppState@21229250"
+  },
+  {
+    "offset": 2743244,
+    "value": "CREATE TABLE details (id TEXT PRIMARY KEY, payload TEXT NOT NULL, updated_at INTEGER NOT NULL)"
+  },
+  {
+    "offset": 2745444,
+    "value": "package:flutter/src/widgets/overflow_bar.dart"
+  },
+  {
+    "offset": 2745732,
+    "value": "_updateSiblingNodesGeometries@33266271"
+  },
+  {
+    "offset": 2745860,
+    "value": "_handleDragUpdate@103053933"
+  },
+  {
+    "offset": 2746324,
+    "value": "_updateLockHover@712144908"
+  },
+  {
+    "offset": 2746364,
+    "value": "package:sqflite_android/sqflite_android.dart"
+  },
+  {
+    "offset": 2746644,
+    "value": "package:flutter/src/painting/decoration.dart"
+  },
+  {
+    "offset": 2747652,
+    "value": "_handleDragUpdate@115328938"
+  },
+  {
+    "offset": 2747852,
+    "value": "package:flutter/src/gestures/monodrag.dart"
+  },
+  {
+    "offset": 2748284,
+    "value": "package:minireel/data/sources/hongguo/hongguo_parser.dart"
+  },
+  {
+    "offset": 2749092,
+    "value": "package:screen_brightness/screen_brightness.dart"
+  },
+  {
+    "offset": 2749492,
+    "value": "package:http_parser/src/case_insensitive_map.dart"
+  },
+  {
+    "offset": 2749604,
+    "value": "_updateSelectionOverlay@191379720"
+  },
+  {
+    "offset": 2750476,
+    "value": "package:characters/src/characters.dart"
+  },
+  {
+    "offset": 2751140,
+    "value": "update_64"
+  },
+  {
+    "offset": 2751636,
+    "value": "package:flutter/src/widgets/image_filter.dart"
+  },
+  {
+    "offset": 2751852,
+    "value": "RouteSettings"
+  },
+  {
+    "offset": 2752228,
+    "value": "package:media_kit/src/models/audio_device.dart"
+  },
+  {
+    "offset": 2753092,
+    "value": "_History@44124995."
+  },
+  {
+    "offset": 2753268,
+    "value": "package:flutter/src/gestures/drag_details.dart"
+  },
+  {
+    "offset": 2753380,
+    "value": "_updateInheritance@20042623"
+  },
+  {
+    "offset": 2754508,
+    "value": "_dramasFrom@767260260"
+  },
+  {
+    "offset": 2755572,
+    "value": "package:sqflite_platform_interface/sqflite_platform_interface.dart"
+  },
+  {
+    "offset": 2756020,
+    "value": "updateChild"
+  },
+  {
+    "offset": 2756044,
+    "value": "package:flutter/src/scheduler/priority.dart"
+  },
+  {
+    "offset": 2756340,
+    "value": "SELECT MIN(t.label) AS label, COUNT(*) AS n FROM catalog_tags t JOIN catalog c ON c.id = t.drama_id WHERE "
+  },
+  {
+    "offset": 2756900,
+    "value": "package:flutter/src/widgets/draggable_scrollable_sheet.dart"
+  },
+  {
+    "offset": 2757092,
+    "value": "package:flutter/src/material/slider_theme.dart"
+  },
+  {
+    "offset": 2757860,
+    "value": "package:uuid/rng.dart"
+  },
+  {
+    "offset": 2758420,
+    "value": "package:flutter/src/painting/rounded_rectangle_border.dart"
+  },
+  {
+    "offset": 2758772,
+    "value": "_MixinApplication11&TransitionRoute&LocalHistoryRoute@18353248"
+  },
+  {
+    "offset": 2758932,
+    "value": "package:minireel/playback/playback_audio.dart"
+  },
+  {
+    "offset": 2759380,
+    "value": "setNextDrama"
+  },
+  {
+    "offset": 2759404,
+    "value": "_updateSelectionEndEdgeByTextBoundary@201149678"
+  },
+  {
+    "offset": 2759924,
+    "value": "package:minireel/features/library/catalog_window_card.dart"
+  },
+  {
+    "offset": 2760564,
+    "value": "package:flutter/src/material/slider.dart"
+  },
+  {
+    "offset": 2760804,
+    "value": "package:intl/src/intl/number_format_parser.dart"
+  },
+  {
+    "offset": 2761364,
+    "value": "package:flutter_localizations/src/cupertino_localizations.dart"
+  },
+  {
+    "offset": 2761564,
+    "value": "package:dio/src/compute/compute_io.dart"
+  },
+  {
+    "offset": 2762180,
+    "value": "package:flutter/src/rendering/sliver_group.dart"
+  },
+  {
+    "offset": 2762556,
+    "value": "package:minireel/features/settings/catalog_storage_section.dart"
+  },
+  {
+    "offset": 2763420,
+    "value": "package:flutter/src/widgets/default_text_editing_shortcuts.dart"
+  },
+  {
+    "offset": 2763908,
+    "value": "package:flutter/src/widgets/viewport.dart"
+  },
+  {
+    "offset": 2764156,
+    "value": "_TVSearchScreenState@859313395"
+  },
+  {
+    "offset": 2764788,
+    "value": "package:flutter/src/painting/decoration_image.dart"
+  },
+  {
+    "offset": 2764892,
+    "value": "package:flutter/src/material/predictive_back_page_transitions_builder.dart"
+  },
+  {
+    "offset": 2765028,
+    "value": "package:source_span/src/highlighter.dart"
+  },
+  {
+    "offset": 2765084,
+    "value": "markNeedsSemanticsUpdate"
+  },
+  {
+    "offset": 2765556,
+    "value": "package:flutter/src/material/colors.dart"
+  },
+  {
+    "offset": 2766036,
+    "value": "_NativeSemanticsUpdate@23065589"
+  },
+  {
+    "offset": 2766300,
+    "value": "package:flutter/src/widgets/_window.dart"
+  },
+  {
+    "offset": 2767332,
+    "value": "_updateVF@631013397"
+  },
+  {
+    "offset": 2767396,
+    "value": "package:path_provider/path_provider.dart"
+  },
+  {
+    "offset": 2767980,
+    "value": "package:flutter/src/gestures/hit_test.dart"
+  },
+  {
+    "offset": 2768060,
+    "value": "package:media_kit/src/player/native/utils/android_helper.dart"
+  },
+  {
+    "offset": 2768140,
+    "value": "_updateOrDisposeSelectionOverlayIfNeeded@176183791"
+  },
+  {
+    "offset": 2768820,
+    "value": "package:flutter/src/scheduler/ticker.dart"
+  },
+  {
+    "offset": 2769044,
+    "value": "package:flutter/src/gestures/long_press.dart"
+  },
+  {
+    "offset": 2769180,
+    "value": "package:source_span/src/location.dart"
+  },
+  {
+    "offset": 2770876,
+    "value": "package:flutter/src/material/ink_splash.dart"
+  },
+  {
+    "offset": 2771492,
+    "value": "EpisodePager"
+  },
+  {
+    "offset": 2772060,
+    "value": "package:media_kit_video/media_kit_video_controls/src/controls/widgets/video_state_inherited_widget.dart"
+  },
+  {
+    "offset": 2772572,
+    "value": "_updateResolvedLocale@297081674"
+  },
+  {
+    "offset": 2774476,
+    "value": "_updateGeometryScale@82420462"
+  },
+  {
+    "offset": 2774676,
+    "value": "comic-drama"
+  },
+  {
+    "offset": 2775092,
+    "value": "package:material_color_utilities/dislike/dislike_analyzer.dart"
+  },
+  {
+    "offset": 2775396,
+    "value": "removeHistory"
+  },
+  {
+    "offset": 2775684,
+    "value": "updateSemantics"
+  },
+  {
+    "offset": 2775716,
+    "value": "package:path/path.dart"
+  },
+  {
+    "offset": 2776132,
+    "value": "_updateSelectionRegistrarSubscription@201149678"
+  },
+  {
+    "offset": 2776220,
+    "value": "package:flutter/src/rendering/sliver_fill.dart"
+  },
+  {
+    "offset": 2776860,
+    "value": "package:flutter/src/material/menu_style.dart"
+  },
+  {
+    "offset": 2776964,
+    "value": "package:flutter/src/material/carousel_theme.dart"
+  },
+  {
+    "offset": 2778652,
+    "value": "package:flutter/src/widgets/basic.dart"
+  },
+  {
+    "offset": 2778948,
+    "value": "package:minireel/app/platform.dart"
+  },
+  {
+    "offset": 2779532,
+    "value": "_updateRemoteIds@845212864"
+  },
+  {
+    "offset": 2779620,
+    "value": "package:minireel/data/sources/hongguo/hongguo_metadata.dart"
+  },
+  {
+    "offset": 2780164,
+    "value": "_updateLocales@23065589"
+  },
+  {
+    "offset": 2780380,
+    "value": "_updateCaretRectIfNeeded@176183791"
+  },
+  {
+    "offset": 2780588,
+    "value": "FavoriteFeedback"
+  },
+  {
+    "offset": 2781100,
+    "value": "package:safe_local_storage/file_system.dart"
+  },
+  {
+    "offset": 2781156,
+    "value": "package:flutter/src/rendering/debug_overflow_indicator.dart"
+  },
+  {
+    "offset": 2781364,
+    "value": "updateByte"
+  },
+  {
+    "offset": 2781628,
+    "value": "setFavorite"
+  },
+  {
+    "offset": 2781804,
+    "value": "_handleDragUpdate@180019050"
+  },
+  {
+    "offset": 2782532,
+    "value": "package:flutter/src/material/badge_theme.dart"
+  },
+  {
+    "offset": 2783652,
+    "value": "package:vector_math/src/vector_math_64/quaternion.dart"
+  },
+  {
+    "offset": 2785020,
+    "value": "package:flutter/src/cupertino/thumb_painter.dart"
+  },
+  {
+    "offset": 2785404,
+    "value": "package:pointycastle/api.dart"
+  },
+  {
+    "offset": 2785692,
+    "value": "_updateChild@172024595"
+  },
+  {
+    "offset": 2786476,
+    "value": "TapDragUpdateDetails"
+  },
+  {
+    "offset": 2786564,
+    "value": "_updateAccessibilityFeatures@23065589"
+  },
+  {
+    "offset": 2787516,
+    "value": "_updateWatchClock@709479788"
+  },
+  {
+    "offset": 2787804,
+    "value": "package:flutter/src/painting/shape_decoration.dart"
+  },
+  {
+    "offset": 2788156,
+    "value": "package:sqflite_common/src/arg_utils.dart"
+  },
+  {
+    "offset": 2788476,
+    "value": "CREATE TABLE IF NOT EXISTS catalog_entries (catalog_key TEXT NOT NULL, drama_id TEXT NOT NULL, PRIMARY KEY(catalog_key, drama_id))"
+  },
+  {
+    "offset": 2788620,
+    "value": "package:intl/src/date_format_internal.dart"
+  },
+  {
+    "offset": 2789172,
+    "value": "package:intl/number_symbols.dart"
+  },
+  {
+    "offset": 2789564,
+    "value": "package:media_kit/src/player/native/utils/android_content_uri_provider.dart"
+  },
+  {
+    "offset": 2790044,
+    "value": "PlatformConfigurationNativeApi::SendChannelUpdate"
+  },
+  {
+    "offset": 2791164,
+    "value": "package:path_provider_android/src/path_provider_android_real.dart"
+  },
+  {
+    "offset": 2791996,
+    "value": "package:flutter/src/painting/borders.dart"
+  },
+  {
+    "offset": 2792108,
+    "value": "package:flutter/src/widgets/scroll_aware_image_provider.dart"
+  },
+  {
+    "offset": 2793276,
+    "value": "hongguo:catalog"
+  },
+  {
+    "offset": 2793916,
+    "value": "_handleSelectionEndHandleDragUpdate@77111801"
+  },
+  {
+    "offset": 2794764,
+    "value": "_History@44124995"
+  },
+  {
+    "offset": 2795316,
+    "value": "HongguoWebFallback."
+  },
+  {
+    "offset": 2795556,
+    "value": "package:minireel/domain/models/catalog_order.dart"
+  },
+  {
+    "offset": 2795852,
+    "value": "package:flutter/src/material/menu_theme.dart"
+  },
+  {
+    "offset": 2795980,
+    "value": "DramaBadgeKind."
+  },
+  {
+    "offset": 2796140,
+    "value": "package:flutter/src/widgets/spell_check.dart"
+  },
+  {
+    "offset": 2796636,
+    "value": "readSearches"
+  },
+  {
+    "offset": 2797332,
+    "value": "__updateSemantics$Method$FfiNative@23065589"
+  },
+  {
+    "offset": 2797452,
+    "value": "package:media_kit/src/models/playlist.dart"
+  },
+  {
+    "offset": 2797580,
+    "value": "package:sqflite_common/src/factory.dart"
+  },
+  {
+    "offset": 2798020,
+    "value": "package:minireel/domain/models/preferences.dart"
+  },
+  {
+    "offset": 2798644,
+    "value": "package:media_kit/src/player/native/core/execmem_restriction.dart"
+  },
+  {
+    "offset": 2798948,
+    "value": "package:flutter/src/material/radio_theme.dart"
+  },
+  {
+    "offset": 2799204,
+    "value": "package:flutter/src/widgets/safe_area.dart"
+  },
+  {
+    "offset": 2799260,
+    "value": "package:flutter/src/cupertino/text_selection.dart"
+  },
+  {
+    "offset": 2799516,
+    "value": "_UpdateTextSelectionVerticallyAction@176183791."
+  },
+  {
+    "offset": 2799660,
+    "value": "_updateSnapConfiguration@28187611"
+  },
+  {
+    "offset": 2800020,
+    "value": "CREATE TABLE history (id TEXT PRIMARY KEY, payload TEXT NOT NULL, updated_at INTEGER NOT NULL)"
+  },
+  {
+    "offset": 2800596,
+    "value": "hongguoAccessStatus"
+  },
+  {
+    "offset": 2801732,
+    "value": "SemanticsUpdateBuilder::Create"
+  },
+  {
+    "offset": 2802716,
+    "value": "package:media_kit_video/src/video_controller/video_controller.dart"
+  },
+  {
+    "offset": 2803676,
+    "value": "LocalHistoryRoute"
+  },
+  {
+    "offset": 2805556,
+    "value": "package:flutter/src/widgets/container.dart"
+  },
+  {
+    "offset": 2806364,
+    "value": "_handleDeviceUpdate@162437380"
+  },
+  {
+    "offset": 2807316,
+    "value": "package:flutter/src/widgets/scroll_context.dart"
+  },
+  {
+    "offset": 2807380,
+    "value": "package:flutter/src/material/tooltip_visibility.dart"
+  },
+  {
+    "offset": 2807468,
+    "value": "package:minireel/features/settings/coalesced_snapshot.dart"
+  },
+  {
+    "offset": 2808380,
+    "value": "_updateSettings@44124995"
+  },
+  {
+    "offset": 2809364,
+    "value": "package:pointycastle/block/aes.dart"
+  },
+  {
+    "offset": 2809572,
+    "value": "_updateSelectionStartEdgeByMultiSelectableTextBoundary@201149678"
+  },
+  {
+    "offset": 2809868,
+    "value": "_search@815310586"
+  },
+  {
+    "offset": 2811212,
+    "value": "package:flutter/src/painting/clip.dart"
+  },
+  {
+    "offset": 2811340,
+    "value": "FloatingCursorDragState.update"
+  },
+  {
+    "offset": 2812316,
+    "value": "_TVEpisodePickerState@853468482"
+  },
+  {
+    "offset": 2813164,
+    "value": "_MouseTrackerUpdateDetails@162437380"
+  },
+  {
+    "offset": 2814156,
+    "value": "package:minireel/data/sources/hongguo/hongguo_adapter.dart"
+  },
+  {
+    "offset": 2814388,
+    "value": "package:minireel/playback/media_kit_engine.dart"
+  },
+  {
+    "offset": 2814836,
+    "value": "package:flutter/src/widgets/transitions.dart"
+  },
+  {
+    "offset": 2814980,
+    "value": "_validatedDramaSpeeds@706431210"
+  },
+  {
+    "offset": 2815268,
+    "value": "_updateNode@23065589"
+  },
+  {
+    "offset": 2816940,
+    "value": "package:minireel/desktop/desktop_window.dart"
+  },
+  {
+    "offset": 2817028,
+    "value": "package:flutter/src/widgets/scroll_activity.dart"
+  },
+  {
+    "offset": 2818044,
+    "value": "search-input"
+  },
+  {
+    "offset": 2818404,
+    "value": "NextFavoriteChannel"
+  },
+  {
+    "offset": 2818436,
+    "value": "package:material_color_utilities/dynamiccolor/material_dynamic_colors.dart"
+  },
+  {
+    "offset": 2818628,
+    "value": "package:flutter/src/widgets/app.dart"
+  },
+  {
+    "offset": 2818764,
+    "value": "package:media_kit/src/models/media/media_native.dart"
+  },
+  {
+    "offset": 2819052,
+    "value": "HongguoPlaybackCodec"
+  },
+  {
+    "offset": 2819660,
+    "value": "package:volume_controller/src/volume_controller.dart"
+  },
+  {
+    "offset": 2821108,
+    "value": "package:flutter/src/animation/tween.dart"
+  },
+  {
+    "offset": 2821748,
+    "value": "package:pointycastle/digests/md5.dart"
+  },
+  {
+    "offset": 2822004,
+    "value": "package:minireel/features/player/player_controls.dart"
+  },
+  {
+    "offset": 2822644,
+    "value": "FavoriteRecall3"
+  },
+  {
+    "offset": 2823076,
+    "value": "package:path/src/parsed_path.dart"
+  },
+  {
+    "offset": 2823284,
+    "value": "package:characters/src/grapheme_clusters/table.dart"
+  },
+  {
+    "offset": 2823348,
+    "value": "_updateCompositingBits@33266271"
+  },
+  {
+    "offset": 2824308,
+    "value": "package:source_span/src/location_mixin.dart"
+  },
+  {
+    "offset": 2824516,
+    "value": "package:flutter/src/painting/text_painter.dart"
+  },
+  {
+    "offset": 2824820,
+    "value": "Episode.fromJson"
+  },
+  {
+    "offset": 2825068,
+    "value": "package:flutter/src/widgets/value_listenable_builder.dart"
+  },
+  {
+    "offset": 2826468,
+    "value": "package:path/src/style.dart"
+  },
+  {
+    "offset": 2826508,
+    "value": "_UpdateTextSelectionAction@176183791."
+  },
+  {
+    "offset": 2826564,
+    "value": "_updateScaffolds@82420462"
+  },
+  {
+    "offset": 2826908,
+    "value": "_updateSelectionStartEdgeByTextBoundary@201149678"
+  },
+  {
+    "offset": 2827444,
+    "value": "package:pointycastle/src/api/digest.dart"
+  },
+  {
+    "offset": 2828660,
+    "value": "gestureSettingsOf"
+  },
+  {
+    "offset": 2829404,
+    "value": "package:flutter/src/material/slider_value_indicator_shape.dart"
+  },
+  {
+    "offset": 2829484,
+    "value": "updateKeepAlive"
+  },
+  {
+    "offset": 2830596,
+    "value": "package:flutter/src/widgets/shared_app_data.dart"
+  },
+  {
+    "offset": 2830748,
+    "value": "package:minireel/features/player/playback_episode_grid.dart"
+  },
+  {
+    "offset": 2831404,
+    "value": "dragUpdate"
+  },
+  {
+    "offset": 2832340,
+    "value": "_EpisodePagerState@840276735"
+  },
+  {
+    "offset": 2832748,
+    "value": "_updateSourceStream@181215529"
+  },
+  {
+    "offset": 2833212,
+    "value": "package:path_provider_android/src/path_provider.g.dart"
+  },
+  {
+    "offset": 2833412,
+    "value": "_unfavoriteOpacity@205463832"
+  },
+  {
+    "offset": 2833508,
+    "value": "package:minireel/app/android_exit_guard.dart"
+  },
+  {
+    "offset": 2833964,
+    "value": "package:minireel/data/sources/hongguo/hongguo_media_service.dart"
+  },
+  {
+    "offset": 2834044,
+    "value": "_updateControllerAnimatingStatus@106243954"
+  },
+  {
+    "offset": 2835516,
+    "value": "package:flutter/src/services/mouse_cursor.dart"
+  },
+  {
+    "offset": 2835900,
+    "value": "UndoHistoryState."
+  },
+  {
+    "offset": 2836036,
+    "value": "package:flutter/src/animation/animation.dart"
+  },
+  {
+    "offset": 2836396,
+    "value": "package:flutter/src/foundation/_features.dart"
+  },
+  {
+    "offset": 2836668,
+    "value": "package:flutter/src/rendering/wrap.dart"
+  },
+  {
+    "offset": 2838444,
+    "value": "package:flutter/src/painting/gradient.dart"
+  },
+  {
+    "offset": 2838932,
+    "value": "searchWeb"
+  },
+  {
+    "offset": 2839652,
+    "value": "_loadEpisode@709479788"
+  },
+  {
+    "offset": 2840892,
+    "value": "_updateChrome@340387583"
+  },
+  {
+    "offset": 2843932,
+    "value": "package:sqflite_common/src/sql_command.dart"
+  },
+  {
+    "offset": 2845572,
+    "value": "package:path_provider_platform_interface/src/method_channel_path_provider.dart"
+  },
+  {
+    "offset": 2845668,
+    "value": "updateSlot"
+  },
+  {
+    "offset": 2845900,
+    "value": "_updateSelectionRects@176183791"
+  },
+  {
+    "offset": 2846436,
+    "value": "package:flutter/src/material/search_view_theme.dart"
+  },
+  {
+    "offset": 2846588,
+    "value": "package:minireel/features/tv/tv_shell.dart"
+  },
+  {
+    "offset": 2849716,
+    "value": "package:minireel/domain/models/source_category.dart"
+  },
+  {
+    "offset": 2850372,
+    "value": "package:flutter/src/painting/edge_insets.dart"
+  },
+  {
+    "offset": 2850700,
+    "value": "get:historyChanges"
+  },
+  {
+    "offset": 2850756,
+    "value": "package:ffi/src/allocation.dart"
+  },
+  {
+    "offset": 2851236,
+    "value": "DramaListTile"
+  },
+  {
+    "offset": 2853556,
+    "value": "MediaKit.ensureInitialized must be called before using any API from package:media_kit."
+  },
+  {
+    "offset": 2854548,
+    "value": "_scheduleSystemFontsUpdate@33266271"
+  },
+  {
+    "offset": 2855316,
+    "value": "package:flutter/src/material/navigation_bar.dart"
+  },
+  {
+    "offset": 2855844,
+    "value": "FavoriteFeedbackController"
+  },
+  {
+    "offset": 2856012,
+    "value": "package:dio/src/progress_stream/io_progress_stream.dart"
+  },
+  {
+    "offset": 2856204,
+    "value": "SearchScreen"
+  },
+  {
+    "offset": 2857572,
+    "value": "package:flutter/src/widgets/dismissible.dart"
+  },
+  {
+    "offset": 2857924,
+    "value": "package:sqflite_common/src/utils.dart"
+  },
+  {
+    "offset": 2859220,
+    "value": "_updateStyle@79206165"
+  },
+  {
+    "offset": 2859260,
+    "value": "package:flutter/src/gestures/binding.dart"
+  },
+  {
+    "offset": 2859420,
+    "value": "package:plugin_platform_interface/plugin_platform_interface.dart"
+  },
+  {
+    "offset": 2859564,
+    "value": "package:flutter/src/cupertino/text_selection_toolbar_button.dart"
+  },
+  {
+    "offset": 2862572,
+    "value": "_updateActionListeners@65441002"
+  },
+  {
+    "offset": 2862644,
+    "value": "package:flutter/src/widgets/framework.dart"
+  },
+  {
+    "offset": 2863164,
+    "value": "UndoHistoryController"
+  },
+  {
+    "offset": 2863460,
+    "value": "EpisodeGrid"
+  },
+  {
+    "offset": 2863620,
+    "value": "c.episode_count BETWEEN 1 AND 60"
+  },
+  {
+    "offset": 2864316,
+    "value": "package:flutter/src/widgets/context_menu_controller.dart"
+  },
+  {
+    "offset": 2864812,
+    "value": "retire failed episode="
+  },
+  {
+    "offset": 2866468,
+    "value": "package:flutter/src/widgets/focus_manager.dart"
+  },
+  {
+    "offset": 2867132,
+    "value": "favorite-feedback-heart"
+  },
+  {
+    "offset": 2867532,
+    "value": "package:flutter/src/cupertino/scrollbar.dart"
+  },
+  {
+    "offset": 2868524,
+    "value": "package:flutter/src/widgets/standard_component_type.dart"
+  },
+  {
+    "offset": 2870100,
+    "value": "package:jni/src/jni.dart"
+  },
+  {
+    "offset": 2870900,
+    "value": "package:flutter/src/widgets/shortcuts.dart"
+  },
+  {
+    "offset": 2870956,
+    "value": "package:flutter/src/painting/placeholder_span.dart"
+  },
+  {
+    "offset": 2871148,
+    "value": "package:minireel/features/feed/feed_screen.dart"
+  },
+  {
+    "offset": 2872172,
+    "value": "package:minireel/features/shared/widgets.dart"
+  },
+  {
+    "offset": 2872468,
+    "value": "update"
+  },
+  {
+    "offset": 2872884,
+    "value": "package:media_kit/generated/libmpv/bindings.dart"
+  },
+  {
+    "offset": 2872948,
+    "value": "package:ffi/src/arena.dart"
+  },
+  {
+    "offset": 2873172,
+    "value": "package:path_provider_platform_interface/path_provider_platform_interface.dart"
+  },
+  {
+    "offset": 2873940,
+    "value": "package:dio/src/interceptor.dart"
+  },
+  {
+    "offset": 2874188,
+    "value": "_checkUpdate@381099969"
+  },
+  {
+    "offset": 2874268,
+    "value": "package:minireel/features/tv/tv_discover_screen.dart"
+  },
+  {
+    "offset": 2874852,
+    "value": "package:flutter/src/widgets/scroll_view.dart"
+  },
+  {
+    "offset": 2875172,
+    "value": "package:media_kit_video/src/video_view_parameters.dart"
+  },
+  {
+    "offset": 2875356,
+    "value": "package:flutter/src/services/keyboard_key.g.dart"
+  },
+  {
+    "offset": 2875876,
+    "value": "TVSettingsScreen"
+  },
+  {
+    "offset": 2875996,
+    "value": "package:flutter/src/services/message_codec.dart"
+  },
+  {
+    "offset": 2876804,
+    "value": "DramaRepository"
+  },
+  {
+    "offset": 2878548,
+    "value": "package:wakelock_plus_platform_interface/src/method_channel_wakelock_plus.dart"
+  },
+  {
+    "offset": 2878980,
+    "value": "_EpisodeButton@803159823"
+  },
+  {
+    "offset": 2879284,
+    "value": "package:flutter/src/rendering/texture.dart"
+  },
+  {
+    "offset": 2879340,
+    "value": "package:flutter/src/foundation/key.dart"
+  },
+  {
+    "offset": 2880164,
+    "value": "package:flutter/src/rendering/layout_helper.dart"
+  },
+  {
+    "offset": 2880860,
+    "value": "package:flutter/src/widgets/undo_history.dart"
+  },
+  {
+    "offset": 2880924,
+    "value": "package:string_scanner/src/string_scanner.dart"
+  },
+  {
+    "offset": 2883756,
+    "value": "package:flutter/src/services/binding.dart"
+  },
+  {
+    "offset": 2883852,
+    "value": "package:jni_flutter/src/jni_flutter.dart"
+  },
+  {
+    "offset": 2884012,
+    "value": "package:flutter/src/material/outlined_button.dart"
+  },
+  {
+    "offset": 2884148,
+    "value": "package:minireel/data/sources/hongguo/hongguo_suggestions.dart"
+  },
+  {
+    "offset": 2884428,
+    "value": "package:flutter/src/rendering/mouse_tracker.dart"
+  },
+  {
+    "offset": 2884580,
+    "value": "_updateChildren@73130468"
+  },
+  {
+    "offset": 2885060,
+    "value": "didUpdateScrollDirection"
+  },
+  {
+    "offset": 2886204,
+    "value": "package:flutter/src/cupertino/desktop_text_selection_toolbar.dart"
+  },
+  {
+    "offset": 2886332,
+    "value": "package:flutter_staggered_grid_view/src/rendering/sliver_masonry_grid.dart"
+  },
+  {
+    "offset": 2886620,
+    "value": "package:jni/src/jobject.dart"
+  },
+  {
+    "offset": 2886988,
+    "value": "_updateRestorationId@44124995"
+  },
+  {
+    "offset": 2887084,
+    "value": "package:flutter/src/material/card_theme.dart"
+  },
+  {
+    "offset": 2887884,
+    "value": "package:flutter/src/material/navigation_bar_theme.dart"
+  },
+  {
+    "offset": 2889388,
+    "value": "package:package_info_plus_platform_interface/package_info_platform_interface.dart"
+  },
+  {
+    "offset": 2889572,
+    "value": "readFavorites"
+  },
+  {
+    "offset": 2890028,
+    "value": "HongguoWebCatalogPage"
+  },
+  {
+    "offset": 2891604,
+    "value": "package:flutter/src/material/ink_ripple.dart"
+  },
+  {
+    "offset": 2891932,
+    "value": "episode_right_text"
+  },
+  {
+    "offset": 2892100,
+    "value": "package:flutter/src/widgets/scroll_controller.dart"
+  },
+  {
+    "offset": 2892508,
+    "value": "_searchPage@845212864"
+  },
+  {
+    "offset": 2894180,
+    "value": "_rememberSearch@815310586"
+  },
+  {
+    "offset": 2894380,
+    "value": "hongguoMediaAddresses"
+  },
+  {
+    "offset": 2895004,
+    "value": "_updateEditingValue@79206165"
+  },
+  {
+    "offset": 2895396,
+    "value": "package:media_kit/src/models/playlist_mode.dart"
+  },
+  {
+    "offset": 2895484,
+    "value": "SemanticsUpdateBuilder::updateNode"
+  },
+  {
+    "offset": 2896788,
+    "value": "_handleUpdateBackGestureProgress@22399801"
+  },
+  {
+    "offset": 2897812,
+    "value": "package:dio/src/adapter.dart"
+  },
+  {
+    "offset": 2898476,
+    "value": "package:flutter/src/material/material.dart"
+  },
+  {
+    "offset": 2898532,
+    "value": "HongguoRankingService."
+  },
+  {
+    "offset": 2899292,
+    "value": "_updateBuildScopeRecursively@20042623"
+  },
+  {
+    "offset": 2899804,
+    "value": "package:flutter/src/widgets/scroll_metrics.dart"
+  },
+  {
+    "offset": 2900180,
+    "value": "package:flutter/src/widgets/status_transitions.dart"
+  },
+  {
+    "offset": 2900924,
+    "value": "package:flutter/src/material/text_theme.dart"
+  },
+  {
+    "offset": 2902044,
+    "value": "package:flutter/src/foundation/print.dart"
+  },
+  {
+    "offset": 2902644,
+    "value": "sendSemanticsUpdate"
+  },
+  {
+    "offset": 2902740,
+    "value": "FavoriteStore3"
+  },
+  {
+    "offset": 2903092,
+    "value": "package:minireel/data/sources/hls_quality_resolver.dart"
+  },
+  {
+    "offset": 2904196,
+    "value": "package:flutter/src/widgets/toggleable.dart"
+  },
+  {
+    "offset": 2904860,
+    "value": "_getVerticalDragUpdateHandler@71132872"
+  },
+  {
+    "offset": 2904916,
+    "value": "package:path/src/path_exception.dart"
+  },
+  {
+    "offset": 2906820,
+    "value": "_repositoryChanged@823164817"
+  },
+  {
+    "offset": 2906860,
+    "value": "FlexibleSpaceBarSettings"
+  },
+  {
+    "offset": 2907532,
+    "value": "package:flutter/src/material/navigation_drawer_theme.dart"
+  },
+  {
+    "offset": 2908876,
+    "value": "package:flutter/src/services/asset_bundle.dart"
+  },
+  {
+    "offset": 2909148,
+    "value": "package:flutter/src/cupertino/text_theme.dart"
+  },
+  {
+    "offset": 2909820,
+    "value": "package:flutter/src/widgets/system_context_menu.dart"
+  },
+  {
+    "offset": 2910076,
+    "value": "_updateHighlightsAndSplashes@86059085"
+  },
+  {
+    "offset": 2911188,
+    "value": "BrowserSearch"
+  },
+  {
+    "offset": 2912420,
+    "value": "episode-"
+  },
+  {
+    "offset": 2912748,
+    "value": "package:flutter/src/material/drawer_theme.dart"
+  },
+  {
+    "offset": 2913124,
+    "value": "package:flutter/src/widgets/text_selection.dart"
+  },
+  {
+    "offset": 2913724,
+    "value": "PlaybackEpisodeGrid"
+  },
+  {
+    "offset": 2913892,
+    "value": "package:minireel/features/shared/boost_status_bar.dart"
+  },
+  {
+    "offset": 2914140,
+    "value": "episodes"
+  },
+  {
+    "offset": 2914268,
+    "value": "package:flutter/src/services/autofill.dart"
+  },
+  {
+    "offset": 2914468,
+    "value": "TextInputClient.updateEditingState"
+  },
+  {
+    "offset": 2915380,
+    "value": "package:flutter/src/services/raw_keyboard_android.dart"
+  },
+  {
+    "offset": 2915732,
+    "value": "_updateParentDataOfChild@87490736"
+  },
+  {
+    "offset": 2916436,
+    "value": "package:flutter/src/material/toggle_buttons_theme.dart"
+  },
+  {
+    "offset": 2916868,
+    "value": "catalog-check-updates"
+  },
+  {
+    "offset": 2917492,
+    "value": "PlatformConfigurationNativeApi::UpdateSemantics"
+  },
+  {
+    "offset": 2917588,
+    "value": "SearchSeason"
+  },
+  {
+    "offset": 2917740,
+    "value": "package:flutter/src/painting/matrix_utils.dart"
+  },
+  {
+    "offset": 2917804,
+    "value": "updateBackGestureProgress"
+  },
+  {
+    "offset": 2918404,
+    "value": "history"
+  },
+  {
+    "offset": 2918428,
+    "value": "package:flutter/src/widgets/animated_size.dart"
+  },
+  {
+    "offset": 2919444,
+    "value": "package:minireel/app/theme.dart"
+  },
+  {
+    "offset": 2921428,
+    "value": "_handleDragUpdate@483001611"
+  },
+  {
+    "offset": 2921588,
+    "value": "markNeedsCompositingBitsUpdate"
+  },
+  {
+    "offset": 2921668,
+    "value": "_update@700327761"
+  },
+  {
+    "offset": 2922180,
+    "value": "package:flutter/src/services/live_text.dart"
+  },
+  {
+    "offset": 2922604,
+    "value": "settings"
+  },
+  {
+    "offset": 2923676,
+    "value": "package:minireel/data/local/sqlite_app_store.dart"
+  },
+  {
+    "offset": 2923924,
+    "value": "package:flutter_staggered_grid_view/src/rendering/sliver_simple_grid_delegate.dart"
+  },
+  {
+    "offset": 2924068,
+    "value": "_PlaybackEpisodeGridState@841236926"
+  },
+  {
+    "offset": 2924820,
+    "value": "_updateSelectablesWithSelections@189070758"
+  },
+  {
+    "offset": 2925516,
+    "value": "package:flutter/src/rendering/sliver.dart"
+  },
+  {
+    "offset": 2927076,
+    "value": "package:minireel/core/network/request_cache.dart"
+  },
+  {
+    "offset": 2927140,
+    "value": "get:dramaSpeeds"
+  },
+  {
+    "offset": 2927244,
+    "value": "_handleDeviceUpdateMouseEvents@162437380"
+  },
+  {
+    "offset": 2927852,
+    "value": "package:flutter/src/painting/binding.dart"
+  },
+  {
+    "offset": 2928228,
+    "value": "package:flutter/src/material/dialog.dart"
+  },
+  {
+    "offset": 2929164,
+    "value": "package:flutter/src/material/progress_indicator.dart"
+  },
+  {
+    "offset": 2929356,
+    "value": "HongguoDeviceSession"
+  },
+  {
+    "offset": 2929748,
+    "value": "_handleDragUpdate@174238936"
+  },
+  {
+    "offset": 2929924,
+    "value": "_handleDragUpdate@113231897"
+  },
+  {
+    "offset": 2931748,
+    "value": "_repositoryChanged@847030888"
+  },
+  {
+    "offset": 2931788,
+    "value": "SqfliteDatabaseMixinExt|_txnRawUpdateOrDelete"
+  },
+  {
+    "offset": 2932396,
+    "value": "package:media_kit/src/player/native/core/fallback_bitrate_handler.dart"
+  },
+  {
+    "offset": 2932844,
+    "value": "package:flutter/src/widgets/sliver_persistent_header.dart"
+  },
+  {
+    "offset": 2934228,
+    "value": "didUpdateRestorationId"
+  },
+  {
+    "offset": 2934588,
+    "value": "package:minireel/features/tv/tv_settings_screen.dart"
+  },
+  {
+    "offset": 2935156,
+    "value": "package:flutter/src/widgets/actions.dart"
+  },
+  {
+    "offset": 2937044,
+    "value": "HongguoAppClient."
+  },
+  {
+    "offset": 2937356,
+    "value": "package:flutter/src/widgets/platform_menu_bar.dart"
+  },
+  {
+    "offset": 2937612,
+    "value": "package:flutter/src/material/desktop_text_selection.dart"
+  },
+  {
+    "offset": 2938306,
+    "value": "  https://api.flutter.dev/flutter/material/Scaffold/of.html"
+  },
+  {
+    "offset": 2938484,
+    "value": "_updateChildGeometry@33266271"
+  },
+  {
+    "offset": 2938812,
+    "value": "package:flutter/src/services/raw_keyboard_macos.dart"
+  },
+  {
+    "offset": 2938876,
+    "value": "MiniReelApp"
+  },
+  {
+    "offset": 2939492,
+    "value": "init:_unfavoriteOpacity@205463832"
+  },
+  {
+    "offset": 2940356,
+    "value": "_handleThumbDragUpdate@112211710"
+  },
+  {
+    "offset": 2940684,
+    "value": "package:minireel/features/tv/tv_rankings_screen.dart"
+  },
+  {
+    "offset": 2940900,
+    "value": "package:flutter/src/painting/strut_style.dart"
+  },
+  {
+    "offset": 2940964,
+    "value": "didUpdateWidget"
+  },
+  {
+    "offset": 2942020,
+    "value": "real-drama"
+  },
+  {
+    "offset": 2942428,
+    "value": "package:flutter/src/painting/colors.dart"
+  },
+  {
+    "offset": 2942948,
+    "value": "instr(c.search_text, ?) > 0"
+  },
+  {
+    "offset": 2943660,
+    "value": "package:flutter/src/widgets/indexed_stack.dart"
+  },
+  {
+    "offset": 2943748,
+    "value": "package:screen_brightness_platform_interface/method_channel_screen_brightness.dart"
+  },
+  {
+    "offset": 2943884,
+    "value": "_updateInitialLifecycleState@23065589"
+  },
+  {
+    "offset": 2944364,
+    "value": "package:flutter/src/material/outlined_button_theme.dart"
+  },
+  {
+    "offset": 2944612,
+    "value": "package:minireel/features/search/search_screen.dart"
+  },
+  {
+    "offset": 2944676,
+    "value": "c.episode_count <= 0, c.episode_count, c.rowid"
+  },
+  {
+    "offset": 2945076,
+    "value": "package:media_kit/src/player/native/utils/android_asset_loader.dart"
+  },
+  {
+    "offset": 2945780,
+    "value": "package:intl/src/intl/number_format.dart"
+  },
+  {
+    "offset": 2946380,
+    "value": "package:minireel/domain/models/webdav_sync.dart"
+  },
+  {
+    "offset": 2946820,
+    "value": "SemanticsUpdateBuilder"
+  },
+  {
+    "offset": 2948052,
+    "value": "_favoriteScale@205463832"
+  },
+  {
+    "offset": 2948452,
+    "value": "DramaChannel"
+  },
+  {
+    "offset": 2948996,
+    "value": "package:media_kit/src/player/native/utils/isolates.dart"
+  },
+  {
+    "offset": 2950412,
+    "value": "SettingsScreen"
+  },
+  {
+    "offset": 2951012,
+    "value": "onSingleLongTapMoveUpdate"
+  },
+  {
+    "offset": 2952508,
+    "value": "package:minireel/playback/screen_awake.dart"
+  },
+  {
+    "offset": 2952564,
+    "value": "package:uuid/uuid.dart"
+  },
+  {
+    "offset": 2952876,
+    "value": "package:flutter/src/rendering/editable.dart"
+  },
+  {
+    "offset": 2953604,
+    "value": "videoForEpisode"
+  },
+  {
+    "offset": 2954524,
+    "value": "package:source_span/src/span.dart"
+  },
+  {
+    "offset": 2954804,
+    "value": "package:minireel/features/tv/tv_mine_screen.dart"
+  },
+  {
+    "offset": 2954868,
+    "value": "package:flutter/src/widgets/router.dart"
+  },
+  {
+    "offset": 2954972,
+    "value": "userUpdateTextEditingValue"
+  },
+  {
+    "offset": 2956572,
+    "value": "package:flutter/src/widgets/overscroll_indicator.dart"
+  },
+  {
+    "offset": 2957228,
+    "value": "package:flutter/src/widgets/ticker_provider.dart"
+  },
+  {
+    "offset": 2957492,
+    "value": "package:minireel/features/shared/cover_image.dart"
+  },
+  {
+    "offset": 2958764,
+    "value": "_FavoriteFeedbackState@205463832."
+  },
+  {
+    "offset": 2958996,
+    "value": "package:flutter/src/material/text_button_theme.dart"
+  },
+  {
+    "offset": 2959284,
+    "value": "package:flutter/src/services/text_editing_delta.dart"
+  },
+  {
+    "offset": 2959452,
+    "value": "canUpdateFrom"
+  },
+  {
+    "offset": 2959620,
+    "value": "hongguo:"
+  },
+  {
+    "offset": 2962116,
+    "value": "_SearchScreenState@815310586"
+  },
+  {
+    "offset": 2962228,
+    "value": "package:minireel/domain/models/drama.dart"
+  },
+  {
+    "offset": 2962284,
+    "value": "package:wakelock_plus_platform_interface/wakelock_plus_platform_interface.dart"
+  },
+  {
+    "offset": 2962460,
+    "value": "package:http_parser/src/media_type.dart"
+  },
+  {
+    "offset": 2962676,
+    "value": "_updateNextDrama@127370909"
+  },
+  {
+    "offset": 2963756,
+    "value": "package:media_kit/src/player/native/player/real.dart"
+  },
+  {
+    "offset": 2965132,
+    "value": "SearchBarThemeData"
+  },
+  {
+    "offset": 2965876,
+    "value": "_handleLongPressMoveUpdate@77111801"
+  },
+  {
+    "offset": 2966164,
+    "value": "createSemanticsUpdateBuilder"
+  },
+  {
+    "offset": 2967012,
+    "value": "package:flutter/src/material/color_scheme.dart"
+  },
+  {
+    "offset": 2968540,
+    "value": "get:_updateSelection@176183791"
+  },
+  {
+    "offset": 2968844,
+    "value": "package:media_kit/src/media_kit.dart"
+  },
+  {
+    "offset": 2969492,
+    "value": "package:flutter/src/widgets/implicit_animations.dart"
+  },
+  {
+    "offset": 2969724,
+    "value": "package:flutter/src/gestures/events.dart"
+  },
+  {
+    "offset": 2971676,
+    "value": "package:minireel/features/rankings/rankings_screen.dart"
+  },
+  {
+    "offset": 2971804,
+    "value": "package:flutter/src/material/text_field.dart"
+  },
+  {
+    "offset": 2972508,
+    "value": "package:flutter/src/services/hardware_keyboard.dart"
+  },
+  {
+    "offset": 2974212,
+    "value": "package:flutter/src/material/button_theme.dart"
+  },
+  {
+    "offset": 2974764,
+    "value": "package:flutter/src/widgets/scroll_simulation.dart"
+  },
+  {
+    "offset": 2974908,
+    "value": "_SearchScreenState@815310586."
+  },
+  {
+    "offset": 2975716,
+    "value": "episode_cnt"
+  },
+  {
+    "offset": 2976644,
+    "value": "search_"
+  },
+  {
+    "offset": 2978996,
+    "value": "updateShouldRebuild"
+  },
+  {
+    "offset": 2979444,
+    "value": "package:flutter/src/material/dropdown_menu_theme.dart"
+  },
+  {
+    "offset": 2979916,
+    "value": "file:///home/runner/work/minireel/minireel/.dart_tool/flutter_build/dart_plugin_registrant.dart"
+  },
+  {
+    "offset": 2980556,
+    "value": "updateChildLayoutOffset"
+  },
+  {
+    "offset": 2980596,
+    "value": "updateShouldNotifyDependent"
+  },
+  {
+    "offset": 2981348,
+    "value": "_updateManager@75347053"
+  },
+  {
+    "offset": 2981532,
+    "value": "package:media_kit/src/player/native/core/initializer.dart"
+  },
+  {
+    "offset": 2983452,
+    "value": "package:minireel/features/tv/tv_search_screen.dart"
+  },
+  {
+    "offset": 2983788,
+    "value": "SearchViewThemeData"
+  },
+  {
+    "offset": 2983820,
+    "value": "package:flutter/src/material/action_buttons.dart"
+  },
+  {
+    "offset": 2984884,
+    "value": "package:flutter/src/material/list_tile.dart"
+  },
+  {
+    "offset": 2985556,
+    "value": "package:pointycastle/src/impl/long_sha2_family_digest.dart"
+  },
+  {
+    "offset": 2986524,
+    "value": "SemanticsUpdate"
+  },
+  {
+    "offset": 2986604,
+    "value": "package:sqflite_common/utils/utils.dart"
+  },
+  {
+    "offset": 2988908,
+    "value": "_updateAnimations@102490068"
+  },
+  {
+    "offset": 2989588,
+    "value": "_updateInvertColors@181215529"
+  },
+  {
+    "offset": 2990972,
+    "value": "package:flutter/src/widgets/inherited_notifier.dart"
+  },
+  {
+    "offset": 2992332,
+    "value": "SearchWeb.invoke"
+  },
+  {
+    "offset": 2992396,
+    "value": "package:flutter/src/widgets/preferred_size.dart"
+  },
+  {
+    "offset": 2993068,
+    "value": "_repositoryChanged@836297571"
+  },
+  {
+    "offset": 2994460,
+    "value": "package:dio/src/adapters/io_adapter.dart"
+  },
+  {
+    "offset": 2995012,
+    "value": "CREATE TABLE favorites (id TEXT PRIMARY KEY, payload TEXT NOT NULL, created_at INTEGER NOT NULL)"
+  },
+  {
+    "offset": 2995180,
+    "value": "package:flutter/src/widgets/selectable_region.dart"
+  },
+  {
+    "offset": 2996348,
+    "value": "package:collection/src/equality.dart"
+  },
+  {
+    "offset": 2997516,
+    "value": "updateTime"
+  },
+  {
+    "offset": 2997588,
+    "value": "package:collection/src/priority_queue.dart"
+  },
+  {
+    "offset": 2998908,
+    "value": "package:jni/src/core_bindings.dart"
+  },
+  {
+    "offset": 2999804,
+    "value": "hongguo:web:"
+  },
+  {
+    "offset": 2999948,
+    "value": "package:minireel/features/tv/tv_remote_key_settings.dart"
+  },
+  {
+    "offset": 3000500,
+    "value": "package:media_kit_video/src/video_controller/android_video_controller/real.dart"
+  },
+  {
+    "offset": 3001012,
+    "value": "package:flutter/src/services/haptic_feedback.dart"
+  },
+  {
+    "offset": 3001772,
+    "value": "package:flutter/src/widgets/context_menu_button_item.dart"
+  },
+  {
+    "offset": 3001844,
+    "value": "package:flutter/src/physics/simulation.dart"
+  },
+  {
+    "offset": 3001900,
+    "value": "FavoriteStore0"
+  },
+  {
+    "offset": 3002772,
+    "value": "package:flutter/src/widgets/navigator_pop_handler.dart"
+  },
+  {
+    "offset": 3002932,
+    "value": "package:flutter/src/rendering/selection.dart"
+  },
+  {
+    "offset": 3003548,
+    "value": "search_text"
+  },
+  {
+    "offset": 3003940,
+    "value": ", updateTime: "
+  },
+  {
+    "offset": 3004140,
+    "value": "_search@859313395"
+  },
+  {
+    "offset": 3004380,
+    "value": "_updateSelectionEdge@201149678"
+  },
+  {
+    "offset": 3004628,
+    "value": "package:flutter/src/widgets/editable_text.dart"
+  },
+  {
+    "offset": 3004900,
+    "value": "package:media_kit/src/models/track.dart"
+  },
+  {
+    "offset": 3007292,
+    "value": "drama_id = ?"
+  },
+  {
+    "offset": 3008500,
+    "value": "package:dio/src/options.dart"
+  },
+  {
+    "offset": 3009676,
+    "value": "package:minireel/core/network/app_http_client.dart"
+  },
+  {
+    "offset": 3010844,
+    "value": "package:media_kit/src/player/platform_player.dart"
+  },
+  {
+    "offset": 3011732,
+    "value": "package:flutter/src/animation/tween_sequence.dart"
+  },
+  {
+    "offset": 3012284,
+    "value": "package:minireel/playback/playback_seek_controller.dart"
+  },
+  {
+    "offset": 3013468,
+    "value": "package:minireel/features/feed/feed_recommendation_pool.dart"
+  },
+  {
+    "offset": 3014788,
+    "value": "package:intl/src/intl_helpers.dart"
+  },
+  {
+    "offset": 3017084,
+    "value": "updateOutOfBandData"
+  },
+  {
+    "offset": 3017348,
+    "value": "_updateChild@87490736"
+  },
+  {
+    "offset": 3018340,
+    "value": "SearchSuggestion"
+  },
+  {
+    "offset": 3018444,
+    "value": "package:jni/src/accessors.dart"
+  },
+  {
+    "offset": 3018492,
+    "value": "_updateSelectionEndEdgeAtPlaceholderByMultiSelectableTextBoundary@201149678"
+  },
+  {
+    "offset": 3018676,
+    "value": "historyOf"
+  },
+  {
+    "offset": 3018700,
+    "value": "c.id IN (SELECT drama_id FROM catalog_entries WHERE catalog_key = ?)"
+  },
+  {
+    "offset": 3019356,
+    "value": "_updateCallback@182188862"
+  },
+  {
+    "offset": 3019788,
+    "value": "package:flutter/src/material/divider_theme.dart"
+  },
+  {
+    "offset": 3022340,
+    "value": "package:flutter/src/widgets/spacer.dart"
+  },
+  {
+    "offset": 3022860,
+    "value": "package:dio/src/transformers/util/consolidate_bytes.dart"
+  },
+  {
+    "offset": 3025020,
+    "value": "package:flutter/src/cupertino/route.dart"
+  },
+  {
+    "offset": 3025140,
+    "value": "package:flutter/src/painting/box_shadow.dart"
+  },
+  {
+    "offset": 3027684,
+    "value": "package:minireel/features/player/player_gesture_surface.dart"
+  },
+  {
+    "offset": 3030836,
+    "value": "createSettings"
+  },
+  {
+    "offset": 3031420,
+    "value": "deleteHistory"
+  },
+  {
+    "offset": 3031996,
+    "value": "SearchInteractionController."
+  },
+  {
+    "offset": 3032252,
+    "value": "package:flutter/src/widgets/texture.dart"
+  },
+  {
+    "offset": 3032828,
+    "value": "package:flutter/src/foundation/serialization.dart"
+  },
+  {
+    "offset": 3033076,
+    "value": "HongguoRankingService"
+  },
+  {
+    "offset": 3034260,
+    "value": "package:minireel/features/feed/feed_section_pager.dart"
+  },
+  {
+    "offset": 3034436,
+    "value": "minireel-sync.json"
+  },
+  {
+    "offset": 3034468,
+    "value": "DELETE FROM history WHERE id NOT IN (SELECT id FROM history ORDER BY updated_at DESC LIMIT 200)"
+  },
+  {
+    "offset": 3034636,
+    "value": "_updateForHover@113231897"
+  },
+  {
+    "offset": 3035244,
+    "value": "package:flutter/src/widgets/scroll_physics.dart"
+  },
+  {
+    "offset": 3036364,
+    "value": "package:flutter/src/material/bottom_navigation_bar_theme.dart"
+  },
+  {
+    "offset": 3036444,
+    "value": "init:_updateSelectionAction@176183791"
+  },
+  {
+    "offset": 3036588,
+    "value": "package:minireel/features/library/category_browser.dart"
+  },
+  {
+    "offset": 3038436,
+    "value": "_updateGeometry@33266271"
+  },
+  {
+    "offset": 3038764,
+    "value": "package:sqflite_common/src/transaction.dart"
+  },
+  {
+    "offset": 3038900,
+    "value": "onDragSelectionUpdate"
+  },
+  {
+    "offset": 3039876,
+    "value": "package:path/src/context.dart"
+  },
+  {
+    "offset": 3040956,
+    "value": "updateHighlight"
+  },
+  {
+    "offset": 3041836,
+    "value": "package:flutter/src/material/constants.dart"
+  },
+  {
+    "offset": 3042004,
+    "value": "package:flutter/src/material/range_slider.dart"
+  },
+  {
+    "offset": 3042564,
+    "value": "package:dio/src/dio_exception.dart"
+  },
+  {
+    "offset": 3042652,
+    "value": "mine-history"
+  },
+  {
+    "offset": 3043428,
+    "value": "_updateStretchConfiguration@28187611"
+  },
+  {
+    "offset": 3044044,
+    "value": "package:flutter/src/material/typography.dart"
+  },
+  {
+    "offset": 3045212,
+    "value": "package:flutter/src/rendering/image_filter_config.dart"
+  },
+  {
+    "offset": 3045356,
+    "value": "_updateSelectionAction@176183791"
+  },
+  {
+    "offset": 3045972,
+    "value": "package:minireel/features/detail/drama_detail_header.dart"
+  },
+  {
+    "offset": 3046044,
+    "value": "updateStyle"
+  },
+  {
+    "offset": 3046444,
+    "value": "_updateMotion@130046326"
+  },
+  {
+    "offset": 3047404,
+    "value": "package:intl/intl.dart"
+  },
+  {
+    "offset": 3047612,
+    "value": "_addToUpdate@164082469"
+  },
+  {
+    "offset": 3047876,
+    "value": "updatedAt"
+  },
+  {
+    "offset": 3048100,
+    "value": "package:media_kit/src/player/native/core/native_library.dart"
+  },
+  {
+    "offset": 3048356,
+    "value": "searchSeriesGroups"
+  },
+  {
+    "offset": 3048460,
+    "value": "_updateSelection@176183791"
+  },
+  {
+    "offset": 3048660,
+    "value": "HongguoSearchService"
+  },
+  {
+    "offset": 3050236,
+    "value": "_updateChild@236408280"
+  },
+  {
+    "offset": 3050372,
+    "value": "package:material_color_utilities/scheme/scheme_tonal_spot.dart"
+  },
+  {
+    "offset": 3050820,
+    "value": "package:material_color_utilities/dynamiccolor/dynamic_color.dart"
+  },
+  {
+    "offset": 3051092,
+    "value": "package:minireel/data/sources/hongguo/hongguo_detail_service.dart"
+  },
+  {
+    "offset": 3051452,
+    "value": "hongguoOnlineDate"
+  },
+  {
+    "offset": 3053004,
+    "value": "package:flutter/src/material/filter_chip.dart"
+  },
+  {
+    "offset": 3053676,
+    "value": "_updateForFocus@113231897"
+  },
+  {
+    "offset": 3053748,
+    "value": "_dramaAt@127370909"
+  },
+  {
+    "offset": 3054396,
+    "value": "updateQuery"
+  },
+  {
+    "offset": 3054924,
+    "value": "Double-check whether the map was used in a place that documents support for WidgetStateProperty objects. If so, please file a bug report. (The https://pub.dev/ page for a package contains a link to \"View/report issues\".)"
+  },
+  {
+    "offset": 3057180,
+    "value": "_updateSecondaryAnimation@43188637"
+  },
+  {
+    "offset": 3057572,
+    "value": "package:flutter/src/cupertino/icon_theme_data.dart"
+  },
+  {
+    "offset": 3057804,
+    "value": "comicDrama"
+  },
+  {
+    "offset": 3058292,
+    "value": "package:sqflite_common/src/sqflite_database_factory.dart"
+  },
+  {
+    "offset": 3058364,
+    "value": "package:dio/src/dio.dart"
+  },
+  {
+    "offset": 3058940,
+    "value": "updateCurve"
+  },
+  {
+    "offset": 3059084,
+    "value": "package:flutter/src/material/chip.dart"
+  },
+  {
+    "offset": 3060708,
+    "value": "_updateSelectionEdgeByTextBoundary@201149678"
+  },
+  {
+    "offset": 3060924,
+    "value": "_updateCenter@344166613"
+  },
+  {
+    "offset": 3061252,
+    "value": "package:meta/meta.dart"
+  },
+  {
+    "offset": 3061484,
+    "value": "TextEditingDeltaNonTextUpdate"
+  },
+  {
+    "offset": 3061692,
+    "value": "toggleFavorite"
+  },
+  {
+    "offset": 3061916,
+    "value": "package:material_color_utilities/hct/src/hct_solver.dart"
+  },
+  {
+    "offset": 3063420,
+    "value": "package:flutter/src/material/magnifier.dart"
+  },
+  {
+    "offset": 3063476,
+    "value": "package:flutter/src/material/app_bar.dart"
+  },
+  {
+    "offset": 3063908,
+    "value": "readDramas"
+  },
+  {
+    "offset": 3064972,
+    "value": "_TVSearchScreenState@859313395."
+  },
+  {
+    "offset": 3066068,
+    "value": "_handleSelectionEndHandleDragUpdate@191379720"
+  },
+  {
+    "offset": 3066748,
+    "value": "_updateChild@197375309"
+  },
+  {
+    "offset": 3069012,
+    "value": "package:minireel/features/shared/discovery_page_route.dart"
+  },
+  {
+    "offset": 3069724,
+    "value": "package:flutter/src/widgets/restoration.dart"
+  },
+  {
+    "offset": 3069876,
+    "value": "package:flutter/src/widgets/overlay.dart"
+  },
+  {
+    "offset": 3070260,
+    "value": "package:minireel/playback/next_episode_prefetch.dart"
+  },
+  {
+    "offset": 3071300,
+    "value": "package:flutter/src/gestures/lsq_solver.dart"
+  },
+  {
+    "offset": 3072556,
+    "value": "_FavoriteFeedbackState@205463832"
+  },
+  {
+    "offset": 3073660,
+    "value": "while dispatching notifications for WidgetsBindingObserver.handleUpdateBackGestureProgress"
+  },
+  {
+    "offset": 3074140,
+    "value": "package:flutter/src/material/slider_parts.dart"
+  },
+  {
+    "offset": 3074564,
+    "value": "package:flutter/src/material/icon_button_theme.dart"
+  },
+  {
+    "offset": 3075044,
+    "value": "_updateTickers@29311458"
+  },
+  {
+    "offset": 3075196,
+    "value": "package:minireel/features/feed/recommendation_queue.dart"
+  },
+  {
+    "offset": 3075316,
+    "value": "_update@199437083"
+  },
+  {
+    "offset": 3075652,
+    "value": "package:minireel/features/shared/drama_metadata.dart"
+  },
+  {
+    "offset": 3076436,
+    "value": "gestureSettings"
+  },
+  {
+    "offset": 3077300,
+    "value": "updateNode"
+  },
+  {
+    "offset": 3077908,
+    "value": "package:pointycastle/src/api/parameters_with_iv.dart"
+  },
+  {
+    "offset": 3078100,
+    "value": "package:flutter/src/rendering/viewport.dart"
+  },
+  {
+    "offset": 3078236,
+    "value": "package:flutter/src/widgets/routes.dart"
+  },
+  {
+    "offset": 3078724,
+    "value": "package:minireel/core/crypto/digest.dart"
+  },
+  {
+    "offset": 3080412,
+    "value": "package:minireel/features/tv/tv_widgets.dart"
+  },
+  {
+    "offset": 3081524,
+    "value": "_handleSelectionStartHandleDragUpdate@191379720"
+  },
+  {
+    "offset": 3081908,
+    "value": "package:flutter/src/widgets/layout_builder.dart"
+  },
+  {
+    "offset": 3082100,
+    "value": "package:flutter/src/rendering/error.dart"
+  },
+  {
+    "offset": 3082652,
+    "value": "package:minireel/features/feed/feed_playback_controller.dart"
+  },
+  {
+    "offset": 3082724,
+    "value": "_updateScaledTransform@102490068"
+  },
+  {
+    "offset": 3083012,
+    "value": "package:material_color_utilities/dynamiccolor/src/contrast_curve.dart"
+  },
+  {
+    "offset": 3083172,
+    "value": "package:path/src/internal_style.dart"
+  },
+  {
+    "offset": 3083804,
+    "value": "package:flutter/src/widgets/snapshot_widget.dart"
+  },
+  {
+    "offset": 3084364,
+    "value": "_updateSemanticsForRenderObject@71132872"
+  },
+  {
+    "offset": 3084740,
+    "value": "routeInformationUpdated"
+  },
+  {
+    "offset": 3086220,
+    "value": "www.hongguoduanju.com"
+  },
+  {
+    "offset": 3088604,
+    "value": "package:flutter/src/dart_plugin_registrant.dart"
+  },
+  {
+    "offset": 3089068,
+    "value": "hongguo"
+  },
+  {
+    "offset": 3089564,
+    "value": "package:minireel/data/local/source_state_store.dart"
+  },
+  {
+    "offset": 3089740,
+    "value": "package:minireel/data/sync/webdav_client.dart"
+  },
+  {
+    "offset": 3090124,
+    "value": "package:flutter/src/material/filled_button_theme.dart"
+  },
+  {
+    "offset": 3090444,
+    "value": "package:flutter/src/material/time_picker_theme.dart"
+  },
+  {
+    "offset": 3091316,
+    "value": "package:flutter/src/material/drawer.dart"
+  },
+  {
+    "offset": 3091812,
+    "value": "_didUpdateParentData@33266271"
+  },
+  {
+    "offset": 3092564,
+    "value": "ensureChildUpdated"
+  },
+  {
+    "offset": 3092668,
+    "value": "UpdateSelectionIntent"
+  },
+  {
+    "offset": 3092844,
+    "value": "package:flutter/src/cupertino/interface_level.dart"
+  },
+  {
+    "offset": 3094060,
+    "value": "_updateSelectables@191379720"
+  },
+  {
+    "offset": 3096052,
+    "value": "__updateNode$Method$FfiNative@23065589"
+  },
+  {
+    "offset": 3096700,
+    "value": "SearchCatalogNotice"
+  },
+  {
+    "offset": 3097188,
+    "value": "package:minireel/data/repositories/cover_resolver.dart"
+  },
+  {
+    "offset": 3097948,
+    "value": "package:flutter/src/cupertino/checkbox.dart"
+  },
+  {
+    "offset": 3098140,
+    "value": "package:flutter/src/rendering/binding.dart"
+  },
+  {
+    "offset": 3098460,
+    "value": "package:flutter/src/material/ink_sparkle.dart"
+  },
+  {
+    "offset": 3098980,
+    "value": "_updatePosition@180019050"
+  },
+  {
+    "offset": 3099324,
+    "value": "package:flutter/src/painting/text_scaler.dart"
+  },
+  {
+    "offset": 3099892,
+    "value": "package:flutter/src/services/text_formatter.dart"
+  },
+  {
+    "offset": 3099956,
+    "value": "package:flutter/src/material/ink_well.dart"
+  },
+  {
+    "offset": 3100356,
+    "value": "SqfliteSqlCommand.rawUpdate"
+  },
+  {
+    "offset": 3104740,
+    "value": "rawUpdate"
+  },
+  {
+    "offset": 3104988,
+    "value": "_repositoryChanged@845212864"
+  },
+  {
+    "offset": 3105340,
+    "value": "_onSemanticsUpdate@141452173"
+  },
+  {
+    "offset": 3105468,
+    "value": "searchBarTheme"
+  },
+  {
+    "offset": 3105676,
+    "value": "package:flutter/src/widgets/navigator.dart"
+  },
+  {
+    "offset": 3106036,
+    "value": "package:minireel/data/sync/webdav_sync_service.dart"
+  },
+  {
+    "offset": 3106700,
+    "value": "package:material_color_utilities/utils/math_utils.dart"
+  },
+  {
+    "offset": 3106860,
+    "value": "package:flutter/src/material/chip_theme.dart"
+  },
+  {
+    "offset": 3107124,
+    "value": "package:flutter/src/rendering/layer.dart"
+  },
+  {
+    "offset": 3107324,
+    "value": "_updateHeroController@44124995"
+  },
+  {
+    "offset": 3107908,
+    "value": "package:jni/src/jreference.dart"
+  },
+  {
+    "offset": 3108156,
+    "value": "package:flutter/src/material/app.dart"
+  },
+  {
+    "offset": 3108300,
+    "value": "package:collection/src/functions.dart"
+  },
+  {
+    "offset": 3109356,
+    "value": "BrowserFavorites"
+  },
+  {
+    "offset": 3109876,
+    "value": "package:flutter/src/gestures/force_press.dart"
+  },
+  {
+    "offset": 3110212,
+    "value": "package:synchronized/src/basic_lock.dart"
+  },
+  {
+    "offset": 3110628,
+    "value": "_updateScreenAwake@808188893"
+  },
+  {
+    "offset": 3111060,
+    "value": "_shouldUpdateLocalizations@136236006"
+  },
+  {
+    "offset": 3111716,
+    "value": "package:flutter/src/widgets/title.dart"
+  },
+  {
+    "offset": 3111804,
+    "value": "package:flutter/src/material/switch_theme.dart"
+  },
+  {
+    "offset": 3111972,
+    "value": "package:flutter/src/services/process_text.dart"
+  },
+  {
+    "offset": 3112636,
+    "value": "_updateSemanticsOwner@33266271"
+  },
+  {
+    "offset": 3112684,
+    "value": "package:flutter/src/painting/geometry.dart"
+  },
+  {
+    "offset": 3113252,
+    "value": "hongguo:web-detail"
+  },
+  {
+    "offset": 3113324,
+    "value": "package:jni/src/third_party/jni_bindings_generated.dart"
+  },
+  {
+    "offset": 3115580,
+    "value": "HongguoCatalogService"
+  },
+  {
+    "offset": 3115732,
+    "value": "sortSearchDramas"
+  },
+  {
+    "offset": 3116644,
+    "value": "open-search"
+  },
+  {
+    "offset": 3117700,
+    "value": "_updateManager@67042876"
+  },
+  {
+    "offset": 3117780,
+    "value": "package:material_color_utilities/dynamiccolor/src/tone_delta_pair.dart"
+  },
+  {
+    "offset": 3118076,
+    "value": "updateWith"
+  },
+  {
+    "offset": 3118900,
+    "value": "package:flutter/src/services/mouse_tracking.dart"
+  },
+  {
+    "offset": 3120124,
+    "value": "signHongguoRequest"
+  },
+  {
+    "offset": 3120356,
+    "value": "package:intl/date_symbol_data_custom.dart"
+  },
+  {
+    "offset": 3121748,
+    "value": "dramaMetadata"
+  },
+  {
+    "offset": 3122204,
+    "value": "_TVSettingsScreenState@860244358"
+  },
+  {
+    "offset": 3122652,
+    "value": "package:flutter/src/gestures/arena.dart"
+  },
+  {
+    "offset": 3122828,
+    "value": "_updateSizeAndTransform@176183791"
+  },
+  {
+    "offset": 3123604,
+    "value": "package:flutter/src/rendering/viewport_offset.dart"
+  },
+  {
+    "offset": 3124460,
+    "value": "package:term_glyph/src/generated/glyph_set.dart"
+  },
+  {
+    "offset": 3124820,
+    "value": "package:flutter_localizations/src/l10n/generated_date_localizations.dart"
+  },
+  {
+    "offset": 3125084,
+    "value": "_triggerSelectionStartEdgeUpdate@191379720"
+  },
+  {
+    "offset": 3125428,
+    "value": "HongguoDetailService"
+  },
+  {
+    "offset": 3125588,
+    "value": "NextEpisodePrefetch"
+  },
+  {
+    "offset": 3126268,
+    "value": "_NativeSemanticsUpdateBuilder@23065589"
+  },
+  {
+    "offset": 3128468,
+    "value": "package:flutter/src/widgets/pages.dart"
+  },
+  {
+    "offset": 3131484,
+    "value": "package:vector_math/src/vector_math_64/vector2.dart"
+  },
+  {
+    "offset": 3132412,
+    "value": "package:pointycastle/block/modes/cbc.dart"
+  },
+  {
+    "offset": 3132500,
+    "value": "CREATE TABLE IF NOT EXISTS catalog_tags (drama_id TEXT NOT NULL, tag TEXT NOT NULL, label TEXT NOT NULL, PRIMARY KEY (drama_id, tag))"
+  },
+  {
+    "offset": 3133172,
+    "value": "package:minireel/data/sources/hongguo/hongguo_app_client.dart"
+  },
+  {
+    "offset": 3133420,
+    "value": "UndoHistoryController."
+  },
+  {
+    "offset": 3133716,
+    "value": "MiniReel"
+  },
+  {
+    "offset": 3134308,
+    "value": "updatePointer"
+  },
+  {
+    "offset": 3134548,
+    "value": "HongguoCatalogService."
+  },
+  {
+    "offset": 3135076,
+    "value": "package:path/src/style/posix.dart"
+  },
+  {
+    "offset": 3135284,
+    "value": "package:string_scanner/src/exception.dart"
+  },
+  {
+    "offset": 3136972,
+    "value": "updateWithEvent"
+  },
+  {
+    "offset": 3137140,
+    "value": "_updateChildrenInTraversalOrder@164082469"
+  },
+  {
+    "offset": 3137532,
+    "value": "package:minireel/features/tv/tv_theme.dart"
+  },
+  {
+    "offset": 3137772,
+    "value": "package:pointycastle/src/impl/base_block_cipher.dart"
+  },
+  {
+    "offset": 3138828,
+    "value": "SearchInteractionController"
+  },
+  {
+    "offset": 3140420,
+    "value": "package:flutter/src/services/system_navigator.dart"
+  },
+  {
+    "offset": 3141204,
+    "value": "package:flutter/src/rendering/tweens.dart"
+  },
+  {
+    "offset": 3142324,
+    "value": "package:flutter/src/widgets/raw_tooltip.dart"
+  },
+  {
+    "offset": 3143516,
+    "value": "_updateSelectionGeometry@191379720"
+  },
+  {
+    "offset": 3143628,
+    "value": "package:flutter/src/services/predictive_back_event.dart"
+  },
+  {
+    "offset": 3145028,
+    "value": "forceUpdateStart"
+  },
+  {
+    "offset": 3145140,
+    "value": "package:jni/src/jvalues.dart"
+  },
+  {
+    "offset": 3145564,
+    "value": "episodeIndex"
+  },
+  {
+    "offset": 3146284,
+    "value": "_shouldUpdatePosition@180019050"
+  },
+  {
+    "offset": 3147044,
+    "value": "CREATE INDEX IF NOT EXISTS catalog_tags_lookup ON catalog_tags(tag, drama_id)"
+  },
+  {
+    "offset": 3148156,
+    "value": "package:minireel/features/tv/tv_debug_pad.dart"
+  },
+  {
+    "offset": 3148516,
+    "value": "_TVEpisodePickerState@853468482."
+  },
+  {
+    "offset": 3148564,
+    "value": "UPDATE"
+  },
+  {
+    "offset": 3148724,
+    "value": "get:searchWebButtonLabel"
+  },
+  {
+    "offset": 3148996,
+    "value": "drama"
+  },
+  {
+    "offset": 3149084,
+    "value": "_handleStartHandleDragUpdate@77111801"
+  },
+  {
+    "offset": 3149204,
+    "value": "package:minireel/features/settings/settings_screen.dart"
+  },
+  {
+    "offset": 3149612,
+    "value": "package:media_kit/ffi/src/allocation.dart"
+  },
+  {
+    "offset": 3149732,
+    "value": "FavoriteRecall0"
+  },
+  {
+    "offset": 3149764,
+    "value": "package:flutter/src/services/keyboard_inserted_content.dart"
+  },
+  {
+    "offset": 3150116,
+    "value": "onVerticalDragUpdate"
+  },
+  {
+    "offset": 3150652,
+    "value": "setEpisodePreloading"
+  },
+  {
+    "offset": 3151356,
+    "value": "package:flutter/src/semantics/semantics_event.dart"
+  },
+  {
+    "offset": 3151788,
+    "value": "updateRate"
+  },
+  {
+    "offset": 3154572,
+    "value": "_updateFocusScopeNode@43188637"
+  },
+  {
+    "offset": 3154828,
+    "value": "package:minireel/domain/models/discovery.dart"
+  },
+  {
+    "offset": 3155044,
+    "value": "TextInputClient.updateFloatingCursor"
+  },
+  {
+    "offset": 3155260,
+    "value": "_updateFragmentShader@507321118"
+  },
+  {
+    "offset": 3155660,
+    "value": "_favorite@806289410"
+  },
+  {
+    "offset": 3155868,
+    "value": "initialEpisode"
+  },
+  {
+    "offset": 3159540,
+    "value": "package:flutter/src/services/clipboard.dart"
+  },
+  {
+    "offset": 3159860,
+    "value": "_updateParentData@183282825"
+  },
+  {
+    "offset": 3159940,
+    "value": "package:media_kit/src/player/native/utils/asset_loader.dart"
+  },
+  {
+    "offset": 3161124,
+    "value": "Episode"
+  },
+  {
+    "offset": 3161188,
+    "value": "package:flutter/src/material/snack_bar_theme.dart"
+  },
+  {
+    "offset": 3161596,
+    "value": "package:dio/src/cancel_token.dart"
+  },
+  {
+    "offset": 3161748,
+    "value": "package:flutter/src/widgets/pop_scope.dart"
+  },
+  {
+    "offset": 3162308,
+    "value": "package:minireel/features/library/library_screen.dart"
+  },
+  {
+    "offset": 3162620,
+    "value": "package:flutter/src/gestures/multitap.dart"
+  },
+  {
+    "offset": 3163372,
+    "value": "package:minireel/data/sources/hongguo/hongguo_search_service.dart"
+  },
+  {
+    "offset": 3163452,
+    "value": "readHistory"
+  },
+  {
+    "offset": 3165460,
+    "value": "accessible_episode_cnt"
+  },
+  {
+    "offset": 3166452,
+    "value": "package:flutter/src/gestures/resampler.dart"
+  },
+  {
+    "offset": 3166812,
+    "value": "package:flutter/src/material/floating_action_button_location.dart"
+  },
+  {
+    "offset": 3167652,
+    "value": "FavoriteStore1"
+  },
+  {
+    "offset": 3168604,
+    "value": "_SettingsScreenState@711324750"
+  },
+  {
+    "offset": 3168988,
+    "value": "package:flutter/src/material/popup_menu_theme.dart"
+  },
+  {
+    "offset": 3170460,
+    "value": "package:flutter/src/material/text_selection_theme.dart"
+  },
+  {
+    "offset": 3171860,
+    "value": "_PreparedDrama@808188893"
+  },
+  {
+    "offset": 3172612,
+    "value": "_updatePainter@78245603"
+  },
+  {
+    "offset": 3173324,
+    "value": "library-search-pill"
+  },
+  {
+    "offset": 3173620,
+    "value": "package:flutter_localizations/src/material_localizations.dart"
+  },
+  {
+    "offset": 3173700,
+    "value": "package:media_kit_video/media_kit_video_controls/src/controls/material_desktop.dart"
+  },
+  {
+    "offset": 3176356,
+    "value": "package:flutter/src/rendering/box.dart"
+  },
+  {
+    "offset": 3176836,
+    "value": "package:flutter/src/cupertino/theme.dart"
+  },
+  {
+    "offset": 3177004,
+    "value": "_updateSemanticsChildren@69012902"
+  },
+  {
+    "offset": 3177372,
+    "value": "package:flutter/src/cupertino/desktop_text_selection.dart"
+  },
+  {
+    "offset": 3177724,
+    "value": "package:flutter/src/services/scribe.dart"
+  },
+  {
+    "offset": 3178228,
+    "value": "handleDeviceCursorUpdate"
+  },
+  {
+    "offset": 3180444,
+    "value": "package:jni/src/jclass.dart"
+  },
+  {
+    "offset": 3180820,
+    "value": "package:minireel/features/tv/tv_focus.dart"
+  },
+  {
+    "offset": 3181492,
+    "value": "package:flutter/src/widgets/slotted_render_object_widget.dart"
+  },
+  {
+    "offset": 3181948,
+    "value": "package:flutter/src/rendering/sliver_list.dart"
+  },
+  {
+    "offset": 3182164,
+    "value": "DramaDetailHeader"
+  },
+  {
+    "offset": 3182540,
+    "value": "package:flutter/src/painting/box_decoration.dart"
+  },
+  {
+    "offset": 3183588,
+    "value": "package:minireel/playback/native_error_guard.dart"
+  },
+  {
+    "offset": 3184508,
+    "value": "package:flutter_localizations/src/l10n/generated_widgets_localizations.dart"
+  },
+  {
+    "offset": 3185276,
+    "value": "package:minireel/core/diagnostics/error_capture.dart"
+  },
+  {
+    "offset": 3185436,
+    "value": "package:flutter/src/material/arc.dart"
+  },
+  {
+    "offset": 3186508,
+    "value": "package:flutter/src/rendering/sliver_padding.dart"
+  },
+  {
+    "offset": 3187188,
+    "value": "_updateSelectionExtentsVisibility@78245603"
+  },
+  {
+    "offset": 3187580,
+    "value": "_handleSelectionStartHandleDragUpdate@77111801"
+  },
+  {
+    "offset": 3188020,
+    "value": "minireel.db"
+  },
+  {
+    "offset": 3188244,
+    "value": "selectSingleEntryHistory"
+  }
+]
