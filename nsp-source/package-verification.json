@@ -1,0 +1,61 @@
+{
+  "name": "红果短剧",
+  "display_version": "1.2.4",
+  "cnmt_version": 720896,
+  "title_id": "0100f00d53414600",
+  "output": "/Volumes/Damao/APP/guo/guo-switch/diagnostics/nsp-repair-20261029/optimization-v120/release-candidate-v124/nsp/0100f00d53414600.nsp",
+  "bytes": 21802200,
+  "sha256": "850e46e2ef6e47a2b019560ec43dd21dfec4a265dc121f26a17dbdd5299fcaa0",
+  "entries": [
+    {
+      "name": "4a0964688f4f044cdc63abb7ceca8148.cnmt.nca",
+      "bytes": 4096,
+      "sha256": "4a0964688f4f044cdc63abb7ceca81484af9c84c7ced5d6c39969f705a0fdff3"
+    },
+    {
+      "name": "c578a0d9a580f2b3c2d1f20e8596decb.nca",
+      "bytes": 134144,
+      "sha256": "c578a0d9a580f2b3c2d1f20e8596decb88ce2f4499dd68d7638b10ad7f0c6781"
+    },
+    {
+      "name": "1eb31072ebdad5976003378dad09bd53.nca",
+      "bytes": 21663744,
+      "sha256": "1eb31072ebdad5976003378dad09bd5324ccfe4cff20e50a1c4333bf39d38e38"
+    }
+  ],
+  "renamed_locales": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "original_files_preserved": true,
+  "executable_preserved": false,
+  "executable_patched": true,
+  "npdm_preserved": true,
+  "romfs_changes": [
+    "adapter.js",
+    "hongguo.cjs",
+    "phone_source.js",
+    "prelude.js"
+  ],
+  "control": {
+    "before_sha256": "a010807cd3bda9c59f1f6874f2b64ef49ef0f37b38370313f9c776265de81e3b",
+    "after_sha256": "c85406ef10a0b334bb7c7c26cef89d09254d7ecc76549ae453faea13fc5055bb"
+  },
+  "roundtrip": {
+    "program_roundtrip": true,
+    "cnmt_content_records_verified": 2,
+    "cnmt_identity_verified": true,
+    "control_roundtrip": true
+  },
+  "installed": false
+}

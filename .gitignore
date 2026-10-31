@@ -12,35 +12,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Build artifacts & CMake directories
-guo-switch/cmake-build-*/
-guo-switch/build-*/
-guo-switch/build-core/
-guo-switch/.checks/
-guo-switch/.validation/
-guo-switch/dist/
+# NSP build staging & temp
+nsp-source/.build_temp/
+nsp-source/**/temp/
+nsp-source/**/backup/
+nsp-source/**/nca/
 
-# Diagnostics staging & intermediate unpack directories
-guo-switch/diagnostics/**/release-candidate*/
-guo-switch/diagnostics/**/smoke-*/
-guo-switch/diagnostics/**/tools/
-guo-switch/diagnostics/**/temp/
-guo-switch/diagnostics/**/backup/
-guo-switch/diagnostics/**/exefs/
-guo-switch/diagnostics/**/romfs/
-guo-switch/diagnostics/**/control/
-guo-switch/diagnostics/**/nca/
-guo-switch/diagnostics/**/roundtrip/
-guo-switch/diagnostics/**/nsp/
-guo-switch/diagnostics/**/__pycache__/
-
-# Compiled binary objects
+# Compiled objects & logs
 *.o
 *.obj
 *.a
 *.dylib
 *.so
-
-# Build logs
 *.log
 tool-build.log

@@ -1,4 +1,0 @@
-<brls:Box axis="column" padding="18" backgroundColor="#213047" cornerRadius="8" highlightCornerRadius="8">
-    <brls:Label id="guo/card/title" text="" fontSize="22" singleLine="false" grow="1" textColor="#FFFFFF"/>
-    <brls:Label id="guo/card/subtitle" text="" fontSize="16" textColor="#B8C9DF" marginTop="8"/>
-</brls:Box>
