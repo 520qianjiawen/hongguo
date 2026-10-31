@@ -49,6 +49,9 @@ struct Media {
     std::string referer;
     std::vector<std::string> backups;
     std::string cookies;
+    // Keeps local streaming-engine sessions alive while this media is in
+    // use (Hongguo App channel); empty for direct URLs.
+    std::shared_ptr<void> session;
 };
 
 struct Request {
@@ -87,9 +90,14 @@ public:
                           const Cancellation& cancelled) const = 0;
 };
 
+class HongguoAppClient;
+
 class HongguoProvider final : public Provider {
 public:
-    explicit HongguoProvider(FetchText fetch);
+    explicit HongguoProvider(FetchText fetch, FetchHttp fetchHttp = nullptr);
+    // Defined in provider.cpp: the unique_ptr member needs the complete
+    // HongguoAppClient type.
+    ~HongguoProvider() override;
     std::string name() const override { return "hongguo"; }
     std::vector<Category> categories() const override;
     CatalogPage catalog(const std::string& category, int page, const Cancellation& cancelled) const override;
@@ -99,7 +107,16 @@ public:
                   const Cancellation& cancelled) const override;
 
 private:
+    Media resolveWeb(const std::string& dramaId, const Episode& episode,
+                     const Cancellation& cancelled) const;
+    Media resolveApp(const std::string& dramaId, const Episode& episode,
+                     const Cancellation& cancelled) const;
+    HongguoAppClient& appClient() const;
+
     FetchText fetch;
+    FetchHttp fetchHttp;
+    mutable std::mutex appMutex;
+    mutable std::unique_ptr<HongguoAppClient> app;
 };
 
 class HuangjuProvider final : public Provider {

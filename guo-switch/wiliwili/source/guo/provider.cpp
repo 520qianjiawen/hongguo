@@ -1,5 +1,8 @@
 #include "guo/provider.hpp"
 
+#include "guo/hongguo_app.hpp"
+#include "guo/hongguo_engine.hpp"
+
 #include <algorithm>
 #include <cctype>
 #include <cstdio>
@@ -228,9 +231,12 @@ std::string encodePath(const std::string& value) {
     return result;
 }
 
-HongguoProvider::HongguoProvider(FetchText fetch) : fetch(std::move(fetch)) {
+HongguoProvider::HongguoProvider(FetchText fetch, FetchHttp fetchHttp)
+    : fetch(std::move(fetch)), fetchHttp(std::move(fetchHttp)) {
     if (!this->fetch) throw std::invalid_argument("未配置网络客户端");
 }
+
+HongguoProvider::~HongguoProvider() = default;
 
 std::vector<Category> HongguoProvider::categories() const {
     return {{"real-drama", "真人剧"}, {"comic-drama", "漫剧"}, {"ai-drama", "AI 剧"}, {"comic", "动漫"}};
@@ -307,7 +313,7 @@ Detail HongguoProvider::detail(const std::string& id, const Cancellation& cancel
     return result;
 }
 
-Media HongguoProvider::resolve(const std::string& dramaId, const Episode& episode, const Cancellation& cancelled) const {
+Media HongguoProvider::resolveWeb(const std::string& dramaId, const Episode& episode, const Cancellation& cancelled) const {
     if (!validId(dramaId) || !validId(episode.id)) throw std::invalid_argument("分集 ID 无效");
     checkCancelled(cancelled);
     const auto data = loader(fetch({base + "/player/" + dramaId + "/" + episode.id, base + "/", cancelled}),
@@ -335,6 +341,83 @@ Media HongguoProvider::resolve(const std::string& dramaId, const Episode& episod
     Media result{addresses.front(), base + "/", {}, ""};
     result.backups.assign(addresses.begin() + 1, addresses.end());
     return result;
+}
+
+Media HongguoProvider::resolve(const std::string& dramaId, const Episode& episode, const Cancellation& cancelled) const {
+    if (!validId(dramaId) || !validId(episode.id)) throw std::invalid_argument("分集 ID 无效");
+    checkCancelled(cancelled);
+    if (fetchHttp) return resolveApp(dramaId, episode, cancelled);
+    return resolveWeb(dramaId, episode, cancelled);
+}
+
+HongguoAppClient& HongguoProvider::appClient() const {
+    std::lock_guard<std::mutex> lock(appMutex);
+    if (!app) app = std::make_unique<HongguoAppClient>(fetchHttp, fetch);
+    return *app;
+}
+
+namespace {
+
+// Playback preference for a target quality: the exact match first, then
+// lower qualities nearest-first, then higher qualities nearest-first.
+// Rows arrive sorted by quality descending.
+std::vector<StreamRow> streamPreferenceOrder(const std::vector<StreamRow>& rows, int target) {
+    std::vector<StreamRow> exact, below, above;
+    for (const auto& row : rows) {
+        if (row.quality == target) exact.push_back(row);
+        else if (row.quality < target) below.push_back(row);
+        else above.push_back(row);
+    }
+    std::reverse(above.begin(), above.end());
+    std::vector<StreamRow> ordered;
+    ordered.reserve(rows.size());
+    for (const auto* group : {&exact, &below, &above})
+        ordered.insert(ordered.end(), group->begin(), group->end());
+    return ordered;
+}
+
+}  // namespace
+
+Media HongguoProvider::resolveApp(const std::string& dramaId, const Episode& episode, const Cancellation& cancelled) const {
+    checkCancelled(cancelled);
+    StreamSet set;
+    try {
+        set = appClient().videoInfo(episode.id);
+    } catch (const std::exception& videoError) {
+        try {
+            set = appClient().backup(dramaId, episode.id);
+        } catch (const std::exception&) {
+            // Surface the primary channel's error: it names the real cause.
+            throw std::runtime_error(videoError.what());
+        }
+    }
+    checkCancelled(cancelled);
+    const auto ordered = streamPreferenceOrder(set.rows, 480);
+    if (ordered.empty()) throw std::runtime_error("没有可用的播放地址");
+    auto& engine = StreamEngine::instance();
+    const auto fetcher = makeHttpRangeFetcher(fetchHttp);
+    auto lease = std::make_shared<EngineLease>();
+    std::string lastError;
+    for (size_t i = 0; i < ordered.size(); ++i) {
+        auto session = engine.createSession({ordered[i]}, fetcher);
+        try {
+            engine.prepare(*session);
+        } catch (const std::exception& error) {
+            lastError = error.what();
+            continue;
+        }
+        lease->primary = session;
+        Media media;
+        media.url = engine.urlFor(*session);
+        for (size_t j = i + 1; j < ordered.size() && lease->alternates.size() < 2; ++j) {
+            auto alternate = engine.createSession({ordered[j]}, fetcher);
+            lease->alternates.push_back(alternate);
+            media.backups.push_back(engine.urlFor(*alternate));
+        }
+        media.session = lease;
+        return media;
+    }
+    throw std::runtime_error(lastError.empty() ? "没有可用的播放地址" : lastError);
 }
 
 std::string extractCookies(const std::vector<std::string>& headers) {

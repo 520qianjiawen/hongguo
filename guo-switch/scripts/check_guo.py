@@ -204,6 +204,95 @@ int main(int argc, char** argv) {
 }
 """
 
+ENGINE_TEST = r"""
+#include "guo/hongguo_engine.hpp"
+#include <cstring>
+#include <fstream>
+#include <iostream>
+#include <vector>
+static std::vector<uint8_t> slurp(const char* path) {
+    std::ifstream input(path, std::ios::binary);
+    return std::vector<uint8_t>((std::istreambuf_iterator<char>(input)),
+                                std::istreambuf_iterator<char>());
+}
+static int fail(const std::string& what) {
+    std::cerr << "engine test failed: " << what << "\n";
+    return 1;
+}
+// The content key of the captured episode (see media-vectors.json).
+static const uint8_t kKeyArr[16] = {0x63, 0x67, 0xbf, 0x35, 0x22, 0x1c, 0x88, 0x0a,
+                                    0xdc, 0x6e, 0xa7, 0x8d, 0x68, 0x6c, 0xed, 0x0a};
+int main(int argc, char** argv) {
+    if (argc != 3) return 2;
+    const auto raw = slurp(argv[1]);
+    const auto decoded = slurp(argv[2]);
+    if (raw.empty() || raw.size() != decoded.size()) return fail("fixture sizes");
+    auto& engine = guo::StreamEngine::instance();
+    auto fileFetcher = [](const std::vector<uint8_t>& file) {
+        return guo::RangeFetcher([file](const std::string&, uint64_t start, uint64_t end) {
+            if (start >= file.size() || end < start) throw std::runtime_error("range out of file");
+            end = std::min<uint64_t>(end, static_cast<uint64_t>(file.size()) - 1);
+            guo::RangeResult result;
+            result.total = file.size();
+            result.data.assign(file.begin() + start, file.begin() + end + 1);
+            return result;
+        });
+    };
+    guo::StreamRow row;
+    row.url = "https://cdn.invalid/video.mp4";
+    row.codec = "bytevc1";
+    row.quality = 480;
+    row.key.assign(kKeyArr, kKeyArr + 16);
+    auto session = engine.createSession({row}, fileFetcher(raw));
+    engine.prepare(*session);
+    if (!session->prepared || session->total != raw.size()) return fail("prepare");
+    auto expect = [&](const std::string& range, bool headOnly, int status, size_t begin, size_t end) {
+        const auto resp = engine.serve(session, range, headOnly);
+        if (resp.status != status) return fail("status for " + range);
+        if (headOnly) {
+            if (!resp.body.empty() || resp.contentLength != end - begin) return fail("head for " + range);
+            return 0;
+        }
+        if (resp.body.size() != end - begin) return fail("length for " + range);
+        if (end > begin && std::memcmp(resp.body.data(), decoded.data() + begin, resp.body.size()) != 0)
+            return fail("bytes for " + range);
+        return 0;
+    };
+    if (int rc = expect("", false, 200, 0, raw.size())) return rc;
+    if (int rc = expect("bytes=0-511", false, 206, 0, 512)) return rc;
+    if (int rc = expect("bytes=123457-234567", false, 206, 123457, 234568)) return rc;
+    if (int rc = expect("bytes=-1024", false, 206, raw.size() - 1024, raw.size())) return rc;
+    const std::string lastByte = "bytes=" + std::to_string(raw.size() - 1) + "-";
+    if (int rc = expect(lastByte, false, 206, raw.size() - 1, raw.size())) return rc;
+    if (int rc = expect("bytes=0-511", true, 206, 0, 512)) return rc;
+    const std::string beyond = "bytes=" + std::to_string(raw.size()) + "-";
+    if (int rc = expect(beyond, false, 416, 0, 0)) return rc;
+    {
+        // The patched header must be the bytes mpv sees (hvc1 at offset 457).
+        const auto resp = engine.serve(session, "bytes=0-511", false);
+        if (resp.body.size() < 461 || std::memcmp(resp.body.data() + 457, "hvc1", 4) != 0)
+            return fail("patched header");
+    }
+    guo::StreamRow plain;
+    plain.url = "https://cdn.invalid/plain.mp4";
+    plain.quality = 720;
+    auto plainSession = engine.createSession({plain}, fileFetcher(decoded));
+    {
+        const auto resp = engine.serve(plainSession, "bytes=100-199", false);
+        if (resp.status != 206 || resp.body.size() != 100 ||
+            std::memcmp(resp.body.data(), decoded.data() + 100, 100) != 0)
+            return fail("plain passthrough");
+    }
+    std::cout << "engine serve ok\n" << std::flush;
+    // Real HTTP through the mongoose listener; the driver curls this URL,
+    // then releases us with a line on stdin.
+    std::cout << "ENGINE_URL " << engine.urlFor(*session) << "\n" << std::flush;
+    std::string line;
+    std::getline(std::cin, line);
+    return 0;
+}
+"""
+
 LIBRARY_TEST = r"""
 #include "guo/library.hpp"
 #include <cassert>
@@ -245,14 +334,15 @@ def find_compiler():
     return None
 
 
-def compile_binary(cxx, sources, output, workdir):
+def compile_binary(cxx, sources, output, workdir, extra_includes=(), extra_link=()):
     cmd = [
         cxx, "-std=c++17", "-O1", "-Wall",
         "-I", GUO_INCLUDE,
         "-I", JSON_INCLUDE,
-        *sources,
-        "-o", output,
     ]
+    for include in extra_includes:
+        cmd += ["-I", include]
+    cmd += [*sources, "-o", output, *extra_link]
     result = subprocess.run(cmd, cwd=workdir, capture_output=True, text=True)
     if result.returncode != 0:
         print(result.stdout)
@@ -271,13 +361,40 @@ def main():
         return 1
 
     with tempfile.TemporaryDirectory(prefix="guo-check-") as workdir:
+        # The provider now pulls in the App client + stream engine, so most
+        # binaries link the full platform-independent guo source set plus
+        # the vendored mongoose (used by the engine's local HTTP proxy).
+        mongoose_dir = os.path.join(ROOT, "library", "mongoose")
+        mongoose_obj = os.path.join(workdir, "mongoose.o")
+        cc = shutil.which("cc") or shutil.which("gcc")
+        if not cc:
+            print("no host C compiler found (needed for mongoose)", file=sys.stderr)
+            return 1
+        result = subprocess.run(
+            [cc, "-O1", "-I", mongoose_dir, "-c",
+             os.path.join(mongoose_dir, "mongoose.c"), "-o", mongoose_obj],
+            capture_output=True, text=True,
+        )
+        if result.returncode != 0:
+            print(result.stderr, file=sys.stderr)
+            print("FAIL: mongoose compile", file=sys.stderr)
+            return 1
+        guo_dir = os.path.join(ROOT, "wiliwili", "source", "guo")
+        guo_sources = [
+            os.path.join(guo_dir, name)
+            for name in ("provider.cpp", "hongguo_app.cpp", "hongguo_sign.cpp",
+                         "hongguo_crypto.cpp", "hongguo_codec.cpp", "hongguo_engine.cpp")
+        ]
+
         # 1. Provider reproduction against fixtures.
         binary = os.path.join(workdir, "reproduce_provider")
         compile_binary(
             cxx,
-            [REPRODUCER, os.path.join(ROOT, "wiliwili", "source", "guo", "provider.cpp")],
+            [REPRODUCER, *guo_sources, mongoose_obj],
             binary,
             workdir,
+            extra_includes=[mongoose_dir],
+            extra_link=["-lpthread"],
         )
         result = subprocess.run([binary, *fixtures], capture_output=True, text=True)
         print(result.stdout.strip())
@@ -303,9 +420,11 @@ def main():
         compile_binary(
             cxx,
             [test_source, os.path.join(ROOT, "wiliwili", "source", "guo", "library.cpp"),
-             os.path.join(ROOT, "wiliwili", "source", "guo", "provider.cpp")],
+             *guo_sources, mongoose_obj],
             binary,
             workdir,
+            extra_includes=[mongoose_dir],
+            extra_link=["-lpthread"],
         )
         result = subprocess.run(
             [binary, os.path.join(workdir, "guo_history.json")], capture_output=True, text=True
@@ -398,6 +517,87 @@ def main():
                 print(result.stderr, file=sys.stderr)
                 print("FAIL: codec vectors", file=sys.stderr)
                 return 1
+
+        # 6. Stream engine end-to-end: a file-backed fetcher over the raw
+        # excerpt; serve() must hand out exactly the decoded bytes for full,
+        # ranged, suffix and HEAD requests, and the real mongoose listener
+        # must do the same over HTTP (checked with curl by this driver).
+        engine_source = os.path.join(ROOT, "wiliwili", "source", "guo", "hongguo_engine.cpp")
+        if os.path.exists(engine_source) and os.path.exists(excerpt_raw):
+            curl = shutil.which("curl")
+            if not curl:
+                print("FAIL: engine test needs curl", file=sys.stderr)
+                return 1
+            test_source = os.path.join(workdir, "engine_test.cpp")
+            with open(test_source, "w", encoding="utf-8") as handle:
+                handle.write(ENGINE_TEST)
+            binary = os.path.join(workdir, "engine_test")
+            compile_binary(
+                cxx,
+                [test_source, engine_source,
+                 os.path.join(ROOT, "wiliwili", "source", "guo", "hongguo_codec.cpp"),
+                 os.path.join(ROOT, "wiliwili", "source", "guo", "hongguo_crypto.cpp"),
+                 mongoose_obj],
+                binary,
+                workdir,
+                extra_includes=[mongoose_dir],
+                extra_link=["-lpthread"],
+            )
+            with open(excerpt_decoded, "rb") as handle:
+                decoded_bytes = handle.read()
+            proc = subprocess.Popen(
+                [binary, excerpt_raw, excerpt_decoded],
+                stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE, text=True,
+            )
+            engine_url = None
+            serve_ok = False
+            try:
+                for line in proc.stdout:
+                    line = line.strip()
+                    if line == "engine serve ok":
+                        serve_ok = True
+                    elif line.startswith("ENGINE_URL "):
+                        engine_url = line.split(" ", 1)[1]
+                        break
+                if not serve_ok or not engine_url:
+                    print(proc.stderr.read() if proc.stderr else "", file=sys.stderr)
+                    print("FAIL: engine serve", file=sys.stderr)
+                    return 1
+                full_path = os.path.join(workdir, "engine-full.bin")
+                result = subprocess.run(
+                    [curl, "-sS", "-o", full_path, engine_url],
+                    capture_output=True, text=True, timeout=60,
+                )
+                if result.returncode != 0:
+                    print(result.stderr, file=sys.stderr)
+                    print("FAIL: engine http full download", file=sys.stderr)
+                    return 1
+                with open(full_path, "rb") as handle:
+                    if handle.read() != decoded_bytes:
+                        print("FAIL: engine http bytes differ from the decoded excerpt", file=sys.stderr)
+                        return 1
+                part_path = os.path.join(workdir, "engine-part.bin")
+                result = subprocess.run(
+                    [curl, "-sS", "-o", part_path, "-H", "Range: bytes=123457-234567", engine_url],
+                    capture_output=True, text=True, timeout=60,
+                )
+                if result.returncode != 0:
+                    print(result.stderr, file=sys.stderr)
+                    print("FAIL: engine http range download", file=sys.stderr)
+                    return 1
+                with open(part_path, "rb") as handle:
+                    if handle.read() != decoded_bytes[123457:234568]:
+                        print("FAIL: engine http range bytes differ", file=sys.stderr)
+                        return 1
+                print("engine http ok")
+            finally:
+                try:
+                    proc.stdin.write("\n")
+                    proc.stdin.flush()
+                    proc.wait(timeout=10)
+                except Exception:
+                    proc.kill()
 
     print("all guo checks passed")
     return 0

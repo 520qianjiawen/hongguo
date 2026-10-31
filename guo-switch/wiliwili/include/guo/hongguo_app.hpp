@@ -3,6 +3,7 @@
 #include <cstdint>
 #include <deque>
 #include <map>
+#include <mutex>
 #include <string>
 #include <utility>
 #include <vector>
@@ -71,6 +72,10 @@ private:
     std::string deviceId_;
     std::string installId_;
     bool identityInFlight_ = false;
+    // Serializes calls: the JS joins concurrent resolves of the same
+    // episode into one in-flight promise; a mutex gives the same
+    // one-at-a-time behavior for the network + cache state here.
+    std::recursive_mutex mutex_;
 
     struct CacheEntry {
         int64_t timeMs = 0;

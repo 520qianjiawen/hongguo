@@ -1,5 +1,7 @@
 #pragma once
 
+#include <limits>
+#include <optional>
 #include <borealis/core/activity.hpp>
 #include <borealis/core/bind.hpp>
 #include "guo/job.hpp"
@@ -58,6 +60,7 @@ private:
     void load();
     void resume();
     Job job;
+    Job warmJob;
     Drama selected;
     Detail detail;
     BRLS_BIND(brls::AppletFrame, frame, "guo/frame");
@@ -77,10 +80,15 @@ public:
 
 private:
     void play(size_t index, bool restore);
+    void beginPlayback(const Media& result, bool restore, const Episode& episode);
+    void warmNext();
     void save(bool completed = false);
     void fail(const std::string& message);
     void next(int direction);
     Job job;
+    Job warmJob;
+    std::optional<Media> warmed;
+    size_t warmedIndex = std::numeric_limits<size_t>::max();
     Detail detail;
     size_t index;
     size_t backupIndex = 0;

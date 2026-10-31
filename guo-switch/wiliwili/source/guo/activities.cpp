@@ -97,7 +97,7 @@ std::string resolveSource(const Drama& drama, const std::string& fallback = "hua
 
 std::shared_ptr<const Provider> provider(const std::string& source) {
     static const auto huangju = std::make_shared<const HuangjuProvider>(curlFetchHttp);
-    static const auto hongguo = std::make_shared<const HongguoProvider>(curlFetchText);
+    static const auto hongguo = std::make_shared<const HongguoProvider>(curlFetchText, curlFetchHttp);
     if (source == "hongguo") return hongguo;
     return huangju;
 }
@@ -299,6 +299,18 @@ void DetailActivity::load() {
             grid->setDataSource(new Cards(std::move(cards), [this](size_t index) { Intent::openGuoPlayer(detail, index); }));
             resumeButton->setText(history.episode.id.empty() ? "立即播放" : "继续播放");
             status->setText("共 " + std::to_string(detail.episodes.size()) + " 集 · 选择分集播放");
+            // Warm the App channel (device identity + stream info) for the
+            // resume episode in the background; the result is discarded,
+            // the caches it fills make the actual play start immediately.
+            const size_t warmIndex = resumeIndex(detail, history);
+            if (warmIndex < detail.episodes.size()) {
+                const auto warmSource = provider(resolveSource(selected));
+                const auto warmId = selected.id;
+                const auto warmEpisode = detail.episodes[warmIndex];
+                warmJob.run([warmSource, warmId, warmEpisode](const Cancellation& token) {
+                    return warmSource->resolve(warmId, warmEpisode, token);
+                }, [](const Media&) {}, [](const std::string&) {});
+            }
         }, [this](const std::string& message) {
             status->setText(message);
             grid->setError(message);
@@ -339,7 +351,10 @@ void PlayerActivity::onContentAvailable() {
     video->registerAction("重新取流", brls::ControllerButton::BUTTON_Y,
         [this](brls::View*) { play(index, true); return true; });
     subscription = MPV_E->subscribe([this](MpvEventEnum event) {
-        if (event == MpvEventEnum::MPV_LOADED && !loading) loaded = true;
+        if (event == MpvEventEnum::MPV_LOADED && !loading) {
+            loaded = true;
+            warmNext();
+        }
         else if (event == MpvEventEnum::UPDATE_PROGRESS && loaded) {
             const int seconds = boundedTime(MPVCore::instance().video_progress);
             if (lastSaved < 0 || std::abs(seconds - lastSaved) >= 5) save();
@@ -369,6 +384,7 @@ void PlayerActivity::play(size_t selectedIndex, bool restore) {
     if (selectedIndex >= detail.episodes.size()) return;
     save();
     job.cancel();
+    warmJob.cancel();
     loaded = false;
     loading = true;
     completed = false;
@@ -377,23 +393,50 @@ void PlayerActivity::play(size_t selectedIndex, bool restore) {
     media = {};
     backupIndex = 0;
     lastSaved = -1;
-    const std::string src = resolveSource(detail.drama);
-    const auto source = provider(src);
-    const auto dramaId = detail.drama.id;
     const auto episode = detail.episodes[index];
     video->setTitle(detail.drama.title + " · " + episode.title);
     video->setOnlineCount("正在获取播放地址…");
     video->showLoading();
     video->showOSD(false);
+    if (warmed && warmedIndex == selectedIndex) {
+        const Media cached = *warmed;
+        warmed.reset();
+        warmedIndex = std::numeric_limits<size_t>::max();
+        beginPlayback(cached, restore, episode);
+        return;
+    }
+    warmed.reset();
+    warmedIndex = std::numeric_limits<size_t>::max();
+    const std::string src = resolveSource(detail.drama);
+    const auto source = provider(src);
+    const auto dramaId = detail.drama.id;
     job.run([source, dramaId, episode](const Cancellation& token) { return source->resolve(dramaId, episode, token); },
-        [this, restore, episode](const Media& result) {
-            media = result;
-            loading = false;
-            const auto history = library().progress(detail.drama.id);
-            const int start = restore && history.episode.id == episode.id && !history.completed ? std::max(0, history.seconds - 3) : 0;
-            video->setOnlineCount("ZL 上一集 · ZR 下一集 · Y 重试 · B 选集");
-            MPVCore::instance().setUrl(media.url, playbackOptions(media, start));
-        }, [this](const std::string& message) { loading = false; fail(message); });
+        [this, restore, episode](const Media& result) { beginPlayback(result, restore, episode); },
+        [this](const std::string& message) { loading = false; fail(message); });
+}
+
+void PlayerActivity::beginPlayback(const Media& result, bool restore, const Episode& episode) {
+    media = result;
+    loading = false;
+    const auto history = library().progress(detail.drama.id);
+    const int start = restore && history.episode.id == episode.id && !history.completed ? std::max(0, history.seconds - 3) : 0;
+    video->setOnlineCount("ZL 上一集 · ZR 下一集 · Y 重试 · B 选集");
+    MPVCore::instance().setUrl(media.url, playbackOptions(media, start));
+}
+
+void PlayerActivity::warmNext() {
+    const size_t nextIndex = index + 1;
+    if (nextIndex >= detail.episodes.size()) return;
+    if (warmed && warmedIndex == nextIndex) return;
+    const std::string src = resolveSource(detail.drama);
+    const auto source = provider(src);
+    const auto dramaId = detail.drama.id;
+    const auto episode = detail.episodes[nextIndex];
+    warmJob.run([source, dramaId, episode](const Cancellation& token) { return source->resolve(dramaId, episode, token); },
+        [this, nextIndex](const Media& result) {
+            warmed = result;
+            warmedIndex = nextIndex;
+        }, [](const std::string&) {});
 }
 
 void PlayerActivity::fail(const std::string& message) {
@@ -425,6 +468,7 @@ void PlayerActivity::save(bool finished) {
 
 PlayerActivity::~PlayerActivity() {
     job.cancel();
+    warmJob.cancel();
     if (subscribed) MPV_E->unsubscribe(subscription);
     save();
     if (video) video->stop();
