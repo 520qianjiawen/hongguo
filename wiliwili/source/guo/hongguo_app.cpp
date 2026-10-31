@@ -18,7 +18,7 @@ const char* kUserAgent =
     "Build/BP2A.250605.031.A3; Cronet/TTNetVersion:04657795 2026-01-23 "
     "QuicVersion:c67e9834 2025-09-08)";
 
-bool validId(const std::string& id) {
+bool appValidId(const std::string& id) {
     if (id.empty() || id.size() > 30) return false;
     return std::all_of(id.begin(), id.end(), [](unsigned char c) { return std::isdigit(c); });
 }
@@ -528,7 +528,7 @@ void HongguoAppClient::ensureIdentity() {
         const std::string install = jsonText(data.value("install_id_str", nlohmann::json())).empty()
                                         ? jsonText(data.value("install_id", nlohmann::json()))
                                         : jsonText(data["install_id_str"]);
-        if (!validId(device) || !validId(install) || device == "0" || install == "0") {
+        if (!appValidId(device) || !appValidId(install) || device == "0" || install == "0") {
             throw std::runtime_error("红果设备注册未返回有效设备号");
         }
         deviceId_ = device;
@@ -610,7 +610,7 @@ nlohmann::json HongguoAppClient::appRequest(const std::string& path,
 
 StreamSet HongguoAppClient::videoInfo(const std::string& episodeId) {
     std::lock_guard<std::recursive_mutex> lock(mutex_);
-    if (!validId(episodeId)) throw std::runtime_error("分集 ID 无效");
+    if (!appValidId(episodeId)) throw std::runtime_error("分集 ID 无效");
     const auto hit = cache_.find(episodeId);
     if (hit != cache_.end() && nowMs() - hit->second.timeMs < 1800000) return hit->second.value;
 
@@ -687,7 +687,7 @@ StreamSet HongguoAppClient::videoInfo(const std::string& episodeId) {
 
 StreamSet HongguoAppClient::backup(const std::string& seriesId, const std::string& episodeId) {
     std::lock_guard<std::recursive_mutex> lock(mutex_);
-    if (!validId(seriesId) || !validId(episodeId)) throw std::runtime_error("备用取流缺少剧集 ID");
+    if (!appValidId(seriesId) || !appValidId(episodeId)) throw std::runtime_error("备用取流缺少剧集 ID");
     nlohmann::ordered_json reference;
     reference["content_type"] = 1004;
     reference["from_video_id"] = "";
