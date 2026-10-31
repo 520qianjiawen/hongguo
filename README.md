@@ -11,7 +11,7 @@
     - `optimization-v120/`：启播延迟优化与 AArch64 原生 AES-CTR 批量解密桥
     - `package_nsp.py`：NSP 自动化打包与校验脚本
     - `build_patched_main.py`：AArch64 汇编补丁构建器
-- **`[v1.2.2]红果短剧.nsp`**：当前最新 Nintendo Switch 安装包（v1.2.2，包含 AArch64 批量解密桥及首集预热优化）
+- **`[v1.2.3]红果短剧.nsp`**：当前最新 Nintendo Switch 安装包（v1.2.3，包含 AArch64 批量解密桥、首集预热优化及 fix-rc6 并发流请求防风暴优化）
 - **`dbi_mtp_installer` & `dbi_mtp_installer.c`**：针对 Switch DBI MTP Responder 开发的免弹窗高速安装器
 - **`MiniReel-0.4.0-REA-analysis/`**：MiniReel Android TV 原版客户端逆向分析报告与接口签名对照
 - **`MiniReel-0.4.0-android-tv-armeabi-v7a.apk`**：作为协议与功能对照的 Android TV 版本测试 APK
@@ -21,5 +21,5 @@
 可通过 DBI MTP 直接将 NSP 安装至 Switch：
 
 ```bash
-./dbi_mtp_installer "[v1.2.2]红果短剧.nsp"
+./dbi_mtp_installer "[v1.2.3]红果短剧.nsp"
 ```
