@@ -32,6 +32,10 @@ if [[ "${1:-}" == "--prepare" ]]; then
         [ -f "${PKG}" ] || curl -LO "${BASE_URL}${PKG}"
         dkp-pacman -U --noconfirm "${PKG}"
     done
+    # App-level port libraries that the custom packages do not pull in but
+    # the build links against (mpv.pc alone requires libplacebo).
+    dkp-pacman -S --needed --noconfirm \
+        switch-curl switch-sdl2 switch-libwebp switch-libplacebo switch-glfw
 fi
 
 cmake -B "${BUILD_DIR}" -DCMAKE_BUILD_TYPE=Release -DBUILTIN_NSP=ON \
