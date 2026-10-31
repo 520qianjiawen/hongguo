@@ -155,6 +155,55 @@ int main(int argc, char** argv) {
 }
 """
 
+CODEC_MEDIA = os.path.join(ROOT, "diagnostics", "guo-native", "media")
+
+CODEC_TEST = r"""
+#include "guo/hongguo_codec.hpp"
+#include "guo/hongguo_crypto.hpp"
+#include <cstring>
+#include <fstream>
+#include <iostream>
+#include <vector>
+static std::vector<uint8_t> slurp(const char* path) {
+    std::ifstream input(path, std::ios::binary);
+    return std::vector<uint8_t>((std::istreambuf_iterator<char>(input)),
+                                std::istreambuf_iterator<char>());
+}
+static int fail(const std::string& what) {
+    std::cerr << "codec test failed: " << what << "\n";
+    return 1;
+}
+// The content key of the captured episode (see media-vectors.json).
+static const uint8_t kKey[16] = {0x63, 0x67, 0xbf, 0x35, 0x22, 0x1c, 0x88, 0x0a,
+                                 0xdc, 0x6e, 0xa7, 0x8d, 0x68, 0x6c, 0xed, 0x0a};
+int main(int argc, char** argv) {
+    if (argc != 3) return 2;
+    const auto raw = slurp(argv[1]);
+    const auto decoded = slurp(argv[2]);
+    if (raw.size() != decoded.size() || raw.empty()) return fail("fixture sizes");
+    const auto prepared = guo::prepareCencHeader(raw.data(), raw.size(), kKey, 4303144);
+    if (prepared.samples.empty()) return fail("no samples parsed");
+    if (prepared.header.empty() || prepared.header.size() >= raw.size()) return fail("header size");
+    if (std::memcmp(prepared.header.data(), decoded.data(), prepared.header.size()) != 0)
+        return fail("patched header differs from the JS output");
+    auto checkRange = [&](size_t start, size_t end) {
+        std::vector<uint8_t> slice(raw.begin() + start, raw.begin() + end);
+        guo::decryptPartial(slice.data(), slice.size(), start, kKey, prepared);
+        if (std::memcmp(slice.data(), decoded.data() + start, slice.size()) != 0)
+            return fail("range " + std::to_string(start) + "-" + std::to_string(end));
+        return 0;
+    };
+    if (int rc = checkRange(0, raw.size())) return rc;
+    if (int rc = checkRange(0, 511)) return rc;
+    if (int rc = checkRange(123457, 234568)) return rc;
+    if (int rc = checkRange(244800, 260000)) return rc;
+    if (int rc = checkRange(299000, 300000)) return rc;
+    if (int rc = checkRange(250001, 250017)) return rc;
+    std::cout << "codec vectors ok (" << prepared.samples.size() << " samples)\n";
+    return 0;
+}
+"""
+
 LIBRARY_TEST = r"""
 #include "guo/library.hpp"
 #include <cassert>
@@ -305,6 +354,49 @@ def main():
             if result.returncode != 0:
                 print(result.stderr, file=sys.stderr)
                 print("FAIL: app vectors", file=sys.stderr)
+                return 1
+
+        # 5. Playback codec: patched header + range decryption against the
+        # captured raw/decoded excerpt pair (base64 in the repo; the decoded
+        # excerpt comes from a single JS read window starting at 0, so it is
+        # free of the harness batch-fallback boundary artifact).
+        codec_source = os.path.join(ROOT, "wiliwili", "source", "guo", "hongguo_codec.cpp")
+        excerpt_raw = os.path.join(CODEC_MEDIA, "excerpt-raw.bin")
+        excerpt_decoded = os.path.join(CODEC_MEDIA, "excerpt-decoded.bin")
+        if not os.path.exists(excerpt_raw) and glob.glob(
+            os.path.join(CODEC_MEDIA, "excerpt-raw.b64.part*")
+        ):
+            import base64
+
+            for name, target in (("excerpt-raw", excerpt_raw), ("excerpt-decoded", excerpt_decoded)):
+                encoded = ""
+                for part in sorted(glob.glob(os.path.join(CODEC_MEDIA, name + ".b64.part*"))):
+                    with open(part, "r", encoding="ascii") as handle:
+                        encoded += handle.read()
+                payload = base64.b64decode(encoded)
+                with open(os.path.join(workdir, os.path.basename(target)), "wb") as handle:
+                    handle.write(payload)
+            excerpt_raw = os.path.join(workdir, "excerpt-raw.bin")
+            excerpt_decoded = os.path.join(workdir, "excerpt-decoded.bin")
+        if os.path.exists(codec_source) and os.path.exists(excerpt_raw):
+            test_source = os.path.join(workdir, "codec_test.cpp")
+            with open(test_source, "w", encoding="utf-8") as handle:
+                handle.write(CODEC_TEST)
+            binary = os.path.join(workdir, "codec_test")
+            compile_binary(
+                cxx,
+                [test_source, codec_source,
+                 os.path.join(ROOT, "wiliwili", "source", "guo", "hongguo_crypto.cpp")],
+                binary,
+                workdir,
+            )
+            result = subprocess.run(
+                [binary, excerpt_raw, excerpt_decoded], capture_output=True, text=True
+            )
+            print(result.stdout.strip())
+            if result.returncode != 0:
+                print(result.stderr, file=sys.stderr)
+                print("FAIL: codec vectors", file=sys.stderr)
                 return 1
 
     print("all guo checks passed")
