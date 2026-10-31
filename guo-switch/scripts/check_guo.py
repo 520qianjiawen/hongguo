@@ -74,6 +74,87 @@ int main(int argc, char** argv) {
 }
 """
 
+APP_VECTORS = os.path.join(ROOT, "diagnostics", "guo-native", "media-vectors.json")
+APP_RESPONSE = os.path.join(ROOT, "diagnostics", "guo-native", "videoinfo-response.json")
+APP_ROWS = os.path.join(ROOT, "diagnostics", "guo-native", "resolved-rows.json")
+
+APP_TEST = r"""
+#include "guo/hongguo_app.hpp"
+#include "guo/hongguo_crypto.hpp"
+#include <fstream>
+#include <iostream>
+#include <sstream>
+using nlohmann::json;
+static std::string slurp(const char* path) {
+    std::ifstream input(path);
+    std::stringstream buffer;
+    buffer << input.rdbuf();
+    return buffer.str();
+}
+static int fail(const std::string& what) {
+    std::cerr << "app test failed: " << what << "\n";
+    return 1;
+}
+int main(int argc, char** argv) {
+    if (argc != 4) return 2;
+    const auto vectors = json::parse(slurp(argv[1]));
+    const auto key = guo::contentKeyFromSpade(vectors.at("spade_a").get<std::string>());
+    if (guo::hexEncode(key.data(), key.size()) != vectors.at("content_key_hex").get<std::string>())
+        return fail("contentKeyFromSpade");
+    const auto seed = guo::hexDecode(vectors.at("spade_url").at("seed_hex").get<std::string>());
+    if (guo::decryptSpadeUrl(vectors.at("spade_url").at("encoded").get<std::string>(), seed) !=
+        vectors.at("spade_url").at("plain").get<std::string>())
+        return fail("decryptSpadeUrl");
+    const auto fallback = guo::decodeFallbackBody(vectors.at("fallback_body").get<std::string>());
+    if (fallback != vectors.at("fallback_json")) return fail("decodeFallbackBody");
+    const auto protectedDoc = guo::parseJsonProtected("{\"id\":7701336720221932568,\"n\":42}");
+    if (protectedDoc.at("id").get<std::string>() != "7701336720221932568" ||
+        protectedDoc.at("n").get<int>() != 42)
+        return fail("parseJsonProtected");
+
+    const std::string responseBody = slurp(argv[2]);
+    const auto expectedRows = json::parse(slurp(argv[3]));
+    bool sawGorgon = false, sawArgus = false, sawLadon = false;
+    guo::FetchHttp fakeHttp = [&](const guo::Request& request) -> guo::Response {
+        guo::Response response;
+        response.code = 200;
+        if (request.url.find("device_register") != std::string::npos) {
+            response.body = "{\"device_id_str\":\"1234567890123456789\",\"install_id_str\":\"9876543210987654321\"}";
+            return response;
+        }
+        if (request.url.find("multi_video_model") == std::string::npos)
+            return fail("unexpected URL " + request.url), response;
+        for (const auto& header : request.headers) {
+            if (header.rfind("X-Gorgon: 8404", 0) == 0) sawGorgon = true;
+            if (header.rfind("X-Argus: ", 0) == 0) sawArgus = true;
+            if (header.rfind("X-Ladon: ", 0) == 0) sawLadon = true;
+        }
+        response.body = responseBody;
+        return response;
+    };
+    guo::FetchText fakeText = [](const guo::Request&) -> std::string {
+        throw std::runtime_error("unexpected text fetch");
+    };
+    guo::HongguoAppClient client(fakeHttp, fakeText);
+    const auto set = client.videoInfo("7701336720221932568");
+    if (!sawGorgon || !sawArgus || !sawLadon) return fail("signed headers missing");
+    if (set.rows.size() != expectedRows.size()) return fail("row count");
+    for (size_t i = 0; i < set.rows.size(); ++i) {
+        const auto& row = set.rows[i];
+        const auto& expected = expectedRows[i];
+        if (std::to_string(row.quality) != expected.at("quality").get<std::string>())
+            return fail("row quality order");
+        if (row.url != expected.at("main_url").get<std::string>()) return fail("row url");
+        if (row.codec != expected.at("codec_type").get<std::string>()) return fail("row codec");
+        const std::string keyHex = row.key.empty() ? "" : guo::hexEncode(row.key.data(), row.key.size());
+        if (keyHex != expected.at("phone_key").get<std::string>()) return fail("row key");
+        if (row.quality == 480 && row.size != 4303144) return fail("row size");
+    }
+    std::cout << "app vectors ok\n";
+    return 0;
+}
+"""
+
 LIBRARY_TEST = r"""
 #include "guo/library.hpp"
 #include <cassert>
@@ -199,6 +280,31 @@ def main():
             if result.returncode != 0:
                 print(result.stderr, file=sys.stderr)
                 print("FAIL: signer vectors", file=sys.stderr)
+                return 1
+
+        # 4. App client: crypto vectors + full videoInfo flow against the
+        # captured live API response, with a fake transport.
+        app_source = os.path.join(ROOT, "wiliwili", "source", "guo", "hongguo_app.cpp")
+        if os.path.exists(app_source) and os.path.exists(APP_VECTORS):
+            test_source = os.path.join(workdir, "app_test.cpp")
+            with open(test_source, "w", encoding="utf-8") as handle:
+                handle.write(APP_TEST)
+            binary = os.path.join(workdir, "app_test")
+            compile_binary(
+                cxx,
+                [test_source, app_source,
+                 os.path.join(ROOT, "wiliwili", "source", "guo", "hongguo_crypto.cpp"),
+                 os.path.join(ROOT, "wiliwili", "source", "guo", "hongguo_sign.cpp")],
+                binary,
+                workdir,
+            )
+            result = subprocess.run(
+                [binary, APP_VECTORS, APP_RESPONSE, APP_ROWS], capture_output=True, text=True
+            )
+            print(result.stdout.strip())
+            if result.returncode != 0:
+                print(result.stderr, file=sys.stderr)
+                print("FAIL: app vectors", file=sys.stderr)
                 return 1
 
     print("all guo checks passed")
