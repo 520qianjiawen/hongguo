@@ -28,6 +28,52 @@ REPRODUCER = os.path.join(FIXTURE_DIR, "reproduce_provider.cpp")
 GUO_INCLUDE = os.path.join(ROOT, "wiliwili", "include")
 JSON_INCLUDE = os.path.join(ROOT, "library", "borealis", "library", "include", "borealis", "extern")
 
+SIGN_VECTORS = os.path.join(ROOT, "diagnostics", "guo-native", "sign-vectors.json")
+
+SIGN_TEST = r"""
+#include "guo/hongguo_sign.hpp"
+#include <fstream>
+#include <iostream>
+#include <nlohmann/json.hpp>
+int main(int argc, char** argv) {
+    if (argc != 2) return 2;
+    if (guo::md5Hex("abc") != "900150983cd24fb0d6963f7d28e17f72") {
+        std::cerr << "md5 known-answer failed\n";
+        return 1;
+    }
+    std::ifstream input(argv[1]);
+    nlohmann::json vectors;
+    input >> vectors;
+    for (const auto& row : vectors.at("sign")) {
+        const auto out = guo::signRequest(row.at("query").get<std::string>(),
+                                          row.at("body").get<std::string>(),
+                                          row.at("now").get<int64_t>());
+        for (const auto& [name, expected] : row.at("out").items()) {
+            const auto it = out.find(name);
+            if (it == out.end() || it->second != expected.get<std::string>()) {
+                std::cerr << "sign mismatch for " << name << ": got "
+                          << (it == out.end() ? std::string("<missing>") : it->second)
+                          << " want " << expected.get<std::string>() << "\n";
+                return 1;
+            }
+        }
+    }
+    for (const auto& row : vectors.at("xGorgon")) {
+        const auto out = guo::xGorgon(row.at("query").get<std::string>(),
+                                      row.at("body").get<std::string>(),
+                                      row.at("timestamp").get<int64_t>(),
+                                      row.at("random").get<uint32_t>());
+        if (out != row.at("out").get<std::string>()) {
+            std::cerr << "xGorgon mismatch: got " << out << " want "
+                      << row.at("out").get<std::string>() << "\n";
+            return 1;
+        }
+    }
+    std::cout << "sign vectors ok\n";
+    return 0;
+}
+"""
+
 LIBRARY_TEST = r"""
 #include "guo/library.hpp"
 #include <cassert>
@@ -139,6 +185,21 @@ def main():
             print(result.stderr, file=sys.stderr)
             print("FAIL: library round-trip", file=sys.stderr)
             return 1
+
+        # 3. Signer reference vectors (only when the signer sources exist).
+        sign_source = os.path.join(ROOT, "wiliwili", "source", "guo", "hongguo_sign.cpp")
+        if os.path.exists(sign_source) and os.path.exists(SIGN_VECTORS):
+            test_source = os.path.join(workdir, "sign_test.cpp")
+            with open(test_source, "w", encoding="utf-8") as handle:
+                handle.write(SIGN_TEST)
+            binary = os.path.join(workdir, "sign_test")
+            compile_binary(cxx, [test_source, sign_source], binary, workdir)
+            result = subprocess.run([binary, SIGN_VECTORS], capture_output=True, text=True)
+            print(result.stdout.strip())
+            if result.returncode != 0:
+                print(result.stderr, file=sys.stderr)
+                print("FAIL: signer vectors", file=sys.stderr)
+                return 1
 
     print("all guo checks passed")
     return 0
