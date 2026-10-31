@@ -3,7 +3,14 @@
 //
 
 #pragma once
+#include <cstddef>
 #include <string>
+#include <vector>
+
+namespace guo {
+struct Drama;
+struct Detail;
+}
 
 class Intent {
 public:
@@ -46,6 +53,11 @@ public:
 
     // 开启动态
     static void openActivity(const std::string& id);
+
+    // 果剧（红果/剧果短剧）
+    static void openGuoHome();
+    static void openGuoDetail(const guo::Drama& drama);
+    static void openGuoPlayer(const guo::Detail& detail, size_t index);
 };
 
 #if defined(__linux__) || defined(_WIN32) || defined(__APPLE__)

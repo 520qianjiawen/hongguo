@@ -56,7 +56,9 @@ int main(int argc, char* argv[]) {
     brls::Application::getPlatform()->disableScreenDimming(false);
 
     if (brls::Application::getPlatform()->isApplicationMode()) {
-        Intent::openMain();
+        // Guo Switch: the short-drama home is the root activity.
+        // Restore Intent::openMain() here to boot into the Bilibili client instead.
+        Intent::openGuoHome();
         // Uncomment these lines to debug activities
         //        Intent::openBV("BV1Da411Y7U4");  // 弹幕防遮挡 (横屏)
         //        Intent::openBV("BV1iN4y1m7J3");  // 弹幕防遮挡 (竖屏)

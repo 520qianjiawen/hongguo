@@ -20,6 +20,7 @@
 #include "utils/config_helper.hpp"
 
 #include "presenter/video_detail.hpp"
+#include "guo/activities.hpp"
 
 void Intent::openAV(const std::string& avid, uint64_t cid, int progress) {
     // av to bv
@@ -121,5 +122,20 @@ void Intent::openDLNA() {
 
 void Intent::openActivity(const std::string& id) {
     auto activity = new DynamicActivity(id);
+    brls::Application::pushActivity(activity, brls::TransitionAnimation::NONE);
+}
+
+void Intent::openGuoHome() {
+    auto activity = new guo::HomeActivity();
+    brls::Application::pushActivity(activity);
+}
+
+void Intent::openGuoDetail(const guo::Drama& drama) {
+    auto activity = new guo::DetailActivity(drama);
+    brls::Application::pushActivity(activity, brls::TransitionAnimation::NONE);
+}
+
+void Intent::openGuoPlayer(const guo::Detail& detail, size_t index) {
+    auto activity = new guo::PlayerActivity(detail, index);
     brls::Application::pushActivity(activity, brls::TransitionAnimation::NONE);
 }
