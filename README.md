@@ -5,7 +5,6 @@
 ## 目录结构
 
 - **`[v1.2.5]红果短剧.nsp`**：当前最新 Nintendo Switch 独立安装包（v1.2.5，Title ID: `0100F00D53414600`，Title Version: `786432`，集成 AArch64 AES-CTR 硬件加速解密、首集预热优化及 fix-rc6 并发流请求防风暴优化）。
-- **`[v1.2.4]红果短剧.nsp`**：上一版本备份安装包（Title Version: `720896`）。
 - **`nsp-source/`**：`[v1.2.4]红果短剧.nsp` 的完整原始文件工程与重打包工具链：
   - `control/`：NACP 应用信息与主屏高清图标。
   - `exefs/`：集成了 AArch64 AES-CTR 原生解密补丁的 `main` 可执行文件与 `main.npdm` 权限描述。

@@ -26,3 +26,7 @@ nsp-source/**/nca/
 *.so
 *.log
 tool-build.log
+
+# Local zips & forwarders
+*.zip
+*forwarder*.nsp
