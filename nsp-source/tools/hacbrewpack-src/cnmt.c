@@ -12,7 +12,12 @@ void cnmt_create(cnmt_ctx_t *cnmt_ctx, filepath_t *cnmt_filepath, hbp_settings_t
     memset(&cnmt_ext_header, 0, sizeof(cnmt_ext_header));
 
     // Common values
-    cnmt_ctx->cnmt_header.title_version = 458752; // local repair revision
+    const char *ver_env = getenv("HACBREWPACK_TITLE_VERSION");
+    if (ver_env && *ver_env) {
+        cnmt_ctx->cnmt_header.title_version = (uint32_t)strtoul(ver_env, NULL, 0);
+    } else {
+        cnmt_ctx->cnmt_header.title_version = 720896; // local repair revision (v1.2.4 default)
+    }
     cnmt_ctx->cnmt_header.type = 0x80; // Application
     cnmt_ctx->cnmt_header.extended_header_size = 0x10;
     cnmt_ctx->cnmt_header.content_entry_count = 0x2;
